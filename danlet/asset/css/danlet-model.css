@@ -1,0 +1,376 @@
+@font-face {
+  font-family: 'EmilyLimePro';
+  src: url("../fonts/emilylimepro/EmilyLimePro.eot");
+  src: url("../fonts/emilylimepro/EmilyLimePro.eot?#iefix") format("embedded-opentype"), url("../fonts/emilylimepro/EmilyLimePro.woff") format("woff"), url("../fonts/emilylimepro/EmilyLimePro.ttf") format("truetype"), url("../fonts/emilylimepro/EmilyLimePro.svg") format("svg"); }
+@font-face {
+  font-family: 'Selima';
+  src: local("Selima"), url("../fonts/Selima.otf") format("truetype");
+  font-weight: normal; }
+@font-face {
+  font-family: 'Morracle';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Morracle"), url("../fonts/Morracle1.ttf") format("truetype"); }
+.bg_rosef5 {
+  background: #f5f5f5; }
+
+.acd_vm.bg {
+  background: #d9a992; }
+.acd_vm.text {
+  color: #d9a992; }
+.acd_vm.button {
+  color: #fff;
+  background: #d9a992; }
+  .acd_vm.button:hover {
+    color: #d9a992;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_vm.icon {
+  color: #d9a992;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_vm.icon:hover {
+    color: #fff;
+    background: #d9a992; }
+.acd_vm.border {
+  border-color: #d9a992; }
+.acd_vm.fill {
+  fill: #d9a992; }
+
+.acd_gray.bg {
+  background: #ecebe6; }
+.acd_gray.text {
+  color: #ecebe6; }
+.acd_gray.button {
+  color: #fff;
+  background: #ecebe6; }
+  .acd_gray.button:hover {
+    color: #ecebe6;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_gray.icon {
+  color: #ecebe6;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_gray.icon:hover {
+    color: #fff;
+    background: #ecebe6; }
+.acd_gray.border {
+  border-color: #ecebe6; }
+.acd_gray.fill {
+  fill: #ecebe6; }
+
+.acd_rosef5.bg {
+  background: #f5f5f5; }
+.acd_rosef5.text {
+  color: #f5f5f5; }
+.acd_rosef5.button {
+  color: #fff;
+  background: #f5f5f5; }
+  .acd_rosef5.button:hover {
+    color: #f5f5f5;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_rosef5.icon {
+  color: #f5f5f5;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_rosef5.icon:hover {
+    color: #fff;
+    background: #f5f5f5; }
+.acd_rosef5.border {
+  border-color: #f5f5f5; }
+.acd_rosef5.fill {
+  fill: #f5f5f5; }
+
+.acd_black.bg {
+  background: #000; }
+.acd_black.text {
+  color: #000; }
+.acd_black.button {
+  color: #fff;
+  background: #000; }
+  .acd_black.button:hover {
+    color: #000;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_black.icon {
+  color: #000;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_black.icon:hover {
+    color: #fff;
+    background: #000; }
+.acd_black.border {
+  border-color: #000; }
+.acd_black.fill {
+  fill: #000; }
+
+.acd_white.bg {
+  background: #fff; }
+.acd_white.text {
+  color: #fff; }
+.acd_white.button {
+  color: #fff;
+  background: #fff; }
+  .acd_white.button:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_white.icon {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_white.icon:hover {
+    color: #fff;
+    background: #fff; }
+.acd_white.border {
+  border-color: #fff; }
+.acd_white.fill {
+  fill: #fff; }
+
+#danletSearch .modal-content input, #danletSearch .modal-content h4, .sh_testimonial_box .sh_testimonial_info, .sh_service_content .sh_service_name.sh_service_name_mob, .sh_class_box h4.sh_class_title.sh_class_title_r, .sh_class_box .sh_class_teacher li.sh_class_teacher_r, .sh_blog_normal .sh_blog_name.sh_blog_name_mor {
+  font-family: "Playfair Display", serif;
+  font-weight: 700; }
+
+.sh_image_box_content .sh_img_box_text.sh_img_box_text_sel, .sh_about_box h3.sh_about_title.sh_about_title_b, .sh_class_main_title h2.sh_classes_title_b, .sh_class_box .sh_class_teacher_job.sh_class_teacher_job_b, .sh_teacher_title.sh_teacher_title_b, h3.sh_blog_title, .sh_service_box .sh_service_title.sh_service_title_el {
+  font-family: "Playfair Display", serif;
+  font-style: italic; }
+
+header .sub-menu li {
+  background: #fff; }
+  header .sub-menu li a {
+    color: black; }
+
+header.f-nav {
+  background-color: #000; }
+  header.f-nav .acd-cls.acd-border-cls-white {
+    color: #fff; }
+    header.f-nav .acd-cls.acd-border-cls-white:before {
+      background: #fff; }
+  header.f-nav .acd-cls > ul.acd_ucs.acd_ucs_white > li > a {
+    color: #fff; }
+
+.sh_class_title a:hover, .sh_class_title a:focus {
+  color: rgba(0, 0, 0, 0.5); }
+
+.sh_classes:hover .sh_class_title a {
+  color: rgba(0, 0, 0, 0.5); }
+
+.sh_view_all_teacher.sh_view_all_teacher_vm a {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500; }
+  .sh_view_all_teacher.sh_view_all_teacher_vm a:hover {
+    color: rgba(0, 0, 0, 0.5); }
+
+.sh_class_img .sh_class_date {
+  color: #dadada; }
+
+.sh_class_main_title h2.sh_classes_title_b {
+  font-size: 5em; }
+
+.acd-menu ul li .sub-menu, .acd-menu ul li .children {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.acd-menu ul li .current-menu-item, .acd-menu ul li .sub-menu li:hover, .acd-menu ul li .children li:hover {
+  background-color: #a5a5a5 !important; }
+
+#danletSearch .modal-content input, #danletSearch .modal-content h4 {
+  color: rgba(0, 0, 0, 0.5); }
+
+.sh_testimonial_box .sh_testimonial_info {
+  font-style: italic;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5); }
+
+.sh_image_box_content .sh_img_box_text.sh_img_box_text_sel {
+  font-size: 8.57143em; }
+
+.sh_about_box h3.sh_about_title.sh_about_title_b {
+  font-weight: 400;
+  font-size: 5em; }
+.sh_about_box .sh_about_viewmore {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300; }
+  .sh_about_box .sh_about_viewmore.sh_viewmore_clvm a {
+    color: #000;
+    font-weight: bold; }
+  .sh_about_box .sh_about_viewmore.sh_viewmore_clvm:hover a {
+    color: rgba(0, 0, 0, 0.5); }
+
+.sh_class_main_title h2.sh_classes_title_b {
+  font-weight: 400;
+  font-size: 5em; }
+
+.sh_class_img .sh_class_date.sh_font_el {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100; }
+
+.sh_class_box .sh_class_teacher li a:hover {
+  color: rgba(0, 0, 0, 0.5); }
+
+.sh_teacher_title.sh_teacher_title_b {
+  font-weight: 400; }
+
+.sh_teacher_list_content .sh_teacher_list_name.sh_teacher_list_name_b {
+  font-family: "Playfair Display", serif; }
+
+h3.sh_blog_title {
+  font-weight: 400; }
+
+.sh_blog_normal .sh_blog_name a:hover {
+  color: rgba(0, 0, 0, 0.5); }
+
+.acd_footer {
+  padding-top: 40px; }
+  .acd_footer.acd_footer_home1 {
+    background: #000 !important; }
+  .acd_footer .acd_footer_content, .acd_footer .subcribe-message {
+    color: #fff; }
+  .acd_footer .acd_footer_title {
+    font-family: "Playfair Display", serif; }
+  .acd_footer .sh_search_title.sh_search_title_el {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: -10px;
+    line-height: 100px; }
+  .acd_footer .acd_address td:first-child {
+    color: rgba(255, 255, 255, 0.3);
+    font-style: italic; }
+  .acd_footer .acd_address td:last-child {
+    color: rgba(255, 255, 255, 0.5); }
+  .acd_footer .footer-column:last-child .footer-widget .acd_footer_content {
+    text-align: right; }
+  .acd_footer .acd_footer_list_cat li a {
+    color: rgba(255, 255, 255, 0.3); }
+  .acd_footer .acd_footer_box.acd_footer_box_right > li {
+    border-right-color: rgba(255, 255, 255, 0.1); }
+  .acd_footer .acd_footer_bottom_content.acd_footer_bottom_content_home2 {
+    border-top-color: rgba(255, 255, 255, 0.1); }
+  .acd_footer .acd_footer_social li a {
+    background: rgba(255, 255, 255, 0.3); }
+  .acd_footer .acd_footer_social li:hover a {
+    background: #fff;
+    color: rgba(0, 0, 0, 0.3); }
+  .acd_footer .back-to-top {
+    border-color: rgba(255, 255, 255, 0.3); }
+    .acd_footer .back-to-top:before {
+      color: rgba(255, 255, 255, 0.3); }
+    .acd_footer .back-to-top:hover {
+      background: rgba(255, 255, 255, 0.3); }
+  .acd_footer .acd_footer_bottom_content {
+    color: rgba(255, 255, 255, 0.3); }
+    .acd_footer .acd_footer_bottom_content a {
+      color: rgba(255, 255, 255, 0.5); }
+
+.sh_service_box .sh_service_title.sh_service_title_el {
+  font-size: 4.28571em; }
+
+.acd_left_bot_svg {
+  top: -1px; }
+
+.sh_teacher_hm_content .sh_teacher_hm_tb li span.sh_teacher_hm_tb_bgvm a {
+  color: #000; }
+.sh_teacher_hm_content .sh_teacher_hm_tb li span.sh_teacher_hm_tb_bgvm:hover {
+  background: #000; }
+.sh_teacher_hm_content .sh_teacher_hm_tb li.sh_teacher_hm_tb_cvm a {
+  color: #000; }
+
+.sh_search_title.sh_search_title_el {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.sh_blog_normal.sh_blog_normal_scale:hover a {
+  color: rgba(0, 0, 0, 0.5); }
+
+.sh_class_box .sh_class_book li span.bg_booknow.book_now {
+  background: #000; }
+  .sh_class_box .sh_class_book li span.bg_booknow.book_now:hover a {
+    color: #000; }
+.sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable a {
+  color: #000; }
+.sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable:hover {
+  background: #000; }
+
+.sh_teacher_list_img .sh_teacher_list_social li.sh_bgtc_list_social_vm a {
+  background: #000; }
+  .sh_teacher_list_img .sh_teacher_list_social li.sh_bgtc_list_social_vm a:hover {
+    color: #000; }
+
+.sh_teacher_list_name a:hover {
+  color: rgba(0, 0, 0, 0.5); }
+
+.sh_teacher_list_job a:hover {
+  color: rgba(0, 0, 0, 0.5); }
+
+.testimonial-pagination.bg_testimonial_op1 .swiper-pagination-bullet {
+  background: #999999; }
+  .testimonial-pagination.bg_testimonial_op1 .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #000; }
+
+.sh_blog_view_more.sh_blog_view_more_vm a.sh_blog_view_more_cvm, .sh_blog_view_more.sh_blog_view_more_center a.sh_blog_view_more_cvm, .sh_about_box .sh_about_viewmore.sh_viewmore_clvm a {
+  color: #000;
+  font-weight: 500; }
+
+.acd_footer_list_cat li a:hover {
+  color: #fff; }
+.acd_footer_list_cat li a:before {
+  background: #fff; }
+
+.sh_classes {
+  padding-top: 0; }
+
+/* Heading */
+h4.vc_custom_heading {
+  font-family: "Playfair Display",serif;
+  font-weight: 600; }
+
+h2.vc_custom_heading {
+  font-family: "Playfair Display",serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 5em; }
+
+.danlet-class .wpb_single_image h2, .danlet-class--reverse .wpb_single_image h2 {
+  font-family: "Montserrat",sans-serif; }
+
+h4:hover {
+  color: rgba(0, 0, 0, 0.5); }
+
+.wpb_text_column h6 {
+  font-family: "Playfair Display",serif;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.4); }
+.wpb_text_column a {
+  font-weight: 600; }
+  .wpb_text_column a:hover {
+    color: rgba(0, 0, 0, 0.5); }
+
+.custom-button a {
+  border: none !important;
+  background: black !important;
+  color: white !important; }
+  .custom-button a:hover {
+    background-color: #e6e6e6 !important;
+    color: black !important; }
+
+.custom-button--icon a {
+  border: none !important;
+  background-color: #e6e6e6 !important;
+  color: black !important; }
+  .custom-button--icon a:hover {
+    color: white !important;
+    background-color: black !important; }
+
+.viewmore-btn .vc_btn3 {
+  background: transparent !important;
+  border: none !important;
+  color: rgba(0, 0, 0, 0.4) !important;
+  transition: all .5s; }
+  .viewmore-btn .vc_btn3 i {
+    transition: all .2s;
+    color: rgba(0, 0, 0, 0.4) !important; }
+  .viewmore-btn .vc_btn3:hover, .viewmore-btn .vc_btn3:active {
+    color: black !important;
+    background: transparent !important;
+    border: none !important; }
+    .viewmore-btn .vc_btn3:hover i, .viewmore-btn .vc_btn3:active i {
+      color: black !important;
+      right: 15px !important; }
+
+/*# sourceMappingURL=danlet-model.css.map */

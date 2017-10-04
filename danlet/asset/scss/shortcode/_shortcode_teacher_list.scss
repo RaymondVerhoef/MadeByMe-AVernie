@@ -1,0 +1,467 @@
+//teacher show list
+.sh_teacher_list{
+	padding:80px 0;
+}
+.sh_teacher_title{
+	text-align:center;
+	// font-size:50px;
+    @include font-size(50px);
+	&.sh_teacher_title_fr{
+		font-family: $FR;
+		font-style: italic;
+		font-weight: 400;
+	}
+	&.sh_teacher_title_b{
+		font-family: $MORT;
+		font-weight: 700;
+	}
+}
+.sh_teacher_show_list{
+	margin:0;
+	padding:0;
+	text-align: center;
+	>li{
+		list-style:none;
+	}
+}
+.sh_teacher_list_img{
+	width:100%;
+	position:relative;
+	height : 270px;
+
+	.sh_teacher_img {
+		position : relative;
+		width: 100%;
+		height: 100%;
+		overflow : hidden;
+		transition : all .3s;
+		img {
+			position : absolute;
+			width:100%;
+			height:100%;
+            object-fit: cover;
+			@include center(xy);
+			transition : opacity .5s;
+		}
+	}
+	.sh_teacher_list_social{
+		position:absolute;
+		top:30px;
+		left:0%;
+		@include transition('fast');
+		margin:0;
+		padding:0;
+		li{
+			margin-bottom:10px;
+			list-style: none;
+			position: relative;
+			@for $i from 0 through 10 {
+				&:nth-child(#{$i}) a {
+					transition-delay: $i * 0.1s;
+				}
+			}
+			a{
+				width:30px;
+				height:30px;
+				position : relative;
+				left: -1rem;
+				border-radius:50%;
+				display:block;
+				line-height: 30px;
+				color:$white;
+				opacity: 0;
+				// font-size: 12px;
+                @include font-size(12px);
+				transition: opacity .5s, left .35s;
+			}
+			&.sh_bgtc_list_social_bl{
+				a{
+					background:#393532;
+				}
+				&:hover{
+					a{
+						background:$black;
+					}
+				}
+			}
+			&.sh_bgtc_list_social_vm{
+				a{
+					background: $vm;
+				}
+				&:hover{
+					a{
+						background: $white;
+						color:$vm;
+					}
+				}
+			}
+		}
+	}
+}
+.sh_teacher_list_content{
+	padding-top:15px;
+	-webkit-transition: padding-top 0.3s ease-in-out;
+	-moz-transition: padding-top 0.3s ease-in-out;
+	transition: padding-top 0.3s ease-in-out;
+	.sh_teacher_list_name{
+		// font-size:20px;
+        @include font-size(20px);
+		margin:10px 0 5px;
+		&.sh_teacher_list_name_fr{
+			font-family:$FR;
+		}
+		&.sh_teacher_list_name_b{
+			font-family: $MORT;
+			font-weight: 500;
+		}
+	}
+	.sh_teacher_list_job{
+		// font-size: 12px;
+        @include font-size(12px);
+		font-family: $MORT;
+		font-weight: 300;
+		color:$black_05;
+		margin:0;
+		a {
+			opacity: 0;
+			transition : opacity .2s;
+		}
+		@for $i from 0 through 10 {
+			a:nth-child(#{$i}){
+				transition-delay: $i * 0.1s;
+			}
+		}
+	}
+}
+.sh_view_all_teacher{
+	text-align: center;
+	font-family: $MORT;
+	font-weight: 400;
+	margin-top:10px;
+	// font-size:16px;
+    @include font-size(16px);
+	&.sh_view_all_teacher_vm{
+		a{
+			color:$vm;
+		}
+		i {
+			position: relative;
+			left: 0;
+			transition : all .5s;
+		}
+	}
+	&:hover {
+		i {
+			left: 1rem;
+		}
+	}
+}
+.sh_teacher_list_box{
+	min-height:370px;
+	&:hover{
+		.sh_teacher_list_social{
+			left:5px;
+			opacity:1;
+			@include transition('fast');
+			li a{
+				left: 0;
+				opacity: 1;
+				-webkit-box-shadow :0 0 5px 0px rgba(0,0,0,0.5);
+				-moz-box-shadow : 0 0 5px 0px rgba(0,0,0,0.5);
+				box-shadow: 0 0 5px 0px rgba(0,0,0,0.5);
+			}
+		}
+		.sh_teacher_img {
+			-webkit-transform: scale(1.05);
+			-moz-transform: scale(1.05);
+			transform: scale(1.05);
+			-webkit-box-shadow: 0px 15px 38px 15px rgba(0, 0, 0, 0.2);
+   			 -moz-box-shadow: 0px 15px 38px 15px rgba(0, 0, 0, 0.2);
+    		box-shadow: 0px 15px 38px 15px rgba(0, 0, 0, 0.2);
+			img {
+				opacity: .7;
+			}
+		}
+		.sh_teacher_list_content{
+			padding-top: 20px;
+		}
+		.sh_teacher_list_job {
+			a {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+// Short code teacher handmade
+.sh_teacher_hm{
+	&.no-pd {
+		padding:0;
+	}
+	padding-bottom:150px;
+	position:relative;
+	&.sh_teacher_hm_pd{
+		padding-top:0;
+		@include RP(BD){
+			padding-bottom:50px;
+		}
+	}
+	&.sh_teacher_hm_bgblue{
+		background: $blue;
+	}
+	&.sh_teacher_about_bg{
+		background: $rosef5;
+	}
+	&:hover {
+		.sh_teacher_hm_img {
+			img {
+				transform : scale(1.1);
+			}
+		}
+		.sh_teacher_hm_name {
+			&:before {
+				width: 200px;
+			}
+		}
+	}
+}
+.sh_teacher_hm_img{
+	width:100%;
+	padding-left:0;
+	position:relative;
+	@include MQ(DMB){
+		padding-left:100px;
+	}
+	.images {
+		width: 100%;
+	    overflow: hidden;
+	    position: relative;
+		height: auto;
+	    -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
+		box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
+	    img{
+			width:100%;
+			max-width: initial;
+			height:100%;
+			object-fit: cover;
+			transition : all .5s;
+		}
+		@include MQ(M){
+			height: 630px;
+		}
+	}
+	.sh_teacher_hm_title{
+		height:100%;
+		// font-size:80px;
+        @include font-size(80px);
+		margin: 0;
+		position: relative;
+		transform: none;
+		right: 0;
+		margin: 10rem 0 5rem 0;
+		color: black;
+		@include MQ(M) {
+			position:absolute;
+			margin: 0;
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+		}
+		&.sh_teacher_hm_title_el{
+			font-family: $EL;
+			font-weight: 300;
+			color:$black_02;
+			right:100px;
+			@include RP(BD){
+				right:70px;
+			}
+			@include RP(DMB){
+				right:-20px;
+				color:$black_02;
+			}
+		}
+		&.sh_teacher_hm_title_el2{
+			font-family: $EL;
+			font-weight: 300;
+			color:$white_02;
+			right:160px;
+		}
+		&.sh_teacher_hm_title_mot{
+			font-family: $MORT;
+			font-weight: 100;
+			right:100px;
+			color:$black_01;
+			font-weight: 100;
+		}
+	}
+}
+.sh_teacher_hm_content{
+	padding-top:120px;
+	width:100%;
+	height:auto;
+	padding-right:100px;
+	@include RP(BD){
+		padding-top: 30px;
+		padding-right: 0;
+	}
+	@include RP(AM){
+		text-align:center;
+	}
+	.sh_teacher_hm_name{
+		// font-size: 70px;
+        @include font-size(70px);
+		line-height: 70px;
+		margin:0;
+		position:relative;
+		padding-top:20px;
+		font-family: $MORT;
+		font-weight: 700;
+		@include RP(DMB){
+			font-size: 50px;
+		}
+		@include RP(AM){
+			font-size: 30px;
+			line-height: 40px;
+		}
+		&:before{
+			width: 130px;
+			height:8px;
+			left:-130px;
+			content:"";
+			top:0;
+			position:absolute;
+			transition: all .3s;
+			@include RP(AM){
+				display:none;
+			}
+		}
+		&.sh_teacher_hm_name_cmb{
+			&:before{
+				background: $black;
+			}
+		}
+		&.sh_teacher_hm_name_cwhite{
+			color:$white;
+			&:before{
+				background: $white;
+			}
+		}
+		a {
+			transition : all .5s;
+		}
+		&:hover {
+			&:before {
+				width: 200px;
+			}
+		}
+	}
+	.sh_teacher_hm_teach{
+		font-family: $MORT;
+		font-weight: 700;
+		color:$black_05;
+		span{
+			// font-style: 16px;
+            @include font-size(16px);
+			font-family: $MORT;
+			font-weight: 400;
+			color:$black;
+			margin-left:5px;
+			a {
+				transition: all .4s;
+			}
+		}
+		&.sh_teacher_hm_teach_white{
+			color:$white_05;
+			span{
+				color:$white;
+			}
+		}
+	}
+	.sh_teacher_hm_desc{
+		// font-size:14px;
+        @include font-size(14px);
+		line-height: 25px;
+		font-family: $MORT;
+		font-weight: 300;
+		&.sh_teacher_hm_desc_cbl{
+			color:$black_05;
+		}
+		&.sh_teacher_hm_desc_cw{
+			color:$white_05;
+		}
+	}
+	.sh_teacher_hm_text{
+		// font-size: 16px;
+        @include font-size(16px);
+		font-family: $MORT;
+		font-weight: 400;
+		color:$vm;
+		line-height: 25px;
+	}
+	.sh_teacher_hm_tb{
+		margin:35px 0 0 0 ;
+		padding:0;
+		li{
+			list-style:none;
+			display:inline-block;
+			width:auto;
+			margin-right:20px;
+			&.sh_teacher_hm_tb_cvm{
+				@include transition();
+				color:$vm;
+				a{
+					color:$vm;
+				}
+                &:hover {
+                    a{
+                        color: $black_05;
+                    }
+                }
+			}
+			&.sh_teacher_hm_tb_cgr{
+				color:#b3965e;
+				a{
+					color:#b3965e;
+				}
+			}
+			&.sh_teacher_hm_tb_cp{
+				a{
+					color:$white;
+				}
+			}
+			span{
+				width:35px;
+				display:block;
+				height:35px;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 35px;
+				// font-size: 12px;
+                @include font-size(12px);
+				cursor: pointer;
+				&.sh_teacher_hm_tb_bgvm{
+					@include transition();
+					background: $black_01;
+                    a {
+                        color: $vm;
+                    }
+                    &:hover {
+                        background: $vm;
+                        a {
+                            color: $white;
+                        }
+                    }
+				}
+				&.sh_teacher_hm_tb_ccp{
+					color:#ca457a;
+					background:$white;
+				}
+			}
+			a{
+				font-family: $MORT;
+				font-weight: 400;
+			}
+		}
+	}
+}

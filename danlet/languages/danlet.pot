@@ -1,0 +1,3489 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Danlet Theme v1.0.0\n"
+"POT-Creation-Date: 2017-01-17 18:13+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Beautheme <support@beautheme.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11 404.php:14 404.php:17 404.php:24
+msgid "404 - Error"
+msgstr ""
+
+#: 404.php:11 404.php:30
+msgid "Home page"
+msgstr ""
+
+#: 404.php:24
+msgid "The resource requested could not be found on this server"
+msgstr ""
+
+#: 404.php:26
+msgid " (Please try one of the following pages)"
+msgstr ""
+
+#: ajax-controller.php:179
+msgid "Teachers:"
+msgstr ""
+
+#: comments.php:60
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:88
+msgid " Comment"
+msgstr ""
+
+#: comments.php:107 inc/custom-function/danlet_wc_function.php:64
+msgid "Submit comment"
+msgstr ""
+
+#: comments.php:108
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:113
+msgid "Email *"
+msgstr ""
+
+#: comments.php:117
+msgid "Name *"
+msgstr ""
+
+#: comments.php:120
+msgid "Your comment."
+msgstr ""
+
+#: content-none.php:5
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:9
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:11
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:13
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: core/admin/header-admin.php:3 core/admin/image-size.php:5
+#: core/admin/install-template.php:5 core/admin/register_product.php:5
+#: core/admin/support.php:5 core/admin/system-status.php:5
+msgid "Register Product"
+msgstr ""
+
+#: core/admin/header-admin.php:4 core/admin/image-size.php:15
+#: core/admin/install-template.php:15 core/admin/register_product.php:15
+#: core/admin/support.php:15 core/admin/system-status.php:15
+msgid "Support"
+msgstr ""
+
+#: core/admin/header-admin.php:5
+msgid "Templates"
+msgstr ""
+
+#: core/admin/header-admin.php:6 core/admin/image-size.php:25
+#: core/admin/install-template.php:25 core/admin/register_product.php:25
+#: core/admin/support.php:25 core/admin/system-status.php:25
+msgid "Image Sizes"
+msgstr ""
+
+#: core/admin/header-admin.php:7 core/admin/image-size.php:30
+#: core/admin/install-template.php:30 core/admin/register_product.php:30
+#: core/admin/support.php:30 core/admin/system-status.php:30
+msgid "System Status"
+msgstr ""
+
+#: core/admin/header-admin.php:13
+msgid "Beautheme Control Panel"
+msgstr ""
+
+#: core/admin/header-admin.php:19
+msgid "Control Panel"
+msgstr ""
+
+#: core/admin/header-admin.php:22
+msgid "Version:"
+msgstr ""
+
+#: core/admin/image-size.php:20 core/admin/install-template.php:20
+#: core/admin/register_product.php:20 core/admin/support.php:20
+#: core/admin/system-status.php:20
+msgid "Install Templates"
+msgstr ""
+
+#: core/admin/image-size.php:38
+msgid "Image size"
+msgstr ""
+
+#: core/admin/install-template.php:37
+msgid "Install teplate"
+msgstr ""
+
+#: core/admin/register_product.php:37
+msgid "Register product"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:100
+msgid "Sticky"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:208
+msgid "by"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:230
+#: core/includes/core-template-funtion.php:250
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: core/includes/core-template-funtion.php:234
+msgctxt "Used before tag names."
+msgid "Tags :"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:254
+msgctxt "Used before category names."
+msgid "Categories :"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:272
+msgid "Read more..."
+msgstr ""
+
+#: core/includes/core-template-funtion.php:424
+msgid "By"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:464 page.php:34
+#: single-level.php:54 single-teacher.php:36 templates/template-blank.php:23
+msgid "Edit "
+msgstr ""
+
+#: core/includes/core-template-funtion.php:483
+msgid ", "
+msgstr ""
+
+#: core/includes/core-template-funtion.php:484
+msgid "Categories : "
+msgstr ""
+
+#: core/includes/core-template-funtion.php:720
+msgid "Product description"
+msgstr ""
+
+#: core/includes/core-template-funtion.php:754
+msgid "View detail"
+msgstr ""
+
+#: core/includes/functions.php:268
+msgid "PREV"
+msgstr ""
+
+#: core/includes/functions.php:269
+msgid "NEXT"
+msgstr ""
+
+#: core/includes/functions.php:403
+msgid "Images"
+msgstr ""
+
+#: core/layout/social-share.php:11
+msgid "Share to Facebook"
+msgstr ""
+
+#: core/layout/social-share.php:12
+msgid "Share to Twitter"
+msgstr ""
+
+#: core/layout/social-share.php:13
+msgid "Share to Google Plus"
+msgstr ""
+
+#: core/layout/social-share.php:14
+msgid "Share to Pinterest"
+msgstr ""
+
+#: core/layout/social-share.php:15
+msgid "Share to LinkedIn"
+msgstr ""
+
+#: functions.php:105 functions.php:113
+msgid "Main menu"
+msgstr ""
+
+#: functions.php:114
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:122
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:216
+msgid "Sidebar widget"
+msgstr ""
+
+#: functions.php:218
+msgid "Sidebar widget position."
+msgstr ""
+
+#: functions.php:229
+msgid "Sidebar footer border 01"
+msgstr ""
+
+#: functions.php:231
+msgid "Sidebar footer border 01."
+msgstr ""
+
+#: functions.php:241
+msgid "Sidebar footer border 02"
+msgstr ""
+
+#: functions.php:243
+msgid "Sidebar footer border 02."
+msgstr ""
+
+#: functions.php:253
+msgid "Sidebar footer border 03"
+msgstr ""
+
+#: functions.php:255
+msgid "Sidebar footer border 03."
+msgstr ""
+
+#: functions.php:274
+msgid "Footer sidebar"
+msgstr ""
+
+#: functions.php:275
+msgid "This is footer sidebar "
+msgstr ""
+
+#: functions.php:329
+msgid "Product Total:"
+msgstr ""
+
+#: functions.php:504 functions.php:507
+msgid "No slider found"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:287
+#: inc/custom-function/danlet_custom_function.php:331
+msgid "First Name"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:291
+#: inc/custom-function/danlet_custom_function.php:334
+msgid "Last Name"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:295
+#: inc/custom-function/danlet_custom_function.php:343
+msgid "Password"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:303
+msgid "<strong>ERROR</strong>: You must include a first name."
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:306
+msgid "<strong>ERROR</strong>: You must include a last name."
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:309
+msgid "<strong>ERROR</strong>: You must include a password."
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:337
+msgid "User Name"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:340
+msgid "Email"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:347
+msgid "Sign Up for Newletter"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:351
+msgid "Register"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:456
+#: inc/custom-function/danlet_custom_function.php:813
+msgid "All Classes This Month"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:458
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:464
+#: inc/custom-function/danlet_custom_function.php:820
+#: inc/vc_custom/vc_danlet_blog.php:170
+msgid "Date"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:465
+#: inc/custom-function/danlet_custom_function.php:821
+msgid "Time"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:466
+#: inc/custom-function/danlet_custom_function.php:822
+msgid "Duration"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:467
+#: inc/custom-function/danlet_custom_function.php:823
+msgid "Classes"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:468
+#: inc/custom-function/danlet_custom_function.php:824
+#: inc/vc_custom/vc_danlet_classes.php:142
+#: inc/vc_custom/vc_danlet_classes_list.php:189
+#: inc/vc_custom/vc_danlet_classes_number.php:130
+#: inc/vc_custom/vc_danlet_classes_tabs.php:183
+msgid "Teacher"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:469
+#: inc/custom-function/danlet_custom_function.php:825
+#: woocommerce/cart/cart.php:32
+msgid "Price"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:470
+#: inc/custom-function/danlet_custom_function.php:826
+msgid "Booking"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:523
+#: inc/custom-function/danlet_custom_function.php:893
+msgid " week"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:527
+#: inc/custom-function/danlet_custom_function.php:897
+msgid "Book now"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:532
+#: inc/custom-function/danlet_custom_function.php:903
+msgid "View Timetable"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:566
+#: inc/custom-function/danlet_custom_function.php:715
+#: inc/vc_custom/vc_danlet_about_level.php:73
+msgid "Facebook"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:569
+#: inc/custom-function/danlet_custom_function.php:722
+#: inc/vc_custom/vc_danlet_about_level.php:85
+msgid "Twitter"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:572
+#: inc/custom-function/danlet_custom_function.php:729
+msgid "Google"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:619
+msgid "DESCRIPTION"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:635
+msgid "MORE VIDEO"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:680
+#: vc_templates/danlet_about.php:54
+#: vc_templates/danlet_info_text_about.php:46
+msgid "View more"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:736
+#: inc/vc_custom/vc_danlet_about_level.php:91
+msgid "Youtube"
+msgstr ""
+
+#: inc/custom-function/danlet_custom_function.php:815
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:98
+msgid "Detail"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:111
+msgid "More Products"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:334
+msgid "SHOPPING CART"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:354
+#: inc/custom-function/danlet_wc_function.php:356
+msgid "x"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:363
+#: woocommerce/cart/cart.php:34
+msgid "Total"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:369
+msgid "View cart"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:375
+msgid "Process to checkout"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:440
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:441
+msgid "out of 5"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:469
+msgid "Sale "
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:563
+#: vc_templates/danlet_list_video.php:76
+#: vc_templates/option_base/list/classes.php:148
+#: vc_templates/option_base/teacher/table.php:138
+msgid "All"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:621
+msgid "Newwest"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:622
+msgid "A-Z"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:623
+msgid "Low to high"
+msgstr ""
+
+#: inc/custom-function/danlet_wc_function.php:624
+msgid "Hight to low"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to "
+"ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural ""
+"The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:393
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:912
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2618
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:394
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:395
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update "
+"or activate."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1019
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files "
+"are not packaged in a folder."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1206
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may "
+"take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on "
+"some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:63
+msgid "Danlet Plugin"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:69
+msgid "Master Slide"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:81
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/plugins/tgm/tgm-register-plugin.php:86
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/theme-option.php:48
+msgid "Standard footer 4 column"
+msgstr ""
+
+#: inc/theme-option.php:49
+msgid "Footer 3 column"
+msgstr ""
+
+#: inc/theme-option.php:53
+msgid "Archive product default"
+msgstr ""
+
+#: inc/theme-option.php:54
+msgid "Archive product have sidebar"
+msgstr ""
+
+#: inc/theme-option.php:55
+msgid "Archive product mansony"
+msgstr ""
+
+#: inc/theme-option.php:56
+msgid "Archive product full width"
+msgstr ""
+
+#: inc/theme-option.php:59
+msgid "Single Default"
+msgstr ""
+
+#: inc/theme-option.php:60
+msgid "Single Product style2"
+msgstr ""
+
+#: inc/theme-option.php:61
+msgid "Single Product style3"
+msgstr ""
+
+#: inc/theme-option.php:93 inc/theme-option.php:94
+msgid "Theme Options"
+msgstr ""
+
+#: inc/theme-option.php:194
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-option.php:200
+msgid "Support Team"
+msgstr ""
+
+#: inc/theme-option.php:236
+msgid "<p>Thanks for used our theme Beau Theme</p>"
+msgstr ""
+
+#: inc/theme-option.php:252
+msgid "Theme Information 1"
+msgstr ""
+
+#: inc/theme-option.php:253 inc/theme-option.php:258
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: inc/theme-option.php:257
+msgid "Theme Information 2"
+msgstr ""
+
+#: inc/theme-option.php:264
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: inc/theme-option.php:271
+msgid "General setting"
+msgstr ""
+
+#: inc/theme-option.php:273
+msgid "These are something setting for all page!"
+msgstr ""
+
+#: inc/theme-option.php:279
+msgid "General options"
+msgstr ""
+
+#: inc/theme-option.php:287
+msgid "Upload logo"
+msgstr ""
+
+#: inc/theme-option.php:289 inc/theme-option.php:296
+#: inc/theme-option.php:303
+msgid "Upload any image using the WordPress native uploader"
+msgstr ""
+
+#: inc/theme-option.php:294
+msgid "Upload mobile logo"
+msgstr ""
+
+#: inc/theme-option.php:301
+msgid "Upload fixed header logo"
+msgstr ""
+
+#: inc/theme-option.php:308
+msgid "Enable Smooth Scroll?"
+msgstr ""
+
+#: inc/theme-option.php:319
+msgid "Enable go to top?"
+msgstr ""
+
+#: inc/theme-option.php:330
+msgid "Show main navigation?"
+msgstr ""
+
+#: inc/theme-option.php:341
+msgid "API Key"
+msgstr ""
+
+#: inc/theme-option.php:350
+msgid "JW Player Key"
+msgstr ""
+
+#: inc/theme-option.php:356
+msgid "Header & footer"
+msgstr ""
+
+#: inc/theme-option.php:364
+msgid "Custom header"
+msgstr ""
+
+#: inc/theme-option.php:372
+msgid "Enable header fixed"
+msgstr ""
+
+#: inc/theme-option.php:382
+msgid "Enable Header Clarity"
+msgstr ""
+
+#: inc/theme-option.php:392
+msgid "Enable search on header"
+msgstr ""
+
+#: inc/theme-option.php:403
+msgid "Enable cart (calender)"
+msgstr ""
+
+#: inc/theme-option.php:414
+msgid "Header svg background Color"
+msgstr ""
+
+#: inc/theme-option.php:415 inc/theme-option.php:436
+#: inc/theme-option.php:447 inc/theme-option.php:458
+#: inc/theme-option.php:469 inc/theme-option.php:480
+#: inc/theme-option.php:491 inc/theme-option.php:531
+#: inc/theme-option.php:552 inc/theme-option.php:562
+#: inc/theme-option.php:572 inc/theme-option.php:582
+#: inc/theme-option.php:619 inc/theme-option.php:630
+#: inc/theme-option.php:653 inc/theme-option.php:664
+msgid "Gives you the RGBA color."
+msgstr ""
+
+#: inc/theme-option.php:423
+msgid "Set height svg on header"
+msgstr ""
+
+#: inc/theme-option.php:429
+msgid "Set slope of diagonal on header"
+msgstr ""
+
+#: inc/theme-option.php:435
+msgid "Header background Color"
+msgstr ""
+
+#: inc/theme-option.php:446
+msgid "Header sticky background Color"
+msgstr ""
+
+#: inc/theme-option.php:457
+msgid "Header icon color"
+msgstr ""
+
+#: inc/theme-option.php:468
+msgid "Header sticky icon color"
+msgstr ""
+
+#: inc/theme-option.php:479
+msgid "Header sticky link color"
+msgstr ""
+
+#: inc/theme-option.php:490
+msgid "Header sticky link color hover"
+msgstr ""
+
+#: inc/theme-option.php:502
+msgid "Custom footer"
+msgstr ""
+
+#: inc/theme-option.php:511
+msgid "Footer style"
+msgstr ""
+
+#: inc/theme-option.php:513 inc/vc_custom/vc_row.php:49
+msgid "Default"
+msgstr ""
+
+#: inc/theme-option.php:514
+msgid "Footer border"
+msgstr ""
+
+#: inc/theme-option.php:522
+msgid "Chose footer columns"
+msgstr ""
+
+#: inc/theme-option.php:523
+msgid "Chose your custom widget number you want to show"
+msgstr ""
+
+#: inc/theme-option.php:530
+msgid "Footer svg background Color"
+msgstr ""
+
+#: inc/theme-option.php:539
+msgid "Set height svg on footer"
+msgstr ""
+
+#: inc/theme-option.php:545
+msgid "Set slope of diagonal on footer"
+msgstr ""
+
+#: inc/theme-option.php:551
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/theme-option.php:561
+msgid "Footer link Color"
+msgstr ""
+
+#: inc/theme-option.php:571
+msgid "Footer text Color"
+msgstr ""
+
+#: inc/theme-option.php:581
+msgid "Footer background Color"
+msgstr ""
+
+#: inc/theme-option.php:589
+msgid "Your copyright"
+msgstr ""
+
+#: inc/theme-option.php:591
+msgid "Use any of the features of WordPress editor inside your panel!"
+msgstr ""
+
+#: inc/theme-option.php:598
+msgid "Main menu setting"
+msgstr ""
+
+#: inc/theme-option.php:600
+msgid "These are something setting for main menu!"
+msgstr ""
+
+#: inc/theme-option.php:607
+msgid "Title menu typography"
+msgstr ""
+
+#: inc/theme-option.php:611 inc/theme-option.php:644
+#: inc/theme-option.php:706 inc/theme-option.php:714
+#: inc/theme-option.php:722 inc/theme-option.php:730
+msgid "Specify the body font properties."
+msgstr ""
+
+#: inc/theme-option.php:618
+msgid "Title menu hover color"
+msgstr ""
+
+#: inc/theme-option.php:629
+msgid "Menu dropdowns BG Color"
+msgstr ""
+
+#: inc/theme-option.php:640
+msgid "Title submenu typography"
+msgstr ""
+
+#: inc/theme-option.php:652
+msgid "Title submenu hover color"
+msgstr ""
+
+#: inc/theme-option.php:663
+msgid "Menu dropdowns BG Color hover"
+msgstr ""
+
+#: inc/theme-option.php:675
+msgid "Styling options"
+msgstr ""
+
+#: inc/theme-option.php:677 inc/theme-option.php:1056
+msgid "These are something setting for Styling options!"
+msgstr ""
+
+#: inc/theme-option.php:684
+msgid "Background body color"
+msgstr ""
+
+#: inc/theme-option.php:687
+msgid "Specify the body color."
+msgstr ""
+
+#: inc/theme-option.php:696
+msgid "Theme style setting"
+msgstr ""
+
+#: inc/theme-option.php:704
+msgid "Text body setting"
+msgstr ""
+
+#: inc/theme-option.php:712
+msgid "Link body setting"
+msgstr ""
+
+#: inc/theme-option.php:720
+msgid "Link body hover setting"
+msgstr ""
+
+#: inc/theme-option.php:728
+msgid "Title body color"
+msgstr ""
+
+#: inc/theme-option.php:738
+msgid "Button color"
+msgstr ""
+
+#: inc/theme-option.php:746
+msgid "Text button color"
+msgstr ""
+
+#: inc/theme-option.php:748 inc/theme-option.php:756
+msgid "Specify the button font properties."
+msgstr ""
+
+#: inc/theme-option.php:754
+msgid "Text button color hover"
+msgstr ""
+
+#: inc/theme-option.php:762
+msgid "Background button color"
+msgstr ""
+
+#: inc/theme-option.php:770
+msgid "Background button color hover"
+msgstr ""
+
+#: inc/theme-option.php:778
+msgid "Border button color"
+msgstr ""
+
+#: inc/theme-option.php:785
+msgid "Border button color hover"
+msgstr ""
+
+#: inc/theme-option.php:794
+msgid "Social setting"
+msgstr ""
+
+#: inc/theme-option.php:801 inc/theme-option.php:810
+msgid "Social to show"
+msgstr ""
+
+#: inc/theme-option.php:811
+msgid "Select your social link you want to show"
+msgstr ""
+
+#: inc/theme-option.php:812
+msgid "Chose your social you want to show in your website."
+msgstr ""
+
+#: inc/theme-option.php:835
+msgid "Social link"
+msgstr ""
+
+#: inc/theme-option.php:843
+msgid "Your facebook url"
+msgstr ""
+
+#: inc/theme-option.php:848
+msgid "Your twitter url"
+msgstr ""
+
+#: inc/theme-option.php:853 inc/theme-option.php:873
+msgid "Your linkedin url"
+msgstr ""
+
+#: inc/theme-option.php:858
+msgid "Your youtube url"
+msgstr ""
+
+#: inc/theme-option.php:863
+msgid "Your google plus url"
+msgstr ""
+
+#: inc/theme-option.php:868
+msgid "Your pinterest url"
+msgstr ""
+
+#: inc/theme-option.php:878
+msgid "Your instagram url"
+msgstr ""
+
+#: inc/theme-option.php:883
+msgid "Your github url"
+msgstr ""
+
+#: inc/theme-option.php:888
+msgid "Your behance url"
+msgstr ""
+
+#: inc/theme-option.php:893
+msgid "Your tumblr url"
+msgstr ""
+
+#: inc/theme-option.php:898
+msgid "Your soundcloud url"
+msgstr ""
+
+#: inc/theme-option.php:903
+msgid "Your dribbble url"
+msgstr ""
+
+#: inc/theme-option.php:908
+msgid "Your rss url"
+msgstr ""
+
+#: inc/theme-option.php:916
+msgid "Mailchimp API"
+msgstr ""
+
+#: inc/theme-option.php:924
+msgid "Your mailchimp API"
+msgstr ""
+
+#: inc/theme-option.php:925
+msgid "Grab an API Key from http://admin.mailchimp.com/account/api/"
+msgstr ""
+
+#: inc/theme-option.php:931
+msgid "Your group id"
+msgstr ""
+
+#: inc/theme-option.php:932
+msgid ""
+"Grab your List's Unique Id by going http://admin.mailchimp.com/lists/<br> "
+"Click the \"settings\" link for the list - the Unique Id is at the bottom "
+"of that page."
+msgstr ""
+
+#: inc/theme-option.php:941
+msgid "Typography setting"
+msgstr ""
+
+#: inc/theme-option.php:949
+msgid "H1 element"
+msgstr ""
+
+#: inc/theme-option.php:950
+msgid "Specify the h1 font properties."
+msgstr ""
+
+#: inc/theme-option.php:957
+msgid "H2 element"
+msgstr ""
+
+#: inc/theme-option.php:958
+msgid "Specify the h2 font properties."
+msgstr ""
+
+#: inc/theme-option.php:965
+msgid "H3 element"
+msgstr ""
+
+#: inc/theme-option.php:966
+msgid "Specify the h3 font properties."
+msgstr ""
+
+#: inc/theme-option.php:973
+msgid "H4 element"
+msgstr ""
+
+#: inc/theme-option.php:974
+msgid "Specify the h4 font properties."
+msgstr ""
+
+#: inc/theme-option.php:981
+msgid "H5 element"
+msgstr ""
+
+#: inc/theme-option.php:982
+msgid "Specify the h5 font properties."
+msgstr ""
+
+#: inc/theme-option.php:989
+msgid "H6 element"
+msgstr ""
+
+#: inc/theme-option.php:990
+msgid "Specify the h6 font properties."
+msgstr ""
+
+#: inc/theme-option.php:999
+msgid "Product setting"
+msgstr ""
+
+#: inc/theme-option.php:1005
+msgid "Archive Product option"
+msgstr ""
+
+#: inc/theme-option.php:1013
+msgid "Upload Cover Shop"
+msgstr ""
+
+#: inc/theme-option.php:1019 inc/theme-option.php:1025
+#: inc/theme-option.php:1040 inc/theme-option.php:1046
+msgid "Display style archives"
+msgstr ""
+
+#: inc/theme-option.php:1027
+msgid "Feature display title archive"
+msgstr ""
+
+#: inc/theme-option.php:1032
+msgid "Detail Product option"
+msgstr ""
+
+#: inc/theme-option.php:1048
+msgid "Feature display title short text product"
+msgstr ""
+
+#: inc/theme-option.php:1054
+msgid "Blog options"
+msgstr ""
+
+#: inc/theme-option.php:1063
+msgid "Blog archive option"
+msgstr ""
+
+#: inc/theme-option.php:1071
+msgid "Upload Cover Blog"
+msgstr ""
+
+#: inc/theme-option.php:1077
+msgid "Enable date time?"
+msgstr ""
+
+#: inc/theme-option.php:1089 inc/theme-option.php:1190
+msgid "Enable title?"
+msgstr ""
+
+#: inc/theme-option.php:1100
+msgid "Enable excerpt?"
+msgstr ""
+
+#: inc/theme-option.php:1111 inc/theme-option.php:1239
+msgid "Enable tags?"
+msgstr ""
+
+#: inc/theme-option.php:1123
+msgid "Enable category time?"
+msgstr ""
+
+#: inc/theme-option.php:1135
+msgid "Enable readmore?"
+msgstr ""
+
+#: inc/theme-option.php:1147
+msgid "Enable thumbnail?"
+msgstr ""
+
+#: inc/theme-option.php:1160
+msgid "Blog single option"
+msgstr ""
+
+#: inc/theme-option.php:1168
+msgid "Enable breadcrumb?"
+msgstr ""
+
+#: inc/theme-option.php:1179
+msgid "Enable cover image?"
+msgstr ""
+
+#: inc/theme-option.php:1203
+msgid "Enable datetime post?"
+msgstr ""
+
+#: inc/theme-option.php:1215
+msgid "Enable author?"
+msgstr ""
+
+#: inc/theme-option.php:1227
+msgid "Enable number comment?"
+msgstr ""
+
+#: inc/theme-option.php:1251
+msgid "Enable social?"
+msgstr ""
+
+#: inc/theme-option.php:1262
+msgid "Enable next post?"
+msgstr ""
+
+#: inc/theme-option.php:1273
+msgid "Enable profile author?"
+msgstr ""
+
+#: inc/theme-option.php:1283
+msgid "Enable comment?"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:11
+msgid "SH About "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:14
+#: inc/vc_custom/vc_danlet_about_level.php:14
+#: inc/vc_custom/vc_danlet_blog.php:15
+#: inc/vc_custom/vc_danlet_classes.php:15
+#: inc/vc_custom/vc_danlet_classes_list.php:15
+#: inc/vc_custom/vc_danlet_classes_number.php:15
+#: inc/vc_custom/vc_danlet_classes_tabs.php:15
+#: inc/vc_custom/vc_danlet_contact.php:20
+#: inc/vc_custom/vc_danlet_counter.php:12
+#: inc/vc_custom/vc_danlet_gallery.php:14
+#: inc/vc_custom/vc_danlet_info_text_about.php:12
+#: inc/vc_custom/vc_danlet_list_video.php:13
+#: inc/vc_custom/vc_danlet_map.php:14
+#: inc/vc_custom/vc_danlet_membership.php:14
+#: inc/vc_custom/vc_danlet_service.php:12
+#: inc/vc_custom/vc_danlet_single_video.php:12
+#: inc/vc_custom/vc_danlet_subscribe.php:13
+#: inc/vc_custom/vc_danlet_teacher.php:15
+#: inc/vc_custom/vc_danlet_testimonial.php:14
+#: inc/vc_custom/vc_danlet_text_description.php:14
+#: inc/vc_custom/vc_danlet_timetable.php:13
+#: inc/vc_custom/vc_danlet_user.php:12 inc/vc_custom/vc_danlet_video.php:12
+msgid "BeauTheme"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:20
+msgid "Title About "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:26
+msgid "Float:Left"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:28 inc/vc_custom/vc_danlet_about.php:47
+#: inc/vc_custom/vc_danlet_blog.php:41
+#: inc/vc_custom/vc_danlet_info_text_about.php:21
+#: inc/vc_custom/vc_danlet_service.php:36
+#: inc/vc_custom/vc_danlet_single_video.php:87
+#: inc/vc_custom/vc_danlet_teacher.php:283
+#: inc/vc_custom/vc_danlet_timetable.php:20
+#: inc/vc_custom/vc_danlet_timetable.php:27
+#: inc/vc_custom/vc_danlet_timetable.php:34
+#: inc/vc_custom/vc_danlet_timetable.php:42
+msgid "Yes"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:33
+msgid "Description About"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:35
+msgid "Input your description about"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:39
+msgid "Content About"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:41
+msgid "Input your content about"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:45 inc/vc_custom/vc_danlet_blog.php:188
+#: inc/vc_custom/vc_danlet_info_text_about.php:18
+msgid "View More"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:53 inc/vc_custom/vc_danlet_blog.php:47
+#: inc/vc_custom/vc_danlet_info_text_about.php:25
+#: inc/vc_custom/vc_danlet_teacher.php:56
+#: inc/vc_custom/vc_danlet_video.php:37
+msgid "Link"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:60
+#: inc/vc_custom/vc_danlet_about_level.php:58
+#: inc/vc_custom/vc_danlet_blog.php:33
+msgid "Big Image"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:62
+msgid "Input big image"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:67
+#: inc/vc_custom/vc_danlet_about_level.php:66
+msgid "Small Image"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:69
+msgid "Input small image"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:75
+msgid "Color title about"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:77
+msgid "Setting color title about"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:78 inc/vc_custom/vc_danlet_about.php:85
+#: inc/vc_custom/vc_danlet_about.php:92 inc/vc_custom/vc_danlet_about.php:99
+#: inc/vc_custom/vc_danlet_blog.php:154 inc/vc_custom/vc_danlet_blog.php:160
+#: inc/vc_custom/vc_danlet_blog.php:166 inc/vc_custom/vc_danlet_blog.php:172
+#: inc/vc_custom/vc_danlet_blog.php:178 inc/vc_custom/vc_danlet_blog.php:184
+#: inc/vc_custom/vc_danlet_blog.php:190
+#: inc/vc_custom/vc_danlet_contact.php:70
+#: inc/vc_custom/vc_danlet_contact.php:77
+#: inc/vc_custom/vc_danlet_contact.php:83
+#: inc/vc_custom/vc_danlet_contact.php:89
+#: inc/vc_custom/vc_danlet_contact.php:95
+#: inc/vc_custom/vc_danlet_counter.php:44
+#: inc/vc_custom/vc_danlet_counter.php:52
+#: inc/vc_custom/vc_danlet_counter.php:60
+#: inc/vc_custom/vc_danlet_info_text_about.php:43
+#: inc/vc_custom/vc_danlet_info_text_about.php:50
+#: inc/vc_custom/vc_danlet_list_video.php:66
+#: inc/vc_custom/vc_danlet_list_video.php:72
+#: inc/vc_custom/vc_danlet_list_video.php:78
+#: inc/vc_custom/vc_danlet_list_video.php:84
+#: inc/vc_custom/vc_danlet_testimonial.php:64
+#: inc/vc_custom/vc_danlet_testimonial.php:71
+#: inc/vc_custom/vc_danlet_user.php:35 inc/vc_custom/vc_danlet_user.php:42
+#: inc/vc_custom/vc_danlet_user.php:50 inc/vc_custom/vc_danlet_video.php:148
+#: inc/vc_custom/vc_danlet_video.php:155
+#: inc/vc_custom/vc_danlet_video.php:162
+#: inc/vc_custom/vc_danlet_video.php:169
+#: inc/vc_custom/vc_danlet_video.php:176
+#: inc/vc_custom/vc_danlet_video.php:183
+#: inc/vc_custom/vc_danlet_video.php:190
+#: inc/vc_custom/vc_danlet_video.php:201
+#: inc/vc_custom/vc_danlet_video.php:212
+msgid "Setting color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:82
+msgid "Color description about"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:84
+#: inc/vc_custom/vc_danlet_contact.php:76
+#: inc/vc_custom/vc_danlet_subscribe.php:54
+msgid "Setting color placeholder"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:89
+msgid "Color content about"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:91
+#: inc/vc_custom/vc_danlet_subscribe.php:61
+#: inc/vc_custom/vc_danlet_subscribe.php:68
+msgid "Setting color icon button"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:96
+msgid "Color link about"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:98
+msgid "Setting color link about"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:104
+#: inc/vc_custom/vc_danlet_blog.php:195
+#: inc/vc_custom/vc_danlet_contact.php:99
+#: inc/vc_custom/vc_danlet_info_text_about.php:54
+#: inc/vc_custom/vc_danlet_service.php:44
+#: inc/vc_custom/vc_danlet_subscribe.php:146
+#: inc/vc_custom/vc_danlet_testimonial.php:138
+msgid "Extra class name"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:106
+#: inc/vc_custom/vc_danlet_about.php:113
+#: inc/vc_custom/vc_danlet_about_level.php:130
+#: inc/vc_custom/vc_danlet_blog.php:197 inc/vc_custom/vc_danlet_blog.php:204
+#: inc/vc_custom/vc_danlet_contact.php:101
+#: inc/vc_custom/vc_danlet_contact.php:108
+#: inc/vc_custom/vc_danlet_counter.php:66
+#: inc/vc_custom/vc_danlet_gallery.php:113
+#: inc/vc_custom/vc_danlet_gallery.php:124
+#: inc/vc_custom/vc_danlet_info_text_about.php:56
+#: inc/vc_custom/vc_danlet_info_text_about.php:63
+#: inc/vc_custom/vc_danlet_list_video.php:90
+#: inc/vc_custom/vc_danlet_membership.php:162
+#: inc/vc_custom/vc_danlet_service.php:46
+#: inc/vc_custom/vc_danlet_service.php:53
+#: inc/vc_custom/vc_danlet_single_video.php:171
+#: inc/vc_custom/vc_danlet_subscribe.php:148
+#: inc/vc_custom/vc_danlet_subscribe.php:155
+#: inc/vc_custom/vc_danlet_testimonial.php:140
+#: inc/vc_custom/vc_danlet_testimonial.php:146
+#: inc/vc_custom/vc_danlet_text_description.php:49
+#: inc/vc_custom/vc_danlet_user.php:57 inc/vc_custom/vc_danlet_video.php:311
+#: inc/vc_custom/vc_danlet_video.php:322
+msgid "Design options"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about.php:111
+#: inc/vc_custom/vc_danlet_about_level.php:128
+#: inc/vc_custom/vc_danlet_blog.php:202
+#: inc/vc_custom/vc_danlet_classes.php:162
+#: inc/vc_custom/vc_danlet_classes_list.php:260
+#: inc/vc_custom/vc_danlet_classes_number.php:159
+#: inc/vc_custom/vc_danlet_classes_tabs.php:215
+#: inc/vc_custom/vc_danlet_contact.php:106
+#: inc/vc_custom/vc_danlet_counter.php:64
+#: inc/vc_custom/vc_danlet_gallery.php:122
+#: inc/vc_custom/vc_danlet_info_text_about.php:61
+#: inc/vc_custom/vc_danlet_list_video.php:88
+#: inc/vc_custom/vc_danlet_membership.php:160
+#: inc/vc_custom/vc_danlet_service.php:51
+#: inc/vc_custom/vc_danlet_single_video.php:169
+#: inc/vc_custom/vc_danlet_subscribe.php:153
+#: inc/vc_custom/vc_danlet_teacher.php:451
+#: inc/vc_custom/vc_danlet_testimonial.php:144
+#: inc/vc_custom/vc_danlet_text_description.php:47
+#: inc/vc_custom/vc_danlet_user.php:55 inc/vc_custom/vc_danlet_video.php:320
+msgid "Css"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:11
+msgid "SH About Level"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:20
+#: inc/vc_custom/vc_danlet_blog.php:27
+#: inc/vc_custom/vc_danlet_gallery.php:21
+#: inc/vc_custom/vc_danlet_teacher.php:21
+#: inc/vc_custom/vc_danlet_video.php:18
+msgid "Option"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:25
+#: inc/vc_custom/vc_danlet_about_level.php:37
+#: inc/vc_custom/vc_danlet_blog.php:31
+#: inc/vc_custom/vc_danlet_gallery.php:24
+#: inc/vc_custom/vc_danlet_single_video.php:21
+msgid "Select"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:26
+msgid "Left"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:27
+msgid "Right"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:32
+#: inc/vc_custom/vc_danlet_about_level.php:113
+#: inc/vc_custom/vc_danlet_teacher.php:103
+msgid "Social"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:38
+#: inc/vc_custom/vc_danlet_classes_list.php:24
+#: inc/vc_custom/vc_danlet_classes_tabs.php:24
+#: inc/vc_custom/vc_danlet_gallery.php:116
+#: inc/vc_custom/vc_danlet_list_video.php:29
+#: inc/vc_custom/vc_danlet_teacher.php:37
+#: inc/vc_custom/vc_danlet_teacher.php:112
+#: inc/vc_custom/vc_danlet_video.php:314
+msgid "Enable"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:39
+#: inc/vc_custom/vc_danlet_classes_list.php:25
+#: inc/vc_custom/vc_danlet_classes_tabs.php:25
+#: inc/vc_custom/vc_danlet_gallery.php:117
+#: inc/vc_custom/vc_danlet_list_video.php:30
+#: inc/vc_custom/vc_danlet_teacher.php:38
+#: inc/vc_custom/vc_danlet_teacher.php:113
+#: inc/vc_custom/vc_danlet_video.php:315
+msgid "Disable"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:44
+msgid "Description level"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:51
+#: inc/vc_custom/vc_danlet_about_level.php:107
+msgid "Content"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:75
+#: inc/vc_custom/vc_danlet_about_level.php:81
+#: inc/vc_custom/vc_danlet_about_level.php:87
+#: inc/vc_custom/vc_danlet_about_level.php:93
+msgid "Social Settings"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:79
+msgid "Google Plus"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:100
+#: inc/vc_custom/vc_danlet_classes.php:120
+#: inc/vc_custom/vc_danlet_classes_number.php:94
+#: inc/vc_custom/vc_danlet_classes_tabs.php:165
+#: inc/vc_custom/vc_danlet_teacher.php:292
+#: inc/vc_custom/vc_danlet_text_description.php:26
+#: inc/vc_custom/vc_danlet_text_description.php:40
+msgid "Description"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:102
+#: inc/vc_custom/vc_danlet_about_level.php:109
+#: inc/vc_custom/vc_danlet_about_level.php:115
+#: inc/vc_custom/vc_danlet_about_level.php:122
+#: inc/vc_custom/vc_danlet_classes.php:97
+#: inc/vc_custom/vc_danlet_classes.php:108
+#: inc/vc_custom/vc_danlet_classes.php:115
+#: inc/vc_custom/vc_danlet_classes.php:122
+#: inc/vc_custom/vc_danlet_classes.php:132
+#: inc/vc_custom/vc_danlet_classes.php:138
+#: inc/vc_custom/vc_danlet_classes.php:144
+#: inc/vc_custom/vc_danlet_classes.php:150
+#: inc/vc_custom/vc_danlet_classes.php:157
+#: inc/vc_custom/vc_danlet_classes_list.php:133
+#: inc/vc_custom/vc_danlet_classes_list.php:143
+#: inc/vc_custom/vc_danlet_classes_list.php:154
+#: inc/vc_custom/vc_danlet_classes_list.php:165
+#: inc/vc_custom/vc_danlet_classes_list.php:172
+#: inc/vc_custom/vc_danlet_classes_list.php:179
+#: inc/vc_custom/vc_danlet_classes_list.php:185
+#: inc/vc_custom/vc_danlet_classes_list.php:191
+#: inc/vc_custom/vc_danlet_classes_list.php:197
+#: inc/vc_custom/vc_danlet_classes_list.php:203
+#: inc/vc_custom/vc_danlet_classes_list.php:213
+#: inc/vc_custom/vc_danlet_classes_list.php:223
+#: inc/vc_custom/vc_danlet_classes_list.php:233
+#: inc/vc_custom/vc_danlet_classes_list.php:243
+#: inc/vc_custom/vc_danlet_classes_list.php:255
+#: inc/vc_custom/vc_danlet_classes_number.php:90
+#: inc/vc_custom/vc_danlet_classes_number.php:96
+#: inc/vc_custom/vc_danlet_classes_number.php:106
+#: inc/vc_custom/vc_danlet_classes_number.php:113
+#: inc/vc_custom/vc_danlet_classes_number.php:120
+#: inc/vc_custom/vc_danlet_classes_number.php:126
+#: inc/vc_custom/vc_danlet_classes_number.php:132
+#: inc/vc_custom/vc_danlet_classes_number.php:138
+#: inc/vc_custom/vc_danlet_classes_number.php:144
+#: inc/vc_custom/vc_danlet_classes_number.php:154
+#: inc/vc_custom/vc_danlet_classes_tabs.php:153
+#: inc/vc_custom/vc_danlet_classes_tabs.php:160
+#: inc/vc_custom/vc_danlet_classes_tabs.php:167
+#: inc/vc_custom/vc_danlet_classes_tabs.php:173
+#: inc/vc_custom/vc_danlet_classes_tabs.php:179
+#: inc/vc_custom/vc_danlet_classes_tabs.php:185
+#: inc/vc_custom/vc_danlet_classes_tabs.php:191
+#: inc/vc_custom/vc_danlet_classes_tabs.php:197
+#: inc/vc_custom/vc_danlet_classes_tabs.php:203
+#: inc/vc_custom/vc_danlet_classes_tabs.php:209
+#: inc/vc_custom/vc_danlet_single_video.php:80
+#: inc/vc_custom/vc_danlet_teacher.php:246
+#: inc/vc_custom/vc_danlet_teacher.php:252
+#: inc/vc_custom/vc_danlet_teacher.php:258
+#: inc/vc_custom/vc_danlet_teacher.php:264
+#: inc/vc_custom/vc_danlet_teacher.php:270
+#: inc/vc_custom/vc_danlet_teacher.php:276
+#: inc/vc_custom/vc_danlet_teacher.php:288
+#: inc/vc_custom/vc_danlet_teacher.php:294
+#: inc/vc_custom/vc_danlet_teacher.php:309
+#: inc/vc_custom/vc_danlet_teacher.php:319
+#: inc/vc_custom/vc_danlet_teacher.php:325
+#: inc/vc_custom/vc_danlet_teacher.php:335
+#: inc/vc_custom/vc_danlet_teacher.php:345
+#: inc/vc_custom/vc_danlet_teacher.php:355
+#: inc/vc_custom/vc_danlet_text_description.php:35
+#: inc/vc_custom/vc_danlet_text_description.php:42
+msgid "Color Settings"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_about_level.php:120
+msgid "Background"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:12
+msgid "SH Blog"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:21
+msgid "Title Element "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:32
+#: vc_templates/option_base/blog/bigimg.php:16
+#: vc_templates/option_base/blog/default.php:13
+msgid "No Image"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:39
+msgid "Link View More"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:55
+#: inc/vc_custom/vc_danlet_classes_list.php:32
+#: inc/vc_custom/vc_danlet_teacher.php:120
+#: inc/vc_custom/vc_danlet_video.php:48
+msgid "Option Data"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:57 inc/vc_custom/vc_danlet_blog.php:68
+#: inc/vc_custom/vc_danlet_blog.php:83 inc/vc_custom/vc_danlet_blog.php:89
+#: inc/vc_custom/vc_danlet_blog.php:117 inc/vc_custom/vc_danlet_blog.php:132
+#: inc/vc_custom/vc_danlet_blog.php:143
+#: inc/vc_custom/vc_danlet_classes.php:79
+#: inc/vc_custom/vc_danlet_classes.php:90
+#: inc/vc_custom/vc_danlet_classes_list.php:35
+#: inc/vc_custom/vc_danlet_classes_list.php:47
+#: inc/vc_custom/vc_danlet_classes_list.php:62
+#: inc/vc_custom/vc_danlet_classes_list.php:69
+#: inc/vc_custom/vc_danlet_classes_list.php:98
+#: inc/vc_custom/vc_danlet_classes_list.php:114
+#: inc/vc_custom/vc_danlet_classes_list.php:126
+#: inc/vc_custom/vc_danlet_classes_number.php:72
+#: inc/vc_custom/vc_danlet_classes_number.php:83
+#: inc/vc_custom/vc_danlet_classes_tabs.php:47
+#: inc/vc_custom/vc_danlet_classes_tabs.php:59
+#: inc/vc_custom/vc_danlet_classes_tabs.php:75
+#: inc/vc_custom/vc_danlet_classes_tabs.php:82
+#: inc/vc_custom/vc_danlet_classes_tabs.php:98
+#: inc/vc_custom/vc_danlet_classes_tabs.php:113
+#: inc/vc_custom/vc_danlet_classes_tabs.php:129
+#: inc/vc_custom/vc_danlet_classes_tabs.php:141
+#: inc/vc_custom/vc_danlet_gallery.php:64
+#: inc/vc_custom/vc_danlet_gallery.php:75
+#: inc/vc_custom/vc_danlet_list_video.php:40
+#: inc/vc_custom/vc_danlet_list_video.php:51
+#: inc/vc_custom/vc_danlet_list_video.php:58
+#: inc/vc_custom/vc_danlet_teacher.php:122
+#: inc/vc_custom/vc_danlet_teacher.php:139
+#: inc/vc_custom/vc_danlet_teacher.php:154
+#: inc/vc_custom/vc_danlet_teacher.php:160
+#: inc/vc_custom/vc_danlet_teacher.php:175
+#: inc/vc_custom/vc_danlet_teacher.php:181
+#: inc/vc_custom/vc_danlet_teacher.php:209
+#: inc/vc_custom/vc_danlet_teacher.php:224
+#: inc/vc_custom/vc_danlet_teacher.php:235
+#: inc/vc_custom/vc_danlet_testimonial.php:37
+#: inc/vc_custom/vc_danlet_testimonial.php:48
+#: inc/vc_custom/vc_danlet_testimonial.php:56
+#: inc/vc_custom/vc_danlet_video.php:50 inc/vc_custom/vc_danlet_video.php:61
+#: inc/vc_custom/vc_danlet_video.php:76 inc/vc_custom/vc_danlet_video.php:82
+#: inc/vc_custom/vc_danlet_video.php:110
+#: inc/vc_custom/vc_danlet_video.php:125
+#: inc/vc_custom/vc_danlet_video.php:136
+msgid "Data Settings"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:59 inc/vc_custom/vc_danlet_blog.php:110
+#: inc/vc_custom/vc_danlet_blog.php:128
+#: inc/vc_custom/vc_danlet_classes.php:38
+#: inc/vc_custom/vc_danlet_classes_list.php:23
+#: inc/vc_custom/vc_danlet_classes_list.php:37
+#: inc/vc_custom/vc_danlet_classes_list.php:91
+#: inc/vc_custom/vc_danlet_classes_list.php:110
+#: inc/vc_custom/vc_danlet_classes_number.php:31
+#: inc/vc_custom/vc_danlet_classes_tabs.php:23
+#: inc/vc_custom/vc_danlet_classes_tabs.php:35
+#: inc/vc_custom/vc_danlet_classes_tabs.php:49
+#: inc/vc_custom/vc_danlet_classes_tabs.php:106
+#: inc/vc_custom/vc_danlet_classes_tabs.php:125
+#: inc/vc_custom/vc_danlet_gallery.php:115
+#: inc/vc_custom/vc_danlet_list_video.php:28
+#: inc/vc_custom/vc_danlet_single_video.php:108
+#: inc/vc_custom/vc_danlet_single_video.php:120
+#: inc/vc_custom/vc_danlet_teacher.php:25
+#: inc/vc_custom/vc_danlet_teacher.php:36
+#: inc/vc_custom/vc_danlet_teacher.php:111
+#: inc/vc_custom/vc_danlet_teacher.php:124
+#: inc/vc_custom/vc_danlet_teacher.php:202
+#: inc/vc_custom/vc_danlet_teacher.php:220
+#: inc/vc_custom/vc_danlet_teacher.php:367
+#: inc/vc_custom/vc_danlet_teacher.php:379
+#: inc/vc_custom/vc_danlet_video.php:22 inc/vc_custom/vc_danlet_video.php:52
+#: inc/vc_custom/vc_danlet_video.php:103
+#: inc/vc_custom/vc_danlet_video.php:121
+#: inc/vc_custom/vc_danlet_video.php:225
+#: inc/vc_custom/vc_danlet_video.php:237
+#: inc/vc_custom/vc_danlet_video.php:313
+msgid "Select ..."
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:60
+#: inc/vc_custom/vc_danlet_classes_list.php:38
+#: inc/vc_custom/vc_danlet_classes_tabs.php:50
+#: inc/vc_custom/vc_danlet_teacher.php:125
+#: inc/vc_custom/vc_danlet_video.php:53
+msgid "InID"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:61
+#: inc/vc_custom/vc_danlet_classes_list.php:39
+#: inc/vc_custom/vc_danlet_classes_tabs.php:51
+#: inc/vc_custom/vc_danlet_teacher.php:126
+#: inc/vc_custom/vc_danlet_video.php:54
+msgid "InCategory"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:66
+msgid "Select post "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:87
+#: inc/vc_custom/vc_danlet_teacher.php:179
+#: inc/vc_custom/vc_danlet_video.php:80
+msgid "Select category "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:107
+#: inc/vc_custom/vc_danlet_classes_list.php:87
+#: inc/vc_custom/vc_danlet_classes_tabs.php:102
+#: inc/vc_custom/vc_danlet_teacher.php:199
+#: inc/vc_custom/vc_danlet_video.php:100
+msgid "Order By "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:111
+#: inc/vc_custom/vc_danlet_classes_list.php:92
+#: inc/vc_custom/vc_danlet_classes_tabs.php:107
+#: inc/vc_custom/vc_danlet_teacher.php:203
+#: inc/vc_custom/vc_danlet_video.php:104
+msgid "ID"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:112 inc/vc_custom/vc_danlet_blog.php:176
+#: inc/vc_custom/vc_danlet_classes_list.php:93
+#: inc/vc_custom/vc_danlet_classes_tabs.php:108
+#: inc/vc_custom/vc_danlet_teacher.php:204
+#: inc/vc_custom/vc_danlet_video.php:105
+msgid "Name"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:113
+#: inc/vc_custom/vc_danlet_classes_list.php:94
+#: inc/vc_custom/vc_danlet_classes_tabs.php:109
+#: inc/vc_custom/vc_danlet_teacher.php:205
+#: inc/vc_custom/vc_danlet_video.php:106
+msgid "Random"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:125
+#: inc/vc_custom/vc_danlet_classes_list.php:106
+#: inc/vc_custom/vc_danlet_classes_tabs.php:121
+#: inc/vc_custom/vc_danlet_teacher.php:217
+#: inc/vc_custom/vc_danlet_video.php:118
+msgid "Order"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:129
+#: inc/vc_custom/vc_danlet_classes_list.php:111
+#: inc/vc_custom/vc_danlet_classes_tabs.php:126
+#: inc/vc_custom/vc_danlet_teacher.php:221
+#: inc/vc_custom/vc_danlet_video.php:122
+msgid "ASC"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:130
+#: inc/vc_custom/vc_danlet_classes_list.php:112
+#: inc/vc_custom/vc_danlet_classes_tabs.php:127
+#: inc/vc_custom/vc_danlet_teacher.php:222
+#: inc/vc_custom/vc_danlet_video.php:123
+msgid "DESC"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:140
+#: inc/vc_custom/vc_danlet_classes_list.php:122
+#: inc/vc_custom/vc_danlet_classes_tabs.php:137
+#: inc/vc_custom/vc_danlet_teacher.php:232
+#: inc/vc_custom/vc_danlet_testimonial.php:53
+#: inc/vc_custom/vc_danlet_video.php:133
+msgid "Total Items "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:152
+#: inc/vc_custom/vc_danlet_classes.php:21
+#: inc/vc_custom/vc_danlet_classes_number.php:20
+#: inc/vc_custom/vc_danlet_list_video.php:19
+#: inc/vc_custom/vc_danlet_teacher.php:49
+#: inc/vc_custom/vc_danlet_teacher.php:244
+#: inc/vc_custom/vc_danlet_text_description.php:20
+#: inc/vc_custom/vc_danlet_text_description.php:33
+#: inc/vc_custom/vc_danlet_video.php:30
+msgid "Title Element"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:158
+msgid "Category"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:164
+msgid "Comment Count"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_blog.php:182
+msgid "Name Hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:12
+msgid "SH Class"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:33
+#: inc/vc_custom/vc_danlet_classes_number.php:27
+#: inc/vc_custom/vc_danlet_classes_tabs.php:31
+msgid "Position"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:39
+#: inc/vc_custom/vc_danlet_classes_number.php:32
+#: inc/vc_custom/vc_danlet_classes_tabs.php:36
+msgid "Right "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:40
+#: inc/vc_custom/vc_danlet_classes_number.php:33
+#: inc/vc_custom/vc_danlet_classes_tabs.php:37
+msgid "Left "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:46
+#: inc/vc_custom/vc_danlet_classes_number.php:40
+#: inc/vc_custom/vc_danlet_teacher.php:69
+msgid "Name Advanced"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:53
+#: inc/vc_custom/vc_danlet_classes_number.php:47
+#: inc/vc_custom/vc_danlet_teacher.php:80
+msgid "Description Advanced"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:60
+#: inc/vc_custom/vc_danlet_classes_number.php:62
+#: inc/vc_custom/vc_danlet_teacher.php:91
+msgid "Image Advanced"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:68
+msgid "Image 2 Advanced"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:77
+#: inc/vc_custom/vc_danlet_classes_tabs.php:80
+msgid "Advanced Level"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:95
+#: inc/vc_custom/vc_danlet_classes_list.php:131
+#: inc/vc_custom/vc_danlet_classes_number.php:88
+#: inc/vc_custom/vc_danlet_counter.php:17
+msgid "Title"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:106
+#: inc/vc_custom/vc_danlet_classes_list.php:163
+#: inc/vc_custom/vc_danlet_classes_number.php:104
+#: inc/vc_custom/vc_danlet_classes_tabs.php:151
+msgid "Name Level Course"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:113
+#: inc/vc_custom/vc_danlet_classes_list.php:170
+#: inc/vc_custom/vc_danlet_classes_number.php:111
+#: inc/vc_custom/vc_danlet_classes_tabs.php:158
+msgid "Name Level Course Hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:130
+#: inc/vc_custom/vc_danlet_classes_list.php:177
+#: inc/vc_custom/vc_danlet_classes_number.php:118
+#: inc/vc_custom/vc_danlet_classes_tabs.php:171
+msgid "Teacher Label"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:136
+#: inc/vc_custom/vc_danlet_classes_list.php:183
+#: inc/vc_custom/vc_danlet_classes_number.php:124
+#: inc/vc_custom/vc_danlet_classes_tabs.php:177
+#: inc/vc_custom/vc_danlet_teacher.php:303
+msgid "Button"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:148
+#: inc/vc_custom/vc_danlet_classes_list.php:195
+#: inc/vc_custom/vc_danlet_classes_number.php:136
+#: inc/vc_custom/vc_danlet_classes_tabs.php:189
+msgid "Teacher Hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:155
+#: inc/vc_custom/vc_danlet_classes_list.php:253
+#: inc/vc_custom/vc_danlet_classes_number.php:152
+#: inc/vc_custom/vc_danlet_classes_tabs.php:207
+#: inc/vc_custom/vc_danlet_teacher.php:353
+#: inc/vc_custom/vc_danlet_video.php:209
+msgid "Background Color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes.php:164
+#: inc/vc_custom/vc_danlet_classes_list.php:262
+#: inc/vc_custom/vc_danlet_classes_number.php:161
+#: inc/vc_custom/vc_danlet_classes_tabs.php:217
+#: inc/vc_custom/vc_danlet_teacher.php:453
+msgid "Design Options"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:12
+msgid "SH Class List"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:20
+#: inc/vc_custom/vc_danlet_classes_list.php:201
+#: inc/vc_custom/vc_danlet_classes_tabs.php:20
+#: inc/vc_custom/vc_danlet_classes_tabs.php:195
+#: inc/vc_custom/vc_danlet_list_video.php:25
+#: inc/vc_custom/vc_danlet_teacher.php:33
+msgid "Tabs"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:44
+msgid "In ID"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:66
+msgid "In Category"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:141
+msgid "Name Category"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:152
+msgid "Name Category Hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:211
+#: inc/vc_custom/vc_danlet_classes_tabs.php:201
+msgid "Tabs Hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:221
+#: inc/vc_custom/vc_danlet_classes_number.php:142
+#: inc/vc_custom/vc_danlet_counter.php:24
+msgid "Number"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:231
+msgid "Slash"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_list.php:241
+msgid "Line"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_number.php:12
+msgid "SH Class (Number)"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_number.php:55
+msgid "Number Advanced"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_number.php:70
+msgid "Single ID"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_tabs.php:12
+msgid "SH Class Tabs"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_tabs.php:44
+msgid "Option Data Single"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_classes_tabs.php:57
+msgid "Single Category"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:17
+msgid "SH Contact"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:26
+msgid "Title Contact "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:28
+#: inc/vc_custom/vc_danlet_contact.php:34
+#: inc/vc_custom/vc_danlet_contact.php:41
+#: inc/vc_custom/vc_danlet_contact.php:49
+#: inc/vc_custom/vc_danlet_contact.php:55
+#: inc/vc_custom/vc_danlet_contact.php:61
+#: inc/vc_custom/vc_danlet_gallery.php:29
+#: inc/vc_custom/vc_danlet_gallery.php:35
+#: inc/vc_custom/vc_danlet_gallery.php:41
+#: inc/vc_custom/vc_danlet_gallery.php:51
+#: inc/vc_custom/vc_danlet_gallery.php:57 inc/vc_custom/vc_danlet_map.php:22
+#: inc/vc_custom/vc_danlet_membership.php:24
+#: inc/vc_custom/vc_danlet_membership.php:32
+#: inc/vc_custom/vc_danlet_membership.php:39
+#: inc/vc_custom/vc_danlet_service.php:20
+#: inc/vc_custom/vc_danlet_service.php:21
+#: inc/vc_custom/vc_danlet_service.php:30
+#: inc/vc_custom/vc_danlet_service.php:37
+#: inc/vc_custom/vc_danlet_single_video.php:26
+#: inc/vc_custom/vc_danlet_single_video.php:36
+#: inc/vc_custom/vc_danlet_single_video.php:45
+#: inc/vc_custom/vc_danlet_single_video.php:54
+#: inc/vc_custom/vc_danlet_single_video.php:69
+#: inc/vc_custom/vc_danlet_timetable.php:21
+#: inc/vc_custom/vc_danlet_timetable.php:28
+#: inc/vc_custom/vc_danlet_timetable.php:36
+#: inc/vc_custom/vc_danlet_timetable.php:43
+#: inc/vc_custom/vc_danlet_timetable.php:49
+#: inc/vc_custom/vc_danlet_timetable.php:55
+#: inc/vc_custom/vc_danlet_user.php:20 inc/vc_custom/vc_danlet_user.php:27
+msgid "General"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:32
+msgid "Description Contact"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:39
+msgid "Form Contact"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:46
+msgid "Choose form"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:53
+msgid "Address Contact"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:59
+msgid "Set Image cover contact"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:67
+msgid "Color title contact"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:69
+msgid "Setting color title contact"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:74
+msgid "Color Address contact"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:81
+msgid "Color placeholder input form"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:87
+msgid "Color submit form"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_contact.php:93
+msgid "background submit form"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_counter.php:9
+msgid "SH Counter"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_counter.php:31
+msgid "Speed"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_counter.php:34
+msgid "Default 10000"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_counter.php:41
+msgid "Color Counter Title "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_counter.php:49
+msgid "Color Counter Slash "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_counter.php:57
+msgid "Color Counter Number  "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:11
+msgid "SH Gallery"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:25
+msgid "Full Image"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:26
+msgid "Slide"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:33
+msgid "Title "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:39
+msgid "Description "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:49
+msgid "Show munber view "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:55
+msgid "Show munber loadmore "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:62
+msgid "Select gallery show "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:80
+#: inc/vc_custom/vc_danlet_list_video.php:64
+msgid "Color title"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:82
+#: inc/vc_custom/vc_danlet_gallery.php:88
+#: inc/vc_custom/vc_danlet_gallery.php:94
+#: inc/vc_custom/vc_danlet_gallery.php:100
+#: inc/vc_custom/vc_danlet_gallery.php:106
+#: inc/vc_custom/vc_danlet_membership.php:75
+#: inc/vc_custom/vc_danlet_membership.php:84
+#: inc/vc_custom/vc_danlet_membership.php:93
+#: inc/vc_custom/vc_danlet_membership.php:102
+#: inc/vc_custom/vc_danlet_membership.php:111
+#: inc/vc_custom/vc_danlet_membership.php:120
+#: inc/vc_custom/vc_danlet_membership.php:129
+#: inc/vc_custom/vc_danlet_membership.php:138
+#: inc/vc_custom/vc_danlet_membership.php:146
+#: inc/vc_custom/vc_danlet_membership.php:154
+msgid "Style color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:86
+msgid "Color description"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:92
+#: inc/vc_custom/vc_danlet_info_text_about.php:40
+msgid "Color link"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:98
+#: inc/vc_custom/vc_danlet_info_text_about.php:47
+msgid "Color background"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:104
+msgid "Color background link"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_gallery.php:111
+#: inc/vc_custom/vc_danlet_video.php:309
+msgid "Navigation"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_info_text_about.php:9
+msgid "SH Text About"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_info_text_about.php:32
+msgid "Content Info"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_info_text_about.php:34
+msgid "Input your content Info"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_info_text_about.php:42
+#: inc/vc_custom/vc_danlet_info_text_about.php:49
+msgid "Setting color link"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_list_video.php:10
+msgid "SH List Video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_list_video.php:38
+msgid "Select list video show "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_list_video.php:56
+msgid "Number show list video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_list_video.php:70
+#: inc/vc_custom/vc_danlet_video.php:159
+msgid "Color title video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_list_video.php:76
+#: inc/vc_custom/vc_danlet_membership.php:117
+msgid "Background color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_list_video.php:82
+msgid "Color like"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:9
+msgid "SH Google Map"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:19
+msgid "Coordinates map"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:21
+msgid "ex: 40.653555, -73.859024"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:27
+#: inc/vc_custom/vc_danlet_single_video.php:105
+#: inc/vc_custom/vc_danlet_subscribe.php:74
+#: inc/vc_custom/vc_danlet_teacher.php:360
+#: inc/vc_custom/vc_danlet_testimonial.php:76
+#: inc/vc_custom/vc_danlet_video.php:218
+msgid "Set height for create triangle svg top"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:34 inc/vc_custom/vc_danlet_map.php:46
+#: inc/vc_custom/vc_danlet_map.php:54
+#: inc/vc_custom/vc_danlet_single_video.php:112
+#: inc/vc_custom/vc_danlet_single_video.php:124
+#: inc/vc_custom/vc_danlet_single_video.php:132
+#: inc/vc_custom/vc_danlet_subscribe.php:81
+#: inc/vc_custom/vc_danlet_subscribe.php:93
+#: inc/vc_custom/vc_danlet_subscribe.php:101
+#: inc/vc_custom/vc_danlet_teacher.php:371
+#: inc/vc_custom/vc_danlet_teacher.php:383
+#: inc/vc_custom/vc_danlet_teacher.php:395
+#: inc/vc_custom/vc_danlet_testimonial.php:83
+#: inc/vc_custom/vc_danlet_testimonial.php:95
+#: inc/vc_custom/vc_danlet_testimonial.php:103
+#: inc/vc_custom/vc_danlet_video.php:229
+#: inc/vc_custom/vc_danlet_video.php:241
+#: inc/vc_custom/vc_danlet_video.php:253
+msgid "Setting height triangle svg"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:35 inc/vc_custom/vc_danlet_map.php:47
+#: inc/vc_custom/vc_danlet_map.php:55 inc/vc_custom/vc_danlet_map.php:62
+#: inc/vc_custom/vc_danlet_map.php:69 inc/vc_custom/vc_danlet_map.php:77
+#: inc/vc_custom/vc_danlet_map.php:85
+#: inc/vc_custom/vc_danlet_single_video.php:88
+#: inc/vc_custom/vc_danlet_single_video.php:96
+#: inc/vc_custom/vc_danlet_single_video.php:113
+#: inc/vc_custom/vc_danlet_single_video.php:125
+#: inc/vc_custom/vc_danlet_single_video.php:133
+#: inc/vc_custom/vc_danlet_single_video.php:140
+#: inc/vc_custom/vc_danlet_single_video.php:147
+#: inc/vc_custom/vc_danlet_single_video.php:155
+#: inc/vc_custom/vc_danlet_single_video.php:163
+#: inc/vc_custom/vc_danlet_subscribe.php:82
+#: inc/vc_custom/vc_danlet_subscribe.php:94
+#: inc/vc_custom/vc_danlet_subscribe.php:102
+#: inc/vc_custom/vc_danlet_subscribe.php:109
+#: inc/vc_custom/vc_danlet_subscribe.php:116
+#: inc/vc_custom/vc_danlet_subscribe.php:124
+#: inc/vc_custom/vc_danlet_subscribe.php:132
+#: inc/vc_custom/vc_danlet_subscribe.php:141
+#: inc/vc_custom/vc_danlet_teacher.php:372
+#: inc/vc_custom/vc_danlet_teacher.php:384
+#: inc/vc_custom/vc_danlet_teacher.php:396
+#: inc/vc_custom/vc_danlet_teacher.php:407
+#: inc/vc_custom/vc_danlet_teacher.php:418
+#: inc/vc_custom/vc_danlet_teacher.php:430
+#: inc/vc_custom/vc_danlet_teacher.php:442
+#: inc/vc_custom/vc_danlet_testimonial.php:84
+#: inc/vc_custom/vc_danlet_testimonial.php:96
+#: inc/vc_custom/vc_danlet_testimonial.php:104
+#: inc/vc_custom/vc_danlet_testimonial.php:111
+#: inc/vc_custom/vc_danlet_testimonial.php:118
+#: inc/vc_custom/vc_danlet_testimonial.php:126
+#: inc/vc_custom/vc_danlet_testimonial.php:134
+#: inc/vc_custom/vc_danlet_video.php:230
+#: inc/vc_custom/vc_danlet_video.php:242
+#: inc/vc_custom/vc_danlet_video.php:254
+#: inc/vc_custom/vc_danlet_video.php:265
+#: inc/vc_custom/vc_danlet_video.php:276
+#: inc/vc_custom/vc_danlet_video.php:288
+#: inc/vc_custom/vc_danlet_video.php:300
+msgid "SVG"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:39 inc/vc_custom/vc_danlet_map.php:51
+#: inc/vc_custom/vc_danlet_single_video.php:117
+#: inc/vc_custom/vc_danlet_single_video.php:129
+#: inc/vc_custom/vc_danlet_subscribe.php:86
+#: inc/vc_custom/vc_danlet_subscribe.php:98
+#: inc/vc_custom/vc_danlet_teacher.php:376
+#: inc/vc_custom/vc_danlet_teacher.php:392
+#: inc/vc_custom/vc_danlet_testimonial.php:88
+#: inc/vc_custom/vc_danlet_testimonial.php:100
+#: inc/vc_custom/vc_danlet_video.php:234
+#: inc/vc_custom/vc_danlet_video.php:250
+msgid "Set height for create triangle svg"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:59
+#: inc/vc_custom/vc_danlet_single_video.php:137
+#: inc/vc_custom/vc_danlet_subscribe.php:106
+#: inc/vc_custom/vc_danlet_teacher.php:404
+#: inc/vc_custom/vc_danlet_testimonial.php:108
+#: inc/vc_custom/vc_danlet_video.php:262
+msgid "Background svg top"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:61
+#: inc/vc_custom/vc_danlet_single_video.php:139
+#: inc/vc_custom/vc_danlet_subscribe.php:108
+#: inc/vc_custom/vc_danlet_teacher.php:406
+#: inc/vc_custom/vc_danlet_testimonial.php:110
+#: inc/vc_custom/vc_danlet_video.php:264
+msgid "Setting background SVG top"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:66
+#: inc/vc_custom/vc_danlet_single_video.php:144
+#: inc/vc_custom/vc_danlet_subscribe.php:113
+#: inc/vc_custom/vc_danlet_teacher.php:415
+#: inc/vc_custom/vc_danlet_testimonial.php:115
+#: inc/vc_custom/vc_danlet_video.php:273
+msgid "Background svg bottom"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:68
+#: inc/vc_custom/vc_danlet_single_video.php:146
+#: inc/vc_custom/vc_danlet_subscribe.php:115
+#: inc/vc_custom/vc_danlet_teacher.php:417
+#: inc/vc_custom/vc_danlet_testimonial.php:117
+#: inc/vc_custom/vc_danlet_video.php:275
+msgid "Setting background SVG bottom"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:73
+#: inc/vc_custom/vc_danlet_subscribe.php:120
+#: inc/vc_custom/vc_danlet_teacher.php:426
+#: inc/vc_custom/vc_danlet_testimonial.php:122
+#: inc/vc_custom/vc_danlet_video.php:284
+msgid "Prioritize location top svg as \"z-index\" of css ex: (z-index:0;) "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:76 inc/vc_custom/vc_danlet_map.php:84
+#: inc/vc_custom/vc_danlet_single_video.php:154
+#: inc/vc_custom/vc_danlet_single_video.php:162
+#: inc/vc_custom/vc_danlet_subscribe.php:123
+#: inc/vc_custom/vc_danlet_subscribe.php:131
+#: inc/vc_custom/vc_danlet_teacher.php:429
+#: inc/vc_custom/vc_danlet_teacher.php:441
+#: inc/vc_custom/vc_danlet_testimonial.php:125
+#: inc/vc_custom/vc_danlet_testimonial.php:133
+#: inc/vc_custom/vc_danlet_video.php:287
+#: inc/vc_custom/vc_danlet_video.php:299
+msgid "Setting Prioritize location svg number"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_map.php:81
+#: inc/vc_custom/vc_danlet_subscribe.php:128
+#: inc/vc_custom/vc_danlet_teacher.php:438
+#: inc/vc_custom/vc_danlet_testimonial.php:130
+#: inc/vc_custom/vc_danlet_video.php:296
+msgid ""
+"Prioritize location bottom svg as \"z-index\" of css ex: (z-index:0;) "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:11
+msgid "SH Membership"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:21
+msgid "Title membership"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:29
+msgid "Description membership"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:37
+msgid "Name submit"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:45
+msgid "Number show membership"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:48
+#: inc/vc_custom/vc_danlet_membership.php:65
+msgid "Data option"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:53
+msgid "Select name show"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:72
+#: inc/vc_custom/vc_danlet_single_video.php:76
+msgid "Title color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:81
+msgid "Description color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:90
+msgid "Name color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:99
+msgid "Price color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:108
+msgid "Feature color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:126
+msgid "Link color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:135
+msgid "Link color hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:143
+msgid "Back ground link color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_membership.php:151
+msgid "Back ground link color hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_service.php:9
+msgid "SH Service "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_service.php:17
+msgid "Title service"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_service.php:27
+msgid "Color text name"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_service.php:29
+msgid "Setting color title"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_service.php:34
+msgid "Vertical position"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:9
+msgid "SH Single Video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:18
+msgid "Options"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:22
+msgid "No video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:23
+msgid "Width video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:31
+msgid "Title element"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:35
+msgid "The title of element."
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:41
+msgid "Link button"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:44
+msgid "Link button of banner."
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:49
+msgid "Url video youtube or vimeo"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:53
+msgid ""
+"Ex: https://www.youtube.com/embed/ZCg81dvVM3U or https://player.vimeo.com/"
+"video/180222262"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:58
+#: inc/vc_custom/vc_danlet_subscribe.php:33
+msgid "Icon"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:79
+msgid "Color for title on shortcode"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:85
+msgid "Enable 3th SVG Bottom"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:94
+msgid "3th SVG Bottom Color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:109
+#: inc/vc_custom/vc_danlet_teacher.php:368
+#: inc/vc_custom/vc_danlet_video.php:226
+msgid "SVG top triangle left"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:110
+#: inc/vc_custom/vc_danlet_teacher.php:369
+#: inc/vc_custom/vc_danlet_video.php:227
+msgid "SVG top triangle right"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:121
+#: inc/vc_custom/vc_danlet_teacher.php:380
+#: inc/vc_custom/vc_danlet_video.php:238
+msgid "SVG bottom triangle left"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:122
+#: inc/vc_custom/vc_danlet_teacher.php:381
+#: inc/vc_custom/vc_danlet_video.php:239
+msgid "SVG bottom triangle right"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:151
+msgid "Prioritize location top svg as \"z-index\" of css ex: (z-index:3;) "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_single_video.php:159
+msgid ""
+"Prioritize location bottom svg as \"z-index\" of css ex: (z-index:3;) "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:10
+msgid "SH Subscribe "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:19
+msgid "Title  "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:22
+#: inc/vc_custom/vc_danlet_subscribe.php:28
+msgid "The title for subcribe."
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:26
+msgid "Text placeholder for subcrible"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:45
+msgid "Color title Subcrible"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:47
+msgid "Setting color title subcrible"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:48
+#: inc/vc_custom/vc_danlet_subscribe.php:55
+#: inc/vc_custom/vc_danlet_subscribe.php:62
+#: inc/vc_custom/vc_danlet_subscribe.php:69
+msgid "Color setting"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:52
+msgid "Color placeholder text-input subcrible"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:59
+msgid "Color icon button"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:66
+msgid "Background setting input text"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_subscribe.php:140
+msgid "Setting the backgorund"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:12
+msgid "SH Teacher"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:26
+msgid "Single"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:27
+msgid "List"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:28
+msgid "Table"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:137
+msgid "Select Teacher"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:158
+msgid "Select Teachers"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:250
+msgid "Title Teacher"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:256
+msgid "Title Teacher Hover "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:262
+msgid "Label Course"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:268
+msgid "Course Name"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:274
+msgid "Course Name Hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:280
+msgid "Op Color Button"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:284
+msgid "No"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:313
+msgid "Button OP"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:323
+msgid "Detail Link"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:333
+msgid "Text More"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_teacher.php:343
+msgid "Text More Hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_testimonial.php:11
+msgid "SH Testimonial "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_testimonial.php:20
+msgid "Title Testimonial"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_testimonial.php:25
+msgid "Quote Image"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_testimonial.php:35
+msgid "Select testimonial show "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_testimonial.php:61
+msgid "Color content Testimonial"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_testimonial.php:63
+msgid "Setting color content testimonial"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_testimonial.php:68
+msgid "Background Testimonial"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_testimonial.php:70
+msgid "Setting background testimonial"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_text_description.php:11
+msgid "SH Text Description"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_timetable.php:9
+msgid "SH Timetable"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_timetable.php:18
+msgid "Enable Filter"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_timetable.php:25
+msgid "Show Prev, Next day ?"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_timetable.php:32
+msgid "Show Only Available Class"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_timetable.php:35
+msgid "If enable, all out-date and future class will be hided"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_timetable.php:40
+msgid "Display Time end ?"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_timetable.php:47
+msgid "Table Color"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_timetable.php:53
+msgid "Table Color Header"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_user.php:9
+msgid "SH User"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_user.php:18
+msgid "Title infomation user"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_user.php:25
+msgid "Description infomation user"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_user.php:33 inc/vc_custom/vc_danlet_user.php:40
+msgid "Color title "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_user.php:48
+msgid "Color description "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:9
+msgid "SH Video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:23
+msgid "Small Slider"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:24
+msgid "Big Slider"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:59
+msgid "Select Video "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:145
+msgid "Color title element"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:147
+msgid "Setting color title element"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:152
+msgid "Color title element hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:154
+msgid "Setting color title element hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:161
+msgid "Setting color title video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:166
+msgid "Color title video hover "
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:168
+msgid "Setting color title video hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:173
+msgid "Color view video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:175
+msgid "Setting color view video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:180
+msgid "Color like video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:182
+msgid "Setting color like video"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:187
+msgid "Color text more"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:189
+msgid "Setting color text more"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:198
+msgid "Color text more hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:200
+msgid "Setting color text more hover"
+msgstr ""
+
+#: inc/vc_custom/vc_danlet_video.php:211
+msgid "Setting color background"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:14
+msgid "Title icon"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:18
+msgid "The title of icon."
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:19 inc/vc_custom/vc_row.php:30
+msgid "Title and description"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:26
+msgid "Description icon"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:29
+msgid "The description of icon."
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:46
+msgid "Row stretch"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:50
+msgid "Stretch row"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:51
+msgid "Stretch row and content"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:52
+msgid "Stretch row and content (no paddings)"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:53
+msgid "Stretch row and content (no paddings content in center)"
+msgstr ""
+
+#: inc/vc_custom/vc_row.php:55
+msgid ""
+"Select stretching options for row and content (Note: stretched may not "
+"work properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: search.php:37
+msgid "Search results for: "
+msgstr ""
+
+#: searchform-popup.php:3
+msgid "Close X"
+msgstr ""
+
+#: searchform-popup.php:8
+msgid "Search anytime by typing"
+msgstr ""
+
+#: searchform-popup.php:11
+msgid "Search ... "
+msgstr ""
+
+#: templates/footer/footer-default.php:52
+msgid "Copyright &copy; "
+msgstr ""
+
+#: templates/footer/footer-default.php:52
+msgid "http://beautheme.com/"
+msgstr ""
+
+#: templates/footer/footer-default.php:52
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: templates/footer/footer-default.php:52
+msgid ".All Rights Reserved. "
+msgstr ""
+
+#: templates/header/header-content.php:54
+#: templates/header/header-popup.php:10
+msgid "Login"
+msgstr ""
+
+#: templates/header/header-content.php:57 vc_templates/danlet_user.php:78
+msgid "Logout"
+msgstr ""
+
+#: templates/header/header-popup.php:6
+msgid "X"
+msgstr ""
+
+#: templates/header/header-popup.php:9
+msgid "Create an account"
+msgstr ""
+
+#: vc_templates/danlet_about.php:90
+msgid "No images"
+msgstr ""
+
+#: vc_templates/danlet_blog.php:140
+msgid "All News"
+msgstr ""
+
+#: vc_templates/danlet_classes.php:194
+msgid "Teachers :"
+msgstr ""
+
+#: vc_templates/danlet_classes.php:211
+#: vc_templates/danlet_classes_number.php:194
+#: vc_templates/danlet_classes_tabs.php:222
+#: vc_templates/option_base/classes/single-big.php:183
+#: vc_templates/option_base/classes/single-small.php:153
+#: vc_templates/option_base/list/classes.php:208
+msgid "View more "
+msgstr ""
+
+#: vc_templates/danlet_classes_number.php:176
+#: vc_templates/option_base/classes/single-big.php:113
+msgid "Teachers"
+msgstr ""
+
+#: vc_templates/danlet_contact.php:72
+msgid "contact image"
+msgstr ""
+
+#: vc_templates/danlet_contact.php:86
+msgid "Write to us"
+msgstr ""
+
+#: vc_templates/danlet_single_video.php:135
+msgid "video image"
+msgstr ""
+
+#: vc_templates/danlet_subcrible.php:130
+msgid "Enter your email.."
+msgstr ""
+
+#: vc_templates/danlet_timetable.php:34
+msgid "Filter Classes"
+msgstr ""
+
+#: vc_templates/danlet_timetable.php:42
+msgid "BY CATEGORY"
+msgstr ""
+
+#: vc_templates/danlet_timetable.php:61
+msgid "BY LEVEL"
+msgstr ""
+
+#: vc_templates/danlet_timetable.php:80
+msgid "BY CLASSES"
+msgstr ""
+
+#: vc_templates/danlet_timetable.php:85
+msgid "Enter class name"
+msgstr ""
+
+#: vc_templates/danlet_timetable.php:95
+msgid "BY TEACHER"
+msgstr ""
+
+#: vc_templates/danlet_timetable.php:100
+msgid "Enter teacher name"
+msgstr ""
+
+#: vc_templates/danlet_user.php:72
+#: vc_templates/option_base/teacher/table.php:209
+msgid "Timetable"
+msgstr ""
+
+#: vc_templates/danlet_user.php:73
+msgid "Subcribed Classes"
+msgstr ""
+
+#: vc_templates/danlet_user.php:76
+msgid "Go to shop"
+msgstr ""
+
+#: vc_templates/option_base/blog/bigimg.php:32
+msgid "by:"
+msgstr ""
+
+#: vc_templates/option_base/gallery/full.php:51
+msgid "load more"
+msgstr ""
+
+#: vc_templates/option_base/teacher/list.php:66
+msgid "All Teacher"
+msgstr ""
+
+#: vc_templates/option_base/teacher/single.php:149
+msgid "View All "
+msgstr ""
+
+#: vc_templates/option_base/video/small.php:50
+msgid "All video"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:35
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:23
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:45
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:77
+msgid "GRAND TOTAL"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:89
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during "
+"checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+msgid "Product name"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:77
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:113
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/cart.php:115
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Grand total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:156
+msgid "Keep shopping"
+msgstr ""
+
+#: woocommerce/cart/cart.php:169
+msgid "Have a coupon ? Click here to enter your code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:172
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:173
+msgid "Apply Coupon"
+msgstr ""

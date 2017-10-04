@@ -1,0 +1,456 @@
+header{
+	width:100%;
+	z-index:7;
+	@include MQ(DMB){
+		padding-top:45px;
+
+	}
+	&.header-ab {
+		position: absolute;
+	}
+	@include transition(slow);
+    .header_desktop{
+        &.black-menu {
+        	.acd-menu nav ul li{
+				a {
+					color: $black;
+				}
+				a:hover{
+                    color: #d84a58;
+                }
+                 .children, .sub-menu{
+                    a {
+                        &:hover{
+                            color: #000;
+                        }
+                    }
+                }
+        	}
+        	.acd-cls{
+                &.acd-border-cls-white{
+                    color:$black_07;
+                    &:before{
+                        background:$black_02;
+                    }
+                }
+                >ul.acd_ucs{
+                    &.acd_ucs_white{
+                        >li{
+                            >a{
+                                color:$black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+	&.f-nav{
+		position:fixed;
+		width:100%;
+		margin:0 auto;
+		top:0;
+		background: $vm;
+		z-index:7;
+		@include MQ(DMB){
+			padding-top: 5px;
+		}
+        .header_desktop{
+            &.black-menu {
+            	.acd-menu {
+            		nav {
+            			ul li {
+            				a {
+		                        color: #fff;
+		                        &:hover{
+		                            color: gray;
+		                        }
+		                    }
+		                    .children, .sub-menu{
+		                        a {
+		                            &:hover{
+		                                color: #fff;
+		                            }
+		                        }
+		                    }
+            			}
+            		}
+            	}
+            }
+        }
+	}
+}
+.acd-logo{
+	text-align:center;
+	float:left;
+}
+.acd-menu{
+	float:right;
+	max-width: 85%;
+	display: none;
+    @include MQ(DMB){
+        display: block;
+    }
+    nav{
+    	float: left;
+    	@include MQ(DMB){
+    		float:right;
+    	}
+    	position: relative;
+		z-index: 1;
+		padding-right: 10px;
+        z-index: 9;
+    }
+	ul{
+		padding:0;
+		margin:0;
+		li{
+			display:inline-block;
+			list-style:none;
+			position: relative;
+			a{
+				font-family: $MORT;
+		        font-weight: 300;
+				@include font-size(16px);
+				text-decoration:none;
+				float: inherit;
+				width: 100%;
+				padding:6px;
+				@include MQ(LG){
+					padding: 15px 15px;
+				}
+				display: block;
+				color:$white;
+			}
+			.sub-menu, .children{
+	            opacity: 0;
+				top : 120%;
+	            position: absolute;
+	            height: auto;
+	            left: 9999999px;
+	            padding: 0;
+	            list-style: none;
+				transition: opacity 0.5s , top 0.5s;
+	            background: #d9a992;
+	            z-index:10;
+	            li{
+	                float: left;
+	                width: 100%;
+	                line-height: 15px;
+	                position: relative;
+	                width: 250px;
+	                &:hover{
+	                    background: #D84A58;
+	                }
+	                a{
+	                    padding: 15px 10px;
+	                    //color: White;
+	                    @include font-size(14px);
+	                    // &:hover{
+	                    //     color: $vm;
+	                    // }
+	                }
+	                .sub-menu, .children{
+	                    opacity: 0;
+	                    top: 120%;
+	                    left: 250px;
+	                }
+	                &:hover{
+	                    .children,.sub-menu{
+	                        opacity: 1;
+							top: 0;
+							left : 250px;
+	                    }
+	                }
+	            }
+	        }
+	        .current-menu-item {
+	            background: #D84A58;
+	        }
+	        &:hover{
+	        	cursor: pointer;
+	            .sub-menu,.children{
+	                opacity: 1;
+					top: 100%;
+					left: 0;
+	            }
+	        }
+		}
+
+	}
+}
+.acd-cls{
+	display: inline-block;
+	float: right;
+	ul{
+		padding:0;
+		margin:0;
+		li{
+			display:inline-block;
+			list-style:none;
+			margin:0 6px;
+			@include MQ(XL){
+				margin: 0 12.25px;
+			}
+			@include MQ(LG){
+				margin: 0 16px;
+			}
+			a{
+				font-family: $MORT;
+				font-weight: 300;
+				@include font-size(16px);
+				text-decoration:none;
+				.fa-search {
+					@include font-size(20px);
+				}
+			}
+		}
+	}
+	&.acd-border-cls-white{
+		color:$white_07;
+		position:relative;
+		&:before{
+			content:'';
+			position:absolute;
+			@include center(y);
+			left:0;
+			height:30px;
+			width:1px;
+			background:$white_02;
+		}
+	}&.acd-border-cls-black{
+		color:$black_07;
+		position:relative;
+		&:before{
+			content:'';
+			position:absolute;
+			@include center(y);
+			left:0;
+			height:30px;
+			width:1px;
+			background:$black_02;
+		}
+	}
+	>ul.acd_ucs{
+		>li{
+			&:nth-child(2){
+				padding-right:0;
+				padding-left:0;
+			}
+			>i{
+				@include font-size(20px);
+				line-height: 18px;
+				transition: all 0.5s;
+			}
+		}
+		&.acd_ucs_white{
+			>li{
+				>a , >i{
+					color:$white;
+				}
+				&:hover {
+					>a , >i {
+						color: $vm;
+					}
+				}
+			}
+		}
+		&.acd_ucs_black{
+			>li{
+				>a{
+					color:$black;
+				}
+			}
+		}
+	}
+}
+.f-nav {
+	.acd-cls > ul.acd_ucs.acd_ucs_white > li:hover > a, .acd-cls > ul.acd_ucs.acd_ucs_white > li:hover > i {
+		color : #fff;
+	}
+}
+//image cover header
+.slider-image{
+	display:block;
+	width : 100%;
+	height:450px;
+	overflow :hidden;
+    .ms-anim-layers {
+        .ms-layer {
+            left: 0 !important;
+            width: 100% !important;
+            object-fit: cover;
+        }
+    }
+	&.full-top {
+		padding-bottom : 100px;
+		height: 1000px;
+		@include RP("L"){
+			height : auto;
+		}		
+	}
+	&.full-top-fixed {
+		padding-bottom : 100px;
+		height: 400px;
+	}
+	.top_fix_h {
+		padding-bottom : 100px;
+		min-height: 100%;
+		height: auto;
+		position :relative;
+		overflow: hidden;
+	}
+}
+// Header mobile
+@include MQ(DMB){
+	.header_mobile{
+		display:none;
+		width:100px;
+
+	}
+	.menu_mobile{
+		display:none;
+	}
+}
+// Top logo
+.acd_logo_mb{
+	line-height: 70px;
+}
+.danlet-logo{
+    // float: left;
+    //margin-top: 30px;
+    width: auto;
+    height: auto;
+    display: none;
+    @include MQ(M){
+        display: block;
+    }
+}
+.logo-mobile{
+    display: block;
+    padding: 10px;
+    max-width: 100%;
+    float: left;
+    @include MQ(M){
+        display: none;
+    }
+    img{
+        width: 100%;
+    }
+}
+.header_mobile{
+	text-align:center;
+	padding:0 30px;
+	position:relative;
+	z-index:3;
+}
+.acd-main-menu{
+	vertical-align: middle;
+}
+.header_mobile_box{
+	position:relative;
+	width:100%;
+	height:70px;
+	.search-acd{
+	    position:absolute;
+	    right:0;
+	    top:0;
+	    @include center(y);
+	    &:before{
+	    	content:'\f002';
+	    	font-family: 'FontAwesome';
+	    	position:absolute;
+	    	@include center(y);
+	    	left:10px;
+	    	color:$white;
+	    	font-weight: 100;
+	    }
+	    input{
+	        width:30px;
+	        height:30px;
+	        border-radius:16px;
+	        border:none;
+	        outline: none;
+	        right:0;
+	        z-index:1;
+	         position:relative;
+	         cursor: pointer;
+	        @include transition('fast');
+	        line-height: 30px;
+	        background: transparent;
+	        color:$white;
+	        &:active, &:focus{
+	            width: 130px;
+	            padding-left: 32px;
+	            color: $white;
+	            cursor: auto;
+	            border:1px solid $white_02;
+	        }
+	    }
+	}
+}
+.acd_menu_bar{
+	position:absolute;
+	left:0;
+	@include center(y);
+	color:$white;
+	.acd_change_click{
+		display:none;
+	}
+}
+.menu_live_over{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background: $black_03;
+	top:0;
+	left:0;
+	visibility: hidden;
+	z-index:6;
+}
+.menu_mobile{
+	width:220px;
+	position:absolute;
+	height:100vh;
+	top:70px;
+	background: $white;
+	left:-100%;
+	z-index:7;
+	@include transition(fast);
+	ul.menu_mobile_list{
+		margin:0;
+		padding:0 30px;
+		li{
+			width:100%;
+			padding:5px 0;
+			list-style: none;
+			font-family: $MORT;
+			font-weight: 400;
+		}
+		ul{
+			margin:0;
+			padding:0;
+		}
+	}
+}
+.main_menu_header {
+	.header_desktop {
+		.danlet-logo {
+			.header_fixed_logo {
+				display: none;
+			}
+		}
+	}
+	&.f-nav {
+		.header_desktop {
+			.danlet-logo {
+				.main_logo {
+					display: none;
+				}
+				.header_fixed_logo {
+					display: block;
+				}
+			}
+		}
+	}
+}

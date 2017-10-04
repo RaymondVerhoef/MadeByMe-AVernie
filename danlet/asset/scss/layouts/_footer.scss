@@ -1,0 +1,396 @@
+.acd_footer{
+
+	&.acd_footer_home1{
+	    background: #ecebe6;
+	}
+	&.acd_footer_home_m{
+		background: #e1dcd8;
+	}
+	&.acd_footer_home_hh{
+		background: $black;
+	}
+	.acd_left_bot_svg {
+		top: -1px;
+	}
+	&.no-sidebar {
+		.acd_footer_bottom_content.acd_footer_bottom_content_home2 {
+			border-top: none; 
+		}
+	}
+}
+.acd_address {
+	td {
+		padding-left:0;
+	}
+}
+.acd_footer_box{
+	padding:45px 0;
+	margin-top:0;
+	margin-bottom:0;
+	li{
+		list-style: none;
+	}
+	&.with_map {
+		padding-top:0;
+		@include MQ(DMB){
+			padding-top:45px;
+			position: relative;
+			margin-top:-150px;
+			z-index: 2;
+		}
+	}
+	&.acd_footer_box_right{
+		padding-bottom:0;
+		> .footer-column {
+			@include MQ(DMB) {
+				border-right:1px solid $black_01;
+			}
+			min-height: 240px;
+			&:last-child{
+				border-right: none;
+				.acd_footer_list_cat {
+					li {
+						a {
+							&:before {
+								right: 0;
+							}
+						}
+					}
+				}
+				// @include MQ(M){
+				// 	text-align: right;
+				// }
+			}
+		}
+		.acd_address{
+			td{
+				padding-right:0;
+			}
+		}
+		.acd_address_fr{
+			td{
+				font-family: $FR;
+			}
+		}
+		&.acd_footer_box_home_model {
+			>li{
+				border-right:1px solid $white_01;
+				&:last-child{
+					border-right: none;
+				}
+			}
+		}
+	}
+}
+.acd_footer_content{
+	width:100%;
+	&.acd_ft_pd{
+		padding-top:10px;
+        @include MQ(M) {
+            padding-top: 120px;
+        }
+	}
+}
+//Tile widget
+.acd_footer_title{
+	font-family:$MORT;
+	font-weight: 400;
+	&.acd_footer_title_cw{
+		color:$white;
+	}
+	&.acd_footer_title_fr{
+		color:$white;
+		font-family: $FR;
+	}
+}
+//Adress footer
+.acd_address{
+	width:100%;
+	td{
+		padding-right:15px;
+		vertical-align: top;
+		font-family: $MORT;
+		font-weight: 400;
+		@include font-size(12px);
+		line-height: 25px;
+		&:first-child{
+			color:$black_05;
+			width: 20%;
+		}
+		&:last-child{
+			color:$black_07;
+		}
+	}
+	&.acd_address_cw{
+		td{
+			&:first-child{
+				color:$white_05;
+			}
+			&:last-child{
+				color:$white_03;
+			}
+		}
+	}
+}
+//Footer social
+.acd_footer_social{
+	margin:25px 0 0 0;
+	padding:0;
+	li{
+		list-style: none;
+		display:inline-block;
+		margin-right:10px;
+		a{
+			@include transition();
+			width:30px;
+			height:30px;
+			border-radius: 50%;
+			background:#d9a992;
+			display: table;
+			text-align: center;
+			line-height: 30px;
+			@include font-size(12px);
+			color:$white;
+		}
+		&:hover, &:active{
+			a{
+				background: $white;
+				color:#d9a992;
+			}
+		}
+	}
+	&.acd_footer_social_vm{
+		li{
+			a{
+				background:#d9a992;
+			}
+			&:hover, &:active{
+				a{
+					background: $white;
+					color:#d9a992;
+				}
+			}
+		}
+	}
+	&.acd_footer_social_vbl{
+		li{
+			a{
+				background:#d9a992;
+			}
+			&:hover, &:active{
+				a{
+					background: $white;
+					color:#d9a992;
+				}
+			}
+		}
+	}
+	&.acd_footer_social_veart{
+		li{
+			a{
+				background:#d9a992;
+			}
+			&:hover, &:active{
+				a{
+					background: #d9a992;
+					color:$white;
+				}
+			}
+		}
+	}
+}
+//List category footer
+.acd_footer_list_cat{
+	margin:0;
+	padding:0;
+	li{
+		list-style: none;
+		width:100%;
+		a{
+			transition: all .5s;
+			font-family: $MORT;
+			font-weight: 400;
+			@include font-size(12px);
+			line-height: 25px;
+			color:$black_07;
+			position: relative;
+			&:before {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 1px;
+				bottom: 0;
+				display: block;
+				background: $black;
+				max-width: 0;
+				transition: max-width 0.5s;
+			}
+			&:hover{
+				color:$black;
+				font-weight: 700;
+				&:before {
+					max-width: 100%;
+				}
+			}
+		}
+
+	}
+	&.acd_footer_lmusic{
+		li:hover {
+			a{
+				color:#b3965e;
+			}
+		}
+	}
+	&.acd_footer_lhh{
+		li {
+			a{
+				color:$white_03;
+			}
+			&:hover{
+				a{
+					color:$white;
+				}
+			}
+		}
+	}
+	&.acd_footer_lfr{
+		li{
+			a{
+				font-family:$FR;
+			}
+		}
+	}
+}
+
+
+//Image & store Footer
+.acd_footer_image{
+	width:100%;
+	height : auto;
+	position:relative;
+	padding-bottom: 20px;
+	@include MQ(DMB){
+		padding-bottom:0;
+	}
+	.fixed {
+		height: 300px;
+		position:relative;
+		@include MQ(DMB){
+			height:370px;
+			
+			z-index : 1;
+			overflow: hidden;
+	        right: 4%;
+	        img {
+	        	@include center(xy);
+	        	position : absolute;
+	        }
+		}
+		img{
+			width:auto;
+			height:100%;
+			object-fit: cover;
+		}
+	}
+	.acd_footer_store{
+		// text-align: center;
+		padding-top: 20px;
+		margin: 5px auto;
+		@include MQ(DMB) {
+			padding-top: 0;
+			position:absolute;
+			z-index: 1;
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+			right:-45px;
+			@include font-size(12px);
+			top:44%;
+		}
+		a{
+			color:$vm;
+			font-weight: 400;
+            &:hover {
+                color : $white;
+            }
+		}
+	}
+    // @include RP(SM) {
+    //     .fixed {
+    //         right: auto;
+    //     }
+    //     .acd_footer_store {
+    //         display: none;
+    //     }
+    // }
+}
+//Footer bottom
+.acd_footer_bottom{
+	padding-bottom:40px;
+}
+.acd_footer_bottom_content{
+	@include font-size(12px);
+		font-family:$MORT;
+		font-weight: 300;
+		color:$black_05;
+	&.acd_footer_bottom_cw{
+		color:$white_03;
+	}
+	&.acd_footer_bottom_content_home2{
+		border-top:1px solid $black_01;
+		padding-top:30px;
+		text-align: center;
+	}
+	&.acd_footer_bottom_content_home_model{
+		border-top:1px solid $white_01;
+		padding-top:30px;
+		text-align: center;
+	}
+}
+//footer search
+.acd_footer_search{
+	padding:0 50px;
+}
+.acd_footer_top_home2{
+	&.with_map {
+		padding-top:20px;
+		@include MQ(DMB){
+			padding-top:170px;
+		}
+	}
+	padding-top:170px;
+}
+// SVG BACKGROUND FOOTER
+.acd_footer{
+	position:relative;
+	.ft_svg{
+		width:100%;
+		height:175px;
+		position:absolute;
+		top:0;
+		right:0;
+	}
+}
+.footer-widget {
+    @include RP(SM) {
+        &:first-child {
+            padding-top: 40px;
+        }
+        &:nth-child(3) {
+            padding-bottom:40px;
+        }
+    }
+}
+.acd_footer_flex{
+	display: flex;
+	flex-wrap: wrap;
+	&.with_map {
+		@include MQ(DMB){
+			display: block;
+			position: relative;
+			margin-top:-150px;
+			z-index: 2;	
+		}
+	}
+}

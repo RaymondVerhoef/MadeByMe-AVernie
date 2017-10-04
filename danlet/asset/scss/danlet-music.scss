@@ -1,0 +1,326 @@
+@import './bourbon/bourbon';
+@import './partials/fonts'; //Import more font in here
+//@import './partials/be_icon'; // Import icon beautheme
+@import './partials/mixins'; // custom MIxins
+@import './partials/variables'; // Fonts, color ...
+@import './partials/colors'; // BGcolor ...
+$music_a : #e55e40;
+
+.sh_classes:hover .sh_class_title a {
+    color: $music_a;
+}
+header{
+    &.f-nav {
+        background-color: $music_a;
+        .main-menu {
+            > li {
+                &:hover {
+                    > a {
+                        opacity: .9;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.acd-menu ul li .sub-menu li:hover, .acd-menu ul li .children li:hover ,.acd-menu ul li .current-menu-item {
+    background-color: #ecebe6;
+    a {
+        color: $music_a;
+    }
+}
+.acd-menu ul li .sub-menu, .acd-menu ul li .children {
+    box-shadow: 1px 9px 44px $black_08;
+    background: #cccccc;
+    font-weight: 500;
+}
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name a {
+    color : $music_a;
+}
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name:before {
+    background: $music_a;
+}
+a {
+    &:hover{
+        color : $music_a;
+    }
+    &:focus {
+        color : $music_a;
+    }
+    &:active  {
+        color : $music_a;
+    }
+}
+.sh_class_img {
+    .sh_class_date.sh_font_el {
+        font-family: $MORT;
+       font-weight: 100;
+    }
+}
+.sh_teacher_hm_img {
+    .sh_teacher_hm_title {
+        &.sh_teacher_hm_title_el {
+           font-family: $MORT;
+           font-weight: 100;
+           @include font-size(60px);
+        }
+    }
+}
+
+ .acd_footer_social li {
+    a {
+        background : $music_a;
+    }
+    &:hover {
+        a {
+            background:$white;
+            color: $music_a;
+        }
+    }
+}
+
+.acd_footer_image .acd_footer_store a {
+   color : $music_a;
+}
+.sh_blog_view_more.sh_blog_view_more_vm a.sh_blog_view_more_cvm, .sh_blog_view_more.sh_blog_view_more_center a.sh_blog_view_more_cvm,.sh_about_box .sh_about_viewmore.sh_viewmore_clvm a {
+   color: $music_a;
+}
+.testimonial-pagination {
+    &.bg_testimonial_op1 {
+        .swiper-pagination-bullet {
+            background: #999999;
+            &.swiper-pagination-bullet-active {
+                background: $music_a;
+            }
+        }
+    }
+
+}
+.sh_service_box {
+    .sh_service_title {
+        &.sh_service_title_el {
+            font-family: $MORT;
+        }
+    }
+}
+.sh_video_vm {
+    &.sh_video_vm_clw {
+        a {
+            opacity: .8;
+            @include transition(all .5s);
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+.sh_class_box {
+    .sh_class_book {
+        li {
+            span {
+                &.bg_booknow.book_now {
+                    background : $music_a;
+                    &:hover {
+                        a {
+                            color : $music_a;
+                        }
+                    }
+                }
+                &.sh_class_timetable.sh_bg_timetable {
+                    a {
+                        color : $music_a;
+                    }
+                    &:hover {
+                        background : $music_a;
+                    }
+                }
+            }
+        }
+    }
+}
+.sh_teacher_hm_content {
+    .sh_teacher_hm_tb {
+        li {
+            span{
+                &.sh_teacher_hm_tb_bgvm {
+                    a {
+                        color : $music_a;
+                    }
+                    &:hover {
+                        background: $music_a;
+                    }
+                }
+            }
+            &.sh_teacher_hm_tb_cvm {
+                a {
+                    color : $music_a;
+                }
+            }
+        }
+    }
+}
+.sh_search_title {
+    &.sh_search_title_el {
+        font-family: $MORT;
+        color : $black;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+}
+.sh_blog_normal {
+    &.sh_blog_normal_scale {
+        &:hover {
+            a {
+                color : $music_a;
+            }
+        }
+    }
+}
+.acd_footer_title {
+    color: $music_a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.acd_footer_list_cat {
+    li {
+        a {
+            color: $white_03;
+            &:hover {
+                color: $music_a;
+            }
+            &:before {
+                background: $music_a;
+            }
+        }
+    }
+}
+.acd_address {
+    font-weight: bold;
+    td:first-child {
+        color: $white_08;
+    }
+    td:last-child {
+        color: $white_03;
+    }
+}
+.acd_footer_bottom_content {
+    color: $white_03;
+}
+.sh_testimonial_info {
+    color : $white;
+}
+.sh_teacher_hm_content .sh_teacher_hm_name.sh_teacher_hm_name_cmb {
+    &:hover {
+        &:before {
+            background: $music_a;
+        }
+    }
+}
+.swiper-video .sh_video_content .sh_video_name.sh_video_name_clw a {
+    color: white;
+}
+.sh_video_content .swiper-slide img {
+    opacity: .8;
+}
+.back-to-top {
+    border-color: $music_a;
+    &:before {
+        color: $music_a;
+    }
+    &:hover {
+        background-color: $music_a;
+        &:before {
+            color: $white;
+        }
+    }
+}
+.swiper-video .sh_video_content .sh_video_view.sh_video_view_cw li {
+    color : $white;
+}
+
+
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name:before {
+    background-color : $music_a;
+}
+.sh_blog_big:hover .sh_blog_content h4.sh_log_name a {
+    color : $music_a !important;
+}
+.danlet-teacher .wpb_single_image h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 6rem;
+    font-weight: 100;
+}
+h4:hover {
+    color: $music_a;
+}
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name a {
+    color: $music_a;
+}
+.danlet-teacher .wpb_column:nth-child(2) .vc_custom_heading:hover a  {
+    color: $music_a;
+}
+.danlet-teacher .wpb_column:nth-child(2) .vc_custom_heading:hover:before {
+    background-color: $music_a;
+}
+.danlet-class .wpb_single_image h2 , .danlet-class--reverse .wpb_single_image h2{
+    font-family: "Montserrat",sans-serif;
+}
+
+.wpb_text_column {
+    h6 {
+        color: rgba(0,0,0,.4);
+
+    }
+    a {
+        &:hover {
+            color: $music_a;
+        }
+    }
+}
+
+.custom-button {
+    a {
+        border: none !important;
+        background-color: $music_a !important;
+        color: white !important;
+        &:hover {
+            background: #e6e6e6 !important;
+            color: $music_a !important;
+        }
+    }
+}
+.custom-button--icon {
+    a {
+        border : none !important;
+        background-color: #e6e6e6 !important;
+        color: $music_a !important;
+        &:hover {
+            color: white !important;
+            background-color: $music_a !important;
+        }
+    }
+}
+.viewmore-btn {
+    .vc_btn3 {
+        background: transparent !important;
+        border: none !important;
+        color: $music_a !important;
+        transition: all .5s;
+        i {
+            transition: all .2s;
+            color: $music_a !important;
+        }
+        &:hover, &:active {
+            color : black !important;
+            background: transparent !important ;
+            border: none !important;
+            i {
+                color : black !important;
+                right: 15px !important;
+            }
+        }
+    }
+}

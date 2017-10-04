@@ -1,0 +1,35 @@
+//EmilyLimePro
+@font-face{
+    font-family:'EmilyLimePro';
+    src:url('../fonts/emilylimepro/EmilyLimePro.eot');
+    src:url('../fonts/emilylimepro/EmilyLimePro.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/emilylimepro/EmilyLimePro.woff') format('woff'),
+    url('../fonts/emilylimepro/EmilyLimePro.ttf') format('truetype'),
+    url('../fonts/emilylimepro/EmilyLimePro.svg') format('svg');
+}
+//Selima
+@font-face {
+    font-family: 'Selima';
+    src: local('Selima'), url("../fonts/Selima.otf") format('truetype');
+    font-weight:normal;
+}
+//Morracle
+@font-face {
+  font-family: 'Morracle';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Morracle'), url('../fonts/Morracle1.ttf') format('truetype');
+}
+$FR:'Playfair Display', serif;
+$SEL: 'Selima';
+$MORR:'Morracle';
+$EL: 'EmilyLimePro';
+$MORT : 'Montserrat', sans-serif;
+$CaV: 'Caveat', cursive;
+$Cri: 'Crimson Text', serif;
+
+
+
+
+
+

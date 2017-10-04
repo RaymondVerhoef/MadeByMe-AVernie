@@ -1,0 +1,52 @@
+.beau {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	&-home-1 {
+		 background-image: url(../images/icon/service/home-icon-1.png);
+	}
+	&-home-2 {
+		 background-image: url(../images/icon/service/home-icon-2.png);
+	}
+	&-home-3 {
+		 background-image: url(../images/icon/service/home-icon-3.png);
+	}
+	&-hiphop-1 {
+		 background-image: url(../images/icon/service/hiphop-icon-1.png);
+	}
+	&-hiphop-2 {
+		 background-image: url(../images/icon/service/hiphop-icon-2.png);
+	}
+	&-hiphop-3 {
+		 background-image: url(../images/icon/service/hiphop-icon-3.png);
+	}
+	&-model-1 {
+		 background-image: url(../images/icon/service/model-icon-1.png);
+	}
+	&-model-2 {
+		 background-image: url(../images/icon/service/model-icon-2.png);
+	}
+	&-model-3 {
+		 background-image: url(../images/icon/service/model-icon-3.png);
+	}
+	&-art-1 {
+		 background-image: url(../images/icon/service/art-icon-1.png);
+	}
+	&-art-2 {
+		 background-image: url(../images/icon/service/art-icon-2.png);
+	}
+	&-art-3 {
+		 background-image: url(../images/icon/service/art-icon-3.png);
+	}
+	&-music-1 {
+		 background-image: url(../images/icon/service/music-icon-1.png);
+	}
+	&-music-2 {
+		 background-image: url(../images/icon/service/music-icon-2.png);
+	}
+	&-music-3 {
+		 background-image: url(../images/icon/service/music-icon-3.png);
+	}
+}

@@ -1,0 +1,109 @@
+.acd_membership_box{
+	padding:0;
+	margin-top: 30px;
+	@include MQ(M){
+		margin:0;
+	}
+	>li{
+		list-style: none;
+		margin-bottom:30px;
+		&:hover{
+			.acd_membership_list{
+				-webkit-box-shadow: 0 0 80px -10px black;
+				-moz-box-shadow: 0 0 80px -10px black;
+				box-shadow: 0 0 80px -10px black;
+			}
+			.acd_buy_membership{
+				a{
+					background:$black;
+					color: $white;
+				}
+			}
+		}
+	}
+}
+.acd_membership_list{
+	text-align: center;
+	font-family: $MORT;
+	font-weight: 400;
+	padding: 30px 15px;
+	-webkit-box-shadow: 0 0 10px 0 $black_02;
+	-moz-box-shadow: 0 0 10px 0 $black_02;
+	box-shadow: 0 0 10px 0 $black_02;
+	@include MQ(M){
+		padding:60px 30px;
+	}
+	@include transition(fast);
+	.acd_membership_month{
+		font-size: 25px;
+		line-height: 25px;
+
+		font-weight: 400;
+		margin:0;
+		@include MQ(DMB){
+	        font-size:40px;
+			line-height: 40px;
+		}
+	}
+	.acd_membership_price{
+		// font-size: 20px;
+        @include font-size(20px);
+		color:$vm;
+	}
+	.acd_buy_membership{
+		// font-size: 12px;
+        @include font-size(12px);
+		margin-top:30px;
+		a{
+			display:inline-block;
+			padding:5px 40px;
+			background:$vm;
+			color:$white;
+			border-radius:20px;
+			@include transition();
+		}
+	}
+	&:hover {
+		-webkit-box-shadow: 0 0 20px 0 $black_02;
+		-moz-box-shadow: 0 0 20px 0 $black_02;
+		box-shadow: 0 0 20px 0 $black_02;
+	}
+}
+.acd_membership_content{
+	width:100%;
+	// font-size:12px;
+    @include font-size(12px);
+	// line-height: 25px;
+	color:$black_05;
+	border-top:1px solid $black_01;
+	border-bottom:1px solid $black_01;
+	padding:30px 0;
+	@include MQ(M){
+		padding: 30px ;
+	}
+	li{
+		margin:10px 0;
+		list-style: none;
+		position:relative;
+		&:before{
+			content: 'o';
+		    margin-right:20px;
+		    color:$vm;
+		    // font-size: 6px;
+            @include font-size(6px);
+		    position:relative;
+		    top:-2px;
+		}
+	}
+}
+.acd_membership  {
+	.acd_blog_title_classes {
+		line-height: 80px;
+	}
+	.acd_classes_desc {
+		padding-bottom: 30px;
+		@include MQ(M){
+			margin-bottom: 60px;
+		}
+	}
+}

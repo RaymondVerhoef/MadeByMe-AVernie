@@ -1,0 +1,457 @@
+@import './bourbon/bourbon';
+@import './partials/fonts'; //Import more font in here
+//@import './partials/be_icon'; // Import icon beautheme
+@import './partials/mixins'; // custom MIxins
+@import './partials/variables'; // Fonts, color ...
+@import './partials/colors'; // BGcolor ...
+%font-fr{
+    font-family: $FR;
+    font-weight: 700;
+}
+%font-fr-i {
+    font-family: $FR;
+    font-style: italic;
+}
+header {
+    .sub-menu {
+        li {
+            background: $white;
+            a {
+                color: black;
+            }
+        }
+    }
+}
+header.f-nav {
+    background-color: $black;
+    .acd-cls{
+        &.acd-border-cls-white{
+            color:$white;
+            &:before{
+                background:$white;
+            }
+        }
+        >ul.acd_ucs{
+            &.acd_ucs_white{
+                >li{
+                    >a{
+                        color:$white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sh_class_title  {
+    a:hover, a:focus {
+        color : $black_05;
+    }
+}
+.sh_classes:hover .sh_class_title a {
+    color: $black_05;
+}
+.sh_view_all_teacher.sh_view_all_teacher_vm a {
+     color : $black_09;
+     font-weight: 500;
+     &:hover {
+         color: $black_05;
+     }
+}
+.sh_class_img .sh_class_date {
+    color: #dadada;
+}
+.sh_class_main_title h2.sh_classes_title_b {
+    @include font-size(70px);
+}
+.acd-menu ul li .sub-menu, .acd-menu ul li .children {
+    background-color: $black_06;
+}
+.acd-menu ul li .current-menu-item, .acd-menu ul li .sub-menu li:hover, .acd-menu ul li .children li:hover {
+   background-color: #a5a5a5 !important;
+}
+#danletSearch .modal-content input, #danletSearch .modal-content h4 {
+    color: $black_05;
+     @extend %font-fr;
+}
+.sh_testimonial_box .sh_testimonial_info {
+     @extend %font-fr;
+     font-style: italic;
+     font-size: 20px;
+     color: $black_05;
+}
+.sh_image_box_content .sh_img_box_text.sh_img_box_text_sel {
+    @extend %font-fr-i;
+    @include font-size(120px);
+}
+.sh_about_box  {
+    h3.sh_about_title.sh_about_title_b {
+        @extend %font-fr-i;
+        font-weight: 400;
+        @include font-size(70px);
+    }
+
+    .sh_about_viewmore {
+        font-family: $MORT;
+		font-weight: 300;
+        &.sh_viewmore_clvm {
+            a {
+                color: $black;
+                font-weight: bold;
+            }
+            &:hover {
+                a {
+                    color: $black_05;
+                }
+            }
+        }
+    }
+}
+.sh_service_content {
+    .sh_service_name {
+        &.sh_service_name_mob {
+            @extend %font-fr;
+        }
+    }
+}
+.sh_class_main_title {
+    h2.sh_classes_title_b{
+        @extend %font-fr-i;
+        font-weight: 400;
+        @include font-size(70px);
+    }
+}
+.sh_class_img {
+    .sh_class_date.sh_font_el {
+        font-family: $MORT;
+        font-weight: 100;
+    }
+}
+.sh_class_box {
+    h4.sh_class_title.sh_class_title_r {
+       @extend %font-fr;
+    }
+    .sh_class_teacher_job.sh_class_teacher_job_b {
+        @extend %font-fr-i;
+    }
+    .sh_class_teacher {
+        li {
+            &.sh_class_teacher_r {
+                @extend %font-fr;
+            }
+            a {
+                &:hover {
+                    color: $black_05;
+                }
+            }
+        }
+    }
+}
+.sh_teacher_title.sh_teacher_title_b {
+    @extend %font-fr-i;
+    font-weight: 400;
+}
+.sh_teacher_list_content {
+    .sh_teacher_list_name.sh_teacher_list_name_b {
+        font-family: $FR;
+    }
+}
+h3.sh_blog_title {
+    @extend %font-fr-i;
+    font-weight: 400;
+}
+.sh_blog_normal {
+    .sh_blog_name.sh_blog_name_mor {
+        @extend %font-fr;
+    }
+    .sh_blog_name {
+        a {
+            &:hover {
+                color : $black_05;
+            }
+        }
+    }
+}
+.acd_footer {
+    padding-top: 40px;
+    &.acd_footer_home1 {
+        background: $black !important;
+    }
+    .acd_footer_content,.subcribe-message {
+        color: $white;
+    }
+    .acd_footer_title {
+        font-family: $FR;
+    }
+    .sh_search_title.sh_search_title_el {
+        font-family: $FR;
+        color: $white;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 50px;
+        margin-top: -10px;
+        line-height: 100px;
+    }
+    .acd_address {
+        td  {
+            &:first-child {
+                color: $white_03;
+                font-style: italic;
+            }
+            &:last-child {
+                color: $white_05;
+            }
+        }
+    }
+    .footer-column {
+        &:last-child {
+            .footer-widget {
+                .acd_footer_content {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .acd_footer_list_cat li a {
+        color: $white_03;
+    }
+    .acd_footer_box {
+        &.acd_footer_box_right > li {
+            border-right-color: $white_01;
+        }
+    }
+    .acd_footer_bottom_content.acd_footer_bottom_content_home2 {
+        border-top-color: $white_01;
+    }
+    .acd_footer_social li {
+        a {
+            background : #035961;
+        }
+        &:hover {
+            a {
+                background:#035961;
+                color: $white_03;
+            }
+        }
+    }
+    .back-to-top {
+        border-color: $white_03;
+        &:before {
+            color: $white_03;
+        }
+        &:hover {
+            background: $white_03;
+        }
+    }
+    .acd_footer_bottom_content {
+        color: $white_03;
+        a {
+            color: $white_05;
+        }
+    }
+}
+.sh_service_box .sh_service_title.sh_service_title_el {
+    @extend %font-fr-i;
+    @include font-size(60px);
+}
+.acd_left_bot_svg {
+    top: -1px;
+}
+
+
+
+.sh_teacher_hm_content {
+    .sh_teacher_hm_tb {
+        li {
+            span{
+                &.sh_teacher_hm_tb_bgvm {
+                    a {
+                        color : $black;
+                    }
+                    &:hover {
+                        background: $black;
+                    }
+                }
+            }
+            &.sh_teacher_hm_tb_cvm {
+                a {
+                    color : $black;
+                }
+            }
+        }
+    }
+}
+.sh_search_title {
+    &.sh_search_title_el {
+        font-family: $MORT;
+        color : $black;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+}
+.sh_blog_normal {
+    &.sh_blog_normal_scale {
+        &:hover {
+            a {
+                color : $black_05;
+            }
+        }
+    }
+}
+.sh_class_box {
+    .sh_class_book {
+        li {
+            span {
+                &.bg_booknow.book_now {
+                    background : $black;
+                    &:hover {
+                        a {
+                            color : $black;
+                        }
+                    }
+                }
+                &.sh_class_timetable.sh_bg_timetable {
+                    a {
+                        color : $black;
+                    }
+                    &:hover {
+                        background : $black;
+                    }
+                }
+            }
+        }
+    }
+}
+.sh_teacher_list_img {
+    .sh_teacher_list_social  {
+        li {
+            &.sh_bgtc_list_social_vm {
+                a  {
+                    background: $black;
+                    &:hover {
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+}
+.sh_teacher_list_name {
+    a {
+        &:hover {
+            color: $black_05;
+        }
+    }
+}
+.sh_teacher_list_job {
+    a {
+        &:hover {
+            color: $black_05;
+        }
+    }
+}
+.testimonial-pagination {
+    &.bg_testimonial_op1 {
+        .swiper-pagination-bullet {
+            background: #999999;
+            &.swiper-pagination-bullet-active {
+                background: $black;
+            }
+        }
+    }
+
+}
+.sh_blog_view_more.sh_blog_view_more_vm a.sh_blog_view_more_cvm, .sh_blog_view_more.sh_blog_view_more_center a.sh_blog_view_more_cvm,.sh_about_box .sh_about_viewmore.sh_viewmore_clvm a {
+   color: $black;
+   font-weight: 500;
+}
+.acd_footer_list_cat {
+    li {
+        a {
+            &:hover {
+                color: $white;
+            }
+            &:before {
+                background: $white;
+            }
+        }
+    }
+}
+.sh_classes {
+    padding-top:0;
+}
+
+/* Heading */
+h4.vc_custom_heading {
+    font-family: "Playfair Display",serif;
+    font-weight: 600;
+}
+h2.vc_custom_heading {
+    font-family: "Playfair Display",serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 5em;
+}
+.danlet-class .wpb_single_image h2 , .danlet-class--reverse .wpb_single_image h2{
+    font-family: "Montserrat",sans-serif;
+}
+h4:hover  {
+    color: $black_05;
+}
+.wpb_text_column {
+    h6 {
+        font-family: "Playfair Display",serif;
+        font-style: italic;
+        color: rgba(0,0,0,.4);
+    }
+    a {
+        font-weight: 600;
+        &:hover {
+            color: $black_05;
+        }
+    }
+}
+.custom-button {
+    a {
+        border: none !important;
+        background: black !important;
+        color: white !important;
+        &:hover {
+            background-color: #e6e6e6 !important;
+            color: black !important;
+        }
+    }
+}
+.custom-button--icon {
+    a {
+        border : none !important;
+        background-color: #e6e6e6 !important;
+        color: black !important;
+        &:hover {
+            color: white !important;
+            background-color: black !important;
+        }
+    }
+}
+.viewmore-btn {
+    .vc_btn3 {
+        background: transparent !important;
+        border: none !important;
+        color: rgba(0,0,0,.4) !important;
+        transition: all .5s;
+        i {
+            transition: all .2s;
+            color: rgba(0,0,0,.4) !important;
+        }
+        &:hover, &:active {
+            color : black !important;
+            background: transparent !important ;
+            border: none !important;
+            i {
+                color : black !important;
+                right: 15px !important;
+            }
+        }
+    }
+}

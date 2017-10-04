@@ -1,0 +1,428 @@
+//Detail classes
+.acd_detail_classes_content{
+	position: relative;
+	background: #f6f6f6;
+	h2.acd_detail_classes_title{
+		text-align: center;
+		// font-size: 50px;
+        @include font-size(50px);
+		line-height: 60px;
+		font-family: $MORT;
+		font-weight: 700;
+		margin-bottom:0;
+	}
+	ul.acd_detail_classes_social{
+		width:100%;
+		text-align: center;
+		margin:20px 0;
+		padding:0;
+		li{
+			list-style: none;
+			display:inline-block;
+			margin:0 3px;
+			a{
+				width:30px;
+				height:30px;
+				// font-size: 12px;
+                @include font-size(12px);
+				color:$black_07;
+				background: $black_01;
+				line-height: 30px;
+				text-align: center;
+				border-radius: 50%;
+				display:inline-block;
+				@include transition(fast);
+			}
+			&:hover{
+				a{
+					color:$white;
+					background:$vm;
+				}
+			}
+		}
+	}
+	ul.acd_detail_classes_box{
+		margin:40px 0 0 ;
+		padding:0;
+		>li{
+			list-style: none;
+			width:100%;
+			display:table;
+			margin-bottom:90px;
+			&:nth-child(odd){
+				padding:0 100px;
+				.acd_detail_classes_img_small{
+					bottom:60px;
+					left:-70px;
+				}
+				.acd_detail_classes_text_box{
+					padding-left:15px;
+				}
+			}
+			&:nth-child(even){
+				padding:0 200px;
+				.acd_detail_classes_img_box{
+					float:right;
+					.acd_detail_classes_img_small{
+						bottom:-50px;
+						right:-100px;
+					}
+				}
+				.acd_detail_classes_text_box{
+					padding-right:40px;
+				}
+			}
+		}
+		//style img
+		.acd_detail_classes_img{
+			position:relative;
+			>img{
+				width:100%;
+				height:auto;
+			}
+			.acd_detail_classes_img_small{
+				width:270px;
+				height:auto;
+				display:block;
+				position:absolute;
+				-webkit-box-shadow: 0 0 90px 0 $black_03;
+				-moz-box-shadow: 0 0 90px 0 $black_03;
+				box-shadow: 0 0 90px 0 $black_03;
+				img{
+					width:100%;
+					height:auto
+				}
+			}
+		}
+		//style text
+		.acd_detail_classes_text{
+			h3.acd_detail_classes_name{
+				// font-size: 16px;
+                @include font-size(16px);
+				line-height: 26px;
+				font-family: $MORT;
+		font-weight: 700;
+			}
+			.acd_detail_classes_showview{
+				color:$black_07;
+				ul{
+					margin:0;
+					padding:0;
+					font-size:12px;
+					line-height: 20px;
+					li{
+						margin-bottom:15px;
+						position:relative;
+						padding-left:15px;
+						list-style: none;
+						&:before{
+							content:'';
+							left:0;
+							background:$vm;
+							// font-family: FontAwesome;
+							//font-size:8px;
+							position:absolute;
+							width:4px;
+							height:4px;
+							border-radius: 50%;
+							top:9px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+//class Time table
+.acd_classes_in_month{
+	padding:130px 0;
+}
+.acd_classes_in_month_box{
+	 text-align:center;
+	 h3.acd_classes_in_month_title{
+	 	font-family: $MORT;
+		font-weight: 700;
+	 	// font-size: 40px;
+        @include font-size(40px);
+	 	margin-bottom: 0;
+	 }
+	 p.acd_classes_in_month_subtitle{
+	 	color:$black_07;
+	 	margin-top:25px;
+	 }
+}
+.acd_classes_in_month_table{
+	width:100%;
+	margin-top:30px;
+    .acd_classes_list_in_month{
+        width:100%;
+        text-align: left;
+        border:none;
+		tr{
+			height:80px;
+			border-bottom:1px solid $black_01;
+			// padding:0 30px;
+			width:100%;
+			// display:inline-grid;
+            display: inline-table;
+			color:$black_07;
+
+			&:first-child{
+				// background: $vm;
+				border-bottom:0;
+				border-radius: 30px;
+				color:$white;
+				height:60px;
+			}
+			th {
+				background: $vm;
+				border: none;
+			}
+			td {
+				border:none;
+			}
+			th, td{
+				// padding:0;
+				// display: inline-block;
+				.timetable{
+					list-style: none;
+					padding: 0px;
+				}
+				a{
+					display:inline-block;
+					padding:5px 20px;
+					border-radius: 20px;
+					background:$black_01;
+					// font-size: 12px;
+                    @include font-size(12px);
+					color:$vm;
+					@include transition(fast);
+					&:hover{
+						color:$white;
+						background: $vm;
+					}
+					&.acd_time_sold_out{
+						background: $black_07;
+						color:$white;
+					}
+				}
+				&:first-child{
+					border-radius: 30px 0 0 30px ;
+				}
+				&:last-child{
+					border-radius:  0 30px 30px 0 ;
+				}
+				&.acd_classes_list_in_month_bold{
+					font-family: $MORT;
+					font-weight: 400;
+					color:$black;
+				}
+			}
+
+		}
+	}
+}
+.acd_classes_list_in_month_vm{
+	text-align: center;
+	margin-top:60px;
+	font-family: $MORT;
+	font-weight: 400;
+	// font-size: 12px;
+
+    @include font-size(12px);
+	a{
+		@include transition();
+		display:inline-block;
+		padding:7px 20px;
+		background:$black_01;
+		border-radius: 20px;
+		color:$black_07;
+		.fa{
+			color:$vm;
+			margin-left:3px;
+		}
+	}
+	&:hover {
+		a {
+			background-color : $vm;
+			color: $white;
+			.fa {
+				color: $white;
+			}
+		}
+
+	}
+}
+//gallery
+.acd_classes_detail_gallery_title{
+	text-align: center;
+	font-family: $MORT;
+		font-weight: 700;
+	// font-size: 50px;
+    @include font-size(50px);
+	margin-bottom: 60px;
+}
+.acd_classes_detail_gallery{
+	overflow: hidden;
+	padding-bottom:150px;
+	position:relative;
+	&.acd_gallery_bg{
+		background: $rosef5;
+		padding-bottom: 0;
+		.acd_gallery_bg_svg{
+			fill:$white;
+		}
+	}
+	.ms-caro3d-template {
+	    max-width: 100%;
+	    margin: 0 auto;
+	    .ms-slide{
+	    	-webkit-transform:translateZ(0) rotateY(0.01deg) !important;
+	    	-moz-transform:translateZ(0) rotateY(0.01deg) !important;
+	    	transform:translateZ(0) rotateY(0.01deg) !important;
+	    	&.ms-sl-selected{
+				-webkit-box-shadow: 0 0 100px 0 $black_03;
+		    	-moz-box-shadow: 0 0 100px 0 $black_03;
+		    	box-shadow: 0 0 100px 0 $black_03;
+
+	    	}
+	    }
+	}
+}
+
+.acd_video_bg{
+	.ms-skin-default {
+			position:relative;
+		.ms-container {
+	    	padding-top: 60px;
+	    }
+		.ms-nav-next, .ms-nav-prev{
+			position:absolute;
+			width:35px;
+			height:25px;
+			top:35%;
+			background-color: $black;
+			z-index:1;
+		}
+		.ms-nav-next{
+			background: url('../images/icon/g_next.png') no-repeat center;
+			right:-50px;
+			@include RP(BD){
+				right:15px;
+			}
+		}
+		.ms-nav-prev{
+			background: url('../images/icon/g_prev.png') no-repeat center;
+			left:-50px;
+			@include RP(BD){
+				left:15px;
+			}
+		}
+	}
+}
+.sh_ms_slider{
+    &.gallery {
+       .ms-nav-next, .ms-nav-prev{
+        top:50%;
+       }
+    }
+}
+
+
+
+
+//teacher
+.acd_teacher_title_classes_detail{
+	// font-size: 50px;
+    @include font-size(50px);
+	text-align: center;
+	font-family: $MORT;
+		font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+//Classes
+.acd_classes_detail_course_title{
+	// font-size:40px;
+    @include font-size(40px);
+	text-align: center;
+	font-family: $MORT;
+		font-weight: 700;
+	margin-bottom: 20px;
+}
+//Video
+.acd_classes_detail_video_title{
+	text-align: center;
+	font-family: $MORT;
+		font-weight: 700;
+	// font-size: 50px;
+    @include font-size(50px);
+	padding-top:60px;
+	margin:0;
+	}
+.acd_classes_detail_video{
+	overflow: hidden;
+	padding-bottom:150px;
+	position:relative;
+	&.acd_video_bg{
+		padding-bottom: 120px;
+		.acd_video_bg_svg{
+			fill:$white;
+		}
+	}
+	.ms-caro3d-template {
+	    max-width: 100%;
+	    margin: 0 auto;
+	    .ms-slide{
+	    	.acd_video_img{
+	    		-webkit-transform:translateZ(0) rotateY(0.01deg) !important;
+		    	-moz-transform:translateZ(0) rotateY(0.01deg) !important;
+		    	transform:translateZ(0) rotateY(0.01deg) !important;
+		    	&.ms-sl-selected{
+					-webkit-box-shadow: 0 0 100px 0 $black_03;
+			    	-moz-box-shadow: 0 0 100px 0 $black_03;
+				    box-shadow: 0 0 100px 0 $black_03;
+	    		}
+	    	}
+	    	a {
+	    		&:before{
+					position:absolute;
+					@include center(xy);
+					background : url(../images/icon/detail_video_play.png) no-repeat center;
+				}
+			}
+	    }
+	}
+}
+.acd_classes_detail_video_box{
+	position:relative;
+	.ms-nav-next, .ms-nav-prev{
+		position:absolute;
+		width:35px;
+		height:25px;
+		top:34%;
+		bottom:auto;
+		//@include center(y);
+		background-color: $black;
+		z-index:1;
+	}
+	.ms-nav-next{
+		background: url('../images/icon/g_next.png') no-repeat center;
+		right:-50px;
+		@include RP(BD){
+			right:15px;
+		}
+	}
+	.ms-nav-prev{
+		background: url('../images/icon/g_prev.png') no-repeat center;
+		left:-50px;
+		@include RP(BD){
+			left:15px;
+		}
+	}
+}
+//Gallery Modal Dialog Box
+
+
+
+

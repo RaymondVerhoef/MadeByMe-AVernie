@@ -1,0 +1,35 @@
+.sh_counter_box{
+	display:block;
+	margin:0;
+	padding:0;
+	text-align: center;
+	display:inline-block;
+	padding:20px 70px;
+	@include RP(DMB){
+		padding:20px 30px;
+		margin-bottom:50px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	@include RP(AM){
+		width:100%;
+	}
+	.sh_count_number{
+		font-size: 40px; 
+		font-family: $MORT;
+		font-weight: 700;
+	}
+	.sh_count_slash{
+		font-size: 33px;
+		color:$black_02;
+		font-family: $MORT;
+		font-weight: 100;
+	}
+	.sh_count_text{
+		font-family: $MORT;
+		font-weight: 300;
+		color:$black_05;
+	}
+	
+}

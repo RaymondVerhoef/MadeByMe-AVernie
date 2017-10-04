@@ -1,0 +1,132 @@
+/* --------------------------------
+
+Primary style
+/*Css for Style*/
+
+/**
+ * Table of Contents:
+01. Header
+02. Pagging
+03. Navigation
+04. Body
+05. Button
+06. Modal popup
+07. Sidebar
+08. Tags
+09. Comments
+10. Author box
+11. Social list
+12. Select box
+13. Player
+14. Main slider
+15. Upcomming
+16. Single dj
+17. Testimonial
+18. Play video
+19. Gallery
+20. Schedule list
+21. Twitter recentpost
+22. News
+23. Coundown text
+24. Shop slider
+25. Drink list
+26. Snack list
+27. Track list
+28. All albums
+29. Pagkage list
+30. Apply form
+31. Event list
+32. Calendar
+33. About text
+34. Service icon
+35. Partner
+36. Team list
+37. Podcast
+38. Other artist
+39. More news
+40. Booking event
+41. Page 404
+42. Page contact
+43. Page video
+44. Page dj
+45. Page gallery
+46. Page blog
+47. Page shop
+48. Page shoping cart
+49. Page detail event
+50. Page about event
+51. Page checkout
+52. Footer
+53. Style custom admin
+
+------------------------*/
+
+@import './bourbon/bourbon';
+@import './partials/fonts'; //Import more font in here
+//@import './partials/be_icon'; // Import icon beautheme
+@import './partials/mixins'; // custom MIxins
+@import './partials/variables'; // Fonts, color ...
+@import './partials/colors'; // BGcolor ...
+@import "./partials/layouts";
+@import './partials/buttons';
+
+/*
+01. Header
+ */
+@import "./layouts/header_menu";
+@import './base/mobilemenu'; //Get mobile
+
+/*
+02 reset style
+*/
+@import "./base/reset";
+@import "./base/icon";
+
+@import "./base/header_cart";
+@import "./base/header_popup";
+
+/****** Style for layout ******/
+
+@import "./base/body";
+@import "./layouts/footer";
+@import "./layouts/comments";
+@import "./layouts/pagination";
+@import "./layouts/svg";
+
+/* style_section about */
+
+@import "./shortcode/shortcode_about";
+@import "./shortcode/sh_counter";
+@import "./shortcode/shortcode_classes";
+@import "./shortcode/shortcode_teacher_list";
+@import "./shortcode/sh_testimonial";
+@import "./shortcode/sh_service";
+@import "./shortcode/sh_video";
+@import "./shortcode/sh_image_content";
+@import "./shortcode/sh_blog";
+@import "./shortcode/sh_search";
+@import "./shortcode/sh_footer";
+
+/* Style page */
+@import "./pages/blog";
+@import "./pages/classes";
+@import "./pages/detail_classes";
+@import "./pages/video";
+@import "./pages/teacher";
+@import "./pages/gallery";
+@import "./pages/shop";
+@import "./pages/shop_cart";
+@import "./pages/shop_checkout";
+@import "./pages/shop_detail";
+@import "./pages/teacher_detail";
+@import "./pages/contact";
+@import "./pages/member";
+@import "./pages/404";
+@import "./pages/timetable";
+@import "./pages/style_timetable";
+@import "./pages/user";
+
+/* I'd like to build page */
+@import "./custom/build-page";
+@import "./custom/class";
+@import "./custom/teacher";

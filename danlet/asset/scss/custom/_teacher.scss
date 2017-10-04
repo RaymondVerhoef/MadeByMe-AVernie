@@ -1,0 +1,100 @@
+.danlet-teacher {    
+    .wpb_single_image {
+        h2{
+            left: -15%;
+            font-family: "EmilyLimePro";
+            font-size: 11rem;
+            transform: rotate(-90deg);
+            margin: 0;
+            position: absolute;
+            font-weight: 300;
+            top: 30%;
+            color: rgba(0,0,0,.2);
+            @include RP(AM) {
+                font-size: 10rem;
+                line-height: 0;
+            };
+        }
+        img {
+            margin-left : 10rem;
+        }
+        @include RP(M) {
+            text-align: center !important;
+            h2 {
+                transform: none;
+                left: 10%;
+                top: 10%;
+            }
+        };
+        @include RP(L) {
+            img {
+                margin-left: initial;
+            }
+            h2 {
+                color: $third-color;
+            }
+        };
+    }
+    .wpb_column {
+        /* Teacher info */
+        &:nth-child(2) {
+            padding-right: 15%;
+            padding-left: 2%;
+            .vc_custom_heading {
+                &:before {
+                    content: "";
+                    display: block;
+                    width: 25%;
+                    height: 5px;
+                    left: -20%;
+                    background-color: $secondary-color;
+                    position: absolute;
+                    transition: all .5s;
+                    top: -5%;
+                    @include RP(M){
+                        display: none;
+                    };
+                }
+                &:hover {
+                    &:before {
+                        background-color : $primary-color;
+                        width: 50%;
+                    }
+                    a {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+    &--svg {
+        .row {
+            .wpb_column:first-child {
+                @include MQ(DMB) {
+                    margin-top: -100px;
+                    margin-bottom: -100px;
+                };
+            }
+        }
+    }
+}
+.viewmore-btn {
+    .vc_btn3 {
+        background: transparent !important;
+        border: none !important;
+        color: $primary-color !important;
+        transition: all .5s;
+        i {
+            transition: all .2s;
+        }
+        &:hover, &:active {
+            color : rgba(0,0,0,.2) !important;
+            background: transparent !important ;
+            border: none !important;
+            i {
+                color : rgba(0,0,0,.2) !important;
+                right: 15px !important;
+            }
+        }
+    }
+}

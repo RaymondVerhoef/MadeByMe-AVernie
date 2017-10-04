@@ -1,0 +1,73 @@
+@import './bourbon/bourbon';
+@import './partials/fonts'; //Import more font in here
+//@import './partials/be_icon'; // Import icon beautheme
+@import './partials/mixins'; // custom MIxins
+@import './partials/variables'; // Fonts, color ...
+@import './partials/colors'; // BGcolor ...
+.acd-menu ul li .current-menu-item {
+	background: $black;
+	> a {
+		color: $vm;
+	}
+}
+header {
+	.acd-menu {
+		nav {
+			ul li {
+				a {
+					font-weight: 500;
+                    color: $black;
+                    &:hover{
+                        color: $vm;
+                    }
+                }
+                .children, .sub-menu{
+                    a {
+                        &:hover{
+                            color: #000;
+                        }
+                    }
+					li {
+						&:hover {
+							background: $black;
+							> a {
+								color: $vm;
+							}
+						}
+					}
+                }
+			}
+		}
+	}
+	.acd-cls {
+		& > ul {
+			&.acd_ucs {
+				& > li {
+					& > a,i {
+						color: $black;
+					}
+
+				}
+				&.acd_ucs_white {
+					& > li {
+						& > a , i{
+							color: $black;
+						}
+						&:hover {
+							a , i {
+								color: $vm;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.acd-cart {
+	.acd_number_on_cart  {
+		-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+	}
+}

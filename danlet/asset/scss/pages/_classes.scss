@@ -1,0 +1,224 @@
+.acd_blog_title_classes{
+	width: 100%;
+    text-align: center;
+    @include font-size(30px);
+	line-height: 50px;
+    font-family: $MORT;
+	font-weight: 700;
+    margin:0;
+    padding-top: 30px;
+    @include MQ(DMB){
+    	padding-top:0;
+    	@include font-size(60px);
+    	line-height: 113px;
+    }
+}
+.acd_classes_list{
+	margin:0;
+	padding:0;
+	width:100%;
+	li{
+		list-style: none;
+		margin-bottom:100px;
+		.sh_class_img{
+			width:100%;
+            overflow: hidden;
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+	}
+}
+.acd_classes_list {
+	li {
+		> .row {
+			&:hover {
+				.sh_class_img {
+					-webkit-box-shadow: 0px 0px 78px 0px rgba(0,0,0,0.75);
+					-moz-box-shadow: 0px 0px 78px 0px rgba(0,0,0,0.75);
+					box-shadow: 0px 0px 78px 0px rgba(0,0,0,0.75);
+					img {
+						transform: translate(-50%, -50%) scale(1.1);
+					}
+				}
+				.sh_class_title {
+					&:before {
+						width: 100px;
+						background: $vm;
+					}
+					a {
+						color: $vm;
+					}
+				}
+			}
+		}
+	}
+}
+.acd_classes_content{
+	.sh_class_box{
+		padding-top:30px;
+		.sh_class_title{
+			font-family: $MORT;
+			font-weight: 500;
+			// font-size: 20px;
+            @include font-size(20px);
+			line-height: 28px;
+			position:relative;
+			padding-top:5px;
+			&:before{
+				transition: all .5s;
+				position:absolute;
+				content:'';
+				// width:70px;
+				height:3px;
+				background:$black;
+				top:0;
+				left:-70px;
+				@include MQ(L) {
+					width: 70px;
+				}
+			}
+		}
+		.sh_class_teacher_job{
+			margin:30px 0 0;
+		}
+		.sh_class_teacher{
+			li{
+				// font-size: 12px;
+                @include font-size(12px);
+				line-height: 20px;
+				margin-bottom:0;
+				list-style: none;
+			}
+		}
+		.sh_class_book{
+			font-size: 12px;
+		}
+	}
+}
+.acd_classes_desc{
+	font-family:$MORT;
+	font-weight: 300;
+	line-height: 25px;
+	color:$black_05;
+	text-align: center;
+	padding:0;
+	margin-bottom:20px;
+	@include MQ(DMB){
+		padding:0 20%;
+		margin-bottom: 45px;
+	}
+}
+.acd_classes_cat{
+	width:100%;
+	margin-bottom:20px;
+	@include MQ(DMB){
+		margin-bottom:40px;
+	}
+	@include MQ(LG){
+		margin-bottom:60px;
+	}
+	.acd_classes_cat_list{
+		width:100%;
+		margin:0;
+		padding:0;
+		text-align: center;
+		border-bottom:1px solid $black_01;
+		li{
+			display:inline-block;
+			// font-size:16px;
+            @include font-size(16px);
+			padding: 20px 5px;
+			margin:0 30px;
+			font-family: $MORT;
+		font-weight: 700;
+			position:relative;
+			span{
+				// font-size:12px;
+                @include font-size(12px);
+				color:$black_05;
+				position:absolute;
+				top:20px;
+				margin-left:5px;
+				right:-20px;
+				font-family: $MORT;
+				font-weight: 400;
+			}
+			&:first-child{
+				span{
+					right:-35px;
+				}
+			}
+			&.active{
+				&:before{
+					content:'';
+					position:absolute;
+					width:100%;
+					height:2px;
+					background: $black;
+					bottom:0;
+					left:0;
+				}
+				span{
+					color:$vm;
+				}
+			}
+		}
+	}
+}
+//  Classes style 2
+.acd_class_level{
+	margin:0;
+	padding:0;
+	position:absolute;
+	top: -30px;
+	@include MQ(XL) {
+		-webkit-transform: translateX(-50%) translateY(-34%) rotate(-90deg);
+		-moz-transform: translateX(-50%) translateY(-34%) rotate(-90deg);
+		transform: translateX(-50%) translateY(-34%) rotate(-90deg);
+		top:50%;	
+	}
+
+	.class-item {
+        width: auto;
+		list-style: none;
+		display:inline-block;
+		margin:0 15px;
+		float:left;
+		font-family: $MORT;
+		font-weight: 400;
+		a{
+			color:$black_05;
+		}
+		&:hover{
+			a{
+				color:$vm;
+			}
+		}
+	}
+}
+ul.acd_classes_arc{
+	margin-top:30px;
+	display:block;
+}
+
+li.acd_class_box{
+	margin-bottom:100px;
+	&.right {
+		.acd_class_level{
+			@include MQ(XL){
+				-webkit-transform: translateX(50%) translateY(-50%) rotate(-90deg);
+				-moz-transform: translateX(50%) translateY(-50%) rotate(-90deg);
+				transform: translateX(50%) translateY(-50%) rotate(-90deg);
+				right:-30px;
+			}
+			
+		}
+	}
+    .acd_class_level{
+        @include MQ(XL){
+            left:-30px;
+        }
+    }
+}

@@ -1,0 +1,121 @@
+.acd_page_contact {
+    .row {
+        &.with_map {
+            padding-bottom: 40px;
+            @include MQ(DMB){
+                position : relative;
+                padding-bottom:0;
+                bottom: -150px;
+                z-index: 2; 
+            }
+        }
+    }
+}
+.acd_page_contact_left{
+    width:100%;
+    height:auto;
+    position:relative;
+    .acd_page_contact_img {
+        -webkit-box-shadow: 0 0 50px 0 $black_03;
+        -moz-box-shadow: 0 0 50px 0 $black_03;
+        box-shadow: 0 0 50px 0 $black_03;
+        img{
+            object-fit: cover;
+            width:100%;
+            height:auto;
+        }
+    }
+    .acd_page_contact_info{
+        @include MQ(DMB){
+            position:absolute;
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            top:200px;
+            left:-170px;  
+        }
+        font-family: $MORT;
+        font-weight: 400;
+        color:$vm;
+    }
+}
+.acd_page_contact_form{
+    width:100%;
+    @include MQ(DMB){
+        padding-right:100px;
+        padding-left:15px;
+    }
+    .acd_page_contact_form_name{
+        // font-size: 30px;
+        @include font-size(30px);
+        font-family: $MORT;
+		font-weight: 700;
+        position:relative;
+        line-height: 30px;
+        padding-top:10px;
+        margin-top:40px;
+        &:before{
+            @include MQ(DMB){
+                content:'';
+                width:150px;
+                height:5px;
+                background: $black;
+                position:absolute;
+                top:0;
+                left:-150px;
+            }
+        }
+    }
+}
+.contact_form_box{
+    margin:0;
+    padding:0;
+    li{
+        list-style: none;
+        .txt-form{
+            width:100%;
+            margin-bottom: 15px;
+            // font-size: 12px;
+            @include font-size(12px);
+            font-family: $MORT;
+            font-weight: 400;
+            outline: none;
+            border:none;
+            color:$black_05;
+            border-bottom:1px solid $black_01;
+            &::-webkit-input-placeholder{
+                font-family: $MORT;
+                font-weight: 400;
+            }
+        }
+        textarea{
+            height:110px;
+        }
+        #comment-submit{
+            border:none;
+            padding:5px 40px;
+            border-radius: 25px;
+            background: $vm;
+            color:$white;
+            // font-size:12px;
+            @include font-size(12px);
+        }
+    }
+}
+.acd_page_contact_map {
+    position : relative;
+    svg {
+        z-index: 1;
+    }
+}
+.acd_map{
+    //position :absolute;
+    height:790px;
+}
+
+
+
+
+
+
+

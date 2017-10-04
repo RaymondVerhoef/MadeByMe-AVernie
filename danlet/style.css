@@ -1,0 +1,232 @@
+/*
+Theme Name: Danlet
+Theme URI: http://danlet.beautheme.com/
+Author: BeauTheme
+Author URI: http://beautheme.com/
+Description: Danlet theme that the main theme for service spa and some market page for sale cosmentic.
+Version: 1.0.4
+License:  GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: danlet
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template,  theme-options
+Copyright: (c) 2017 BeauTheme.
+*/
+
+.sticky {
+    outline: none;
+}
+
+.tags{
+    outline: none;
+}
+
+.wp-caption{
+    text-align: center;
+    margin-bottom: 80px;
+    max-width: 100%;
+}
+.wp-caption-text{
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+}
+
+.gallery-caption {
+    outline: none;
+}
+
+.bypostauthor {
+    outline: none;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.alignleft {
+    float: left;
+    margin: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gallery-caption, .aligncenter, .bypostauthor, .aligncenter {
+    margin-top: 40px;
+}
+
+.edit-link {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nothing-found {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.sidebar-widget ul{
+    padding: 0 10px;
+}
+
+.sidebar-widget ul.children{
+    margin-left: 0px;
+}
+
+.sidebar-widget ul.menu li{
+    padding: 5px 10px;
+}
+
+.sidebar-widget ul li a.rsswidget{
+    color: #d9a992;
+    font-weight: bold;
+}
+.title-widget span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content-widget ul{
+    padding-left:14px;
+}
+input, button, select, textarea{
+    max-width: 100%;
+}
+
+#wp-calendar{
+    width: 100%;
+}
+
+#wp-calendar thead{
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+#wp-calendar tfoot{
+    border-top: 1px solid #ddd;
+}
+
+#wp-calendar tfoot #prev{
+    text-align: left;
+}
+
+#wp-calendar tfoot #next{
+    text-align: right;
+}
+
+#wp-calendar td, th{
+    text-align: center;
+}
+
+td, th{
+    font-size: 0.9em;
+    line-height: 32px;
+    padding: 0 10px;
+}
+
+.sticky-note{
+    position: relative;
+    z-index: 2;
+    background: #000;
+    color: #fff;
+    padding: 6px;
+    top: 5px;
+}
+iframe{
+    max-width: 100%;
+}
+
+.textwidget img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-post img{
+    max-width: 100%;
+    height: auto;
+}
+
+dt{
+    line-height: 24px;
+}
+
+ul li, ol li{
+    line-height: 24px;
+}
+.vc_row[data-vc-full-width] {
+    overflow: visible !important;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"]{
+    background: #d9a992;
+    border: none;
+    color: #fff;
+}
+input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus{
+    outline: none;
+}
+.page-links a {
+    padding: 0 5px;
+}
+.page-links span {
+    padding: 0 5px;
+}
+
+a:hover, a:focus {
+    color: #d9a992;
+    outline: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.comment-respond .comment-form{
+    padding: 0;
+}
+.page-content-none{
+    text-align: center;
+    padding: 20vh 0 35vh;
+}
+.title-content-none{
+    font-size: 40px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.6em;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid #eaeaea;
+}
+/*Iframe*/
+iframe {
+    width: 100%;
+    border: 0;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+}
+.menu-item ul {
+    padding: 0 10px;
+    margin: 0;
+}
+.danlet-banner-image img {
+    width : 100%;
+    height: auto;
+
+}

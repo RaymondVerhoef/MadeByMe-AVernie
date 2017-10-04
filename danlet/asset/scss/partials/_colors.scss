@@ -1,0 +1,158 @@
+.bg_rosef5{
+	background : $rosef5;
+}
+.acd_vm {
+	$acd_vm : $vm;
+	&.bg {
+		background: $acd_vm;
+	}
+	&.text {
+		color: $acd_vm;
+	}
+	&.button {
+		&:hover {
+			color : $acd_vm;
+			background : $black_01;
+		}
+		color: $white;
+		background: $acd_vm;
+	}
+	&.icon {
+		&:hover {
+			color: $white;
+			background: $acd_vm;
+		}
+		color : $acd_vm;
+		background : $black_01;
+	}
+	&.border {
+		border-color : $acd_vm;
+	}
+	&.fill {
+		fill: $acd_vm;
+	}
+}
+.acd_gray {
+	$acd_gray : $gray;
+	&.bg {
+		background: $acd_gray;
+	}
+	&.text {
+		color: $acd_gray;
+	}
+	&.button {
+		&:hover {
+			color : $acd_gray;
+			background : $black_01;
+		}
+		color: $white;
+		background: $acd_gray;
+	}
+	&.icon {
+		&:hover {
+			color: $white;
+			background: $acd_gray;
+		}
+		color : $acd_gray;
+		background : $black_01;
+	}
+	&.border {
+		border-color : $acd_gray;
+	}
+	&.fill {
+		fill: $acd_gray;
+	}
+}
+.acd_rosef5 {
+	$acd_rosef5 : $rosef5;
+	&.bg {
+		background: $acd_rosef5;
+	}
+	&.text {
+		color: $acd_rosef5;
+	}
+	&.button {
+		&:hover {
+			color : $acd_rosef5;
+			background : $black_01;
+		}
+		color: $white;
+		background: $acd_rosef5;
+	}
+	&.icon {
+		&:hover {
+			color: $white;
+			background: $acd_rosef5;
+		}
+		color : $acd_rosef5;
+		background : $black_01;
+	}
+	&.border {
+		border-color : $acd_rosef5;
+	}
+	&.fill {
+		fill: $acd_rosef5;
+	}
+}
+.acd_black {
+	$acd_black : $black;
+	&.bg {
+		background: $acd_black;
+	}
+	&.text {
+		color: $acd_black;
+	}
+	&.button {
+		&:hover {
+			color : $acd_black;
+			background : $black_01;
+		}
+		color: $white;
+		background: $acd_black;
+	}
+	&.icon {
+		&:hover {
+			color: $white;
+			background: $acd_black;
+		}
+		color : $acd_black;
+		background : $black_01;
+	}
+	&.border {
+		border-color : $acd_black;
+	}
+	&.fill {
+		fill: $acd_black;
+	}
+}
+.acd_white {
+	$acd_white : $white;
+	&.bg {
+		background: $acd_white;
+	}
+	&.text {
+		color: $acd_white;
+	}
+	&.button {
+		&:hover {
+			color : $acd_white;
+			background : $black_01;
+		}
+		color: $white;
+		background: $acd_white;
+	}
+	&.icon {
+		&:hover {
+			color: $white;
+			background: $acd_white;
+		}
+		color : $acd_white;
+		background : $black_01;
+	}
+	&.border {
+		border-color : $acd_white;
+	}
+	&.fill {
+		fill: $acd_white;
+	}
+}

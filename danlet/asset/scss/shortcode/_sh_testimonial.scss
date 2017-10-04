@@ -1,0 +1,118 @@
+.sh_testimonial{
+	position:relative;
+    background-size: cover;
+	&.sh_bg_testimonial_op1{
+		padding:260px 0;
+        padding-top:0;
+        padding-bottom:0;
+		@include RP(BD) {
+			padding:0;
+			margin:-100px 0;
+		}
+		@include RP(DM) {
+			margin: 0;
+		}
+		@include RP(DMB) {
+			// padding:100px 0;
+		}
+		@include RP(AM) {
+			margin: 0;
+			padding: 0;
+		}
+	}
+	&.sh_bg_testimonial_op2{
+		padding:150px 0;
+		@include RP(BD) {
+			padding: 50px 0;
+		}
+	}
+	&.sh_bg_testimonial_hh{
+		background: url('../images/bg_testimonial_hiphop.png') no-repeat center;
+	}
+	&.sh_bg_testimonial_op3{
+		padding:285px 0;;
+		background: $black;
+	}
+}
+.sh_testimonial_box{
+	text-align: center;
+	width:100%;
+	padding:0 200px;
+	@include RP(DMB){
+		padding:0;
+	}
+	.sh_testimonial_content{
+		margin-top: 100px;
+		@include MQ(F) {
+			margin-top: 0px;
+		}
+	}
+	.swiper-testimonials{
+		overflow: hidden;
+	}
+	.sh_testimonial_info{
+		font-size: 16px;
+		line-height: 30px;
+		margin:30px 0 35px;
+		font-family: $MORT;
+		font-weight: 400;
+		@include RP(DM){
+			font-size: 14px;
+		}
+		&.sh_testimonial_info_cw{
+			color:$white_07;
+		}
+	}
+}
+.testimonial-pagination{
+	.swiper-pagination-bullet{
+		width:5px;
+		height:5px;
+		opacity: 1;
+		&.swiper-pagination-bullet-active{
+			width:6px;
+			height:6px;
+			position:relative;
+		}
+	}
+	&.bg_testimonial_op1{
+		.swiper-pagination-bullet{
+			background:#d9a992;
+			&.swiper-pagination-bullet-active{
+				background: $black;
+			}
+		}
+	}
+	&.bg_testimonial_op2{
+		.swiper-pagination-bullet{
+			background:$black_02;
+			&.swiper-pagination-bullet-active{
+				background: #c7477a;
+			}
+		}
+	}
+	&.bg_testimonial_hh{
+		.swiper-pagination-bullet{
+			background:$white_04;
+			&.swiper-pagination-bullet-active{
+				background: $white;
+			}
+		}
+	}
+	&.bg_testimonial_model{
+		.swiper-pagination-bullet{
+			background:$black;
+			&.swiper-pagination-bullet-active{
+				background: $black;
+			}
+		}
+	}
+	&.bg_testimonial_page_op3{
+		.swiper-pagination-bullet{
+			background:$white_04;
+			&.swiper-pagination-bullet-active{
+				background:#d9a992;
+			}
+		}
+	}
+}

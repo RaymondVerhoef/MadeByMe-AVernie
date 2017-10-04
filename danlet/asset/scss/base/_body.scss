@@ -1,0 +1,227 @@
+body{
+	font-family:$MORT;
+	font-weight: 400;
+	color:$black_06;
+	font-size: 14px;
+	line-height: 25px;
+  max-width: 100%;
+  overflow-x: hidden;
+  &.modal-open {
+      overflow-y: scroll;
+      padding-right: 0 !important;
+  }
+}
+section{
+	width:100%;
+	// overflow: hidden;
+}
+a{
+	text-decoration : none;
+	color : $secondary-color;
+	@include transition();
+	&:focus,&:hover {
+        outline: none;
+        text-decoration: none;
+		color : $primary-color;
+    }
+}
+.edit-link{
+	text-align: center;
+	padding:50px 0;
+	width: 100%;
+    float: left;
+}
+
+//back to top
+.back-to-top {
+  @include transition();
+  position: fixed;
+  bottom: 2em;
+  right: 40px;
+  padding: 1em;
+  display: none;
+  width: 40px;
+  height: 40px;
+  color: transparent;
+  border-radius: 30px;
+  border: 1px solid $vm;
+  z-index:999;
+  @include transition(fast);
+  &:hover {
+        background-color: $vm;
+        &:before{
+            color: $white;
+        }
+    }
+  &:before{
+    content: '\f106';
+    font-family: FontAwesome;
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    left: 13px;
+    top: 5px;
+    font-size: 1.3em;
+    color: $vm;
+  }
+  .text-active{
+      color: $active-color;
+      *{
+          color: $active-color;
+      }
+  }
+}
+
+a.comment-reply-link:after{
+    content:"\f112";
+    font-family: FontAwesome;
+    color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+//breadcrumb
+.breadcrumb{
+    display: inline-block;
+    width: 100%;
+    background: transparent;
+    padding: 0px 0px 30px 15px;
+    margin: 0;
+
+    .container{
+        padding: 0;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+            display: inline-block;
+            position: relative;
+            font-size: 0.8em;
+            padding-right: 15px;
+            line-height: 20px;
+            &:after{
+                // color: #c8c8c8;
+                content: "/";
+                position: absolute;
+                right: 10px;
+                top: 0;
+            }
+            &:last-child{
+                &:after{
+                    display: none;
+                }
+            }
+            &:first-child{
+                a{
+                    padding:0 8px 0 0;
+                }
+            }
+            &.active{
+                a{
+                    color: $active-color;
+                }
+            }
+            a{
+                // color: #c8c8c8;
+                padding:0 8px;
+            }
+
+        }
+    }
+}
+
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+  font-family: $MORT;
+  font-weight: 400;
+}
+
+
+.sidebar-widget{
+    margin-bottom: 50px;
+}
+p {margin: 0;}
+h1{
+    line-height: 46px;
+	color : $secondary-color;
+}
+
+h2{
+    line-height: 40px;
+	color : $secondary-color;
+}
+
+h3{
+    line-height: 34px;
+	color : $secondary-color;
+}
+
+h4{
+    line-height: 28px;
+    font-size: 1.1em;
+	font-weight: 400;
+	color : $secondary-color;
+	transition: all .5s;
+	&:hover {
+		color: $primary-color;
+	}
+}
+
+h5{
+	color : $secondary-color;
+    line-height: 18px;
+    font-size: 1em;
+}
+
+h6{
+	color : $secondary-color;
+    line-height: 16px;
+    font-size: 0.95em;
+}
+
+.slider-image-none{
+  height: 50px;
+}
+.footer-column{
+    table{
+        &.acd_address, tr,th, td{
+            border:none;
+        }
+    }
+}
+.btn-loadmore{
+    cursor:pointer;
+    i{
+        margin-left: 5px;
+        display: none;
+    }
+    &.loading{
+        i{
+            display:inline-block;
+        }
+    }
+    &.disabled{
+        cursor: not-allowed;
+        pointer-events: none;
+        opacity: .65;
+    }
+}
+*::-webkit-input-placeholder {
+    opacity: .7;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    opacity: .7;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    opacity: .7;
+}

@@ -1,0 +1,107 @@
+/*
+Theme Name: Danlet
+Theme URI: http://danlet.beautheme.com/
+Author: BeauTheme
+Author URI: http://beautheme.com/
+Description: Danlet theme that the main theme for service spa and some market page for sale cosmentic.
+Version: 1.0.4
+License:  GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: danlet
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template,  theme-options
+Copyright: (c) 2017 BeauTheme.
+*/
+
+/*
+Change various button backgrounds
+*/
+
+.acd_vm.bg, .woocommerce nav.woocommerce-MyAccount-navigation li:hover, .shop_table thead {
+  background: #035961; }
+.acd_vm.text, .woocommerce .star-rating {
+  color: #035961; }
+.acd_vm.button, .woocommerce .woocommerce-billing-fields input[type="submit"], .woocommerce .woocommerce-shipping-fields input[type="submit"], .woocommerce .woocommerce-MyAccount-content input[type="submit"], .woocommerce button.button.alt[disabled]:disabled, .woocommerce button.button.alt, .woocommerce a.button.alt, .woocommerce input.button.alt, .woocommerce-message a.button, .woocommerce-info a.button {
+  color: #fff;
+  background: #035961; }
+  .acd_vm.button:hover, .woocommerce .woocommerce-billing-fields input[type="submit"]:hover, .woocommerce .woocommerce-shipping-fields input[type="submit"]:hover, .woocommerce .woocommerce-MyAccount-content input[type="submit"]:hover, .woocommerce button.button.alt[disabled]:hover:disabled, .woocommerce button.button.alt:hover, .woocommerce a.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-message a.button:hover, .woocommerce-info a.button:hover {
+    color: #035961;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_vm.icon {
+  color: #035961;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_vm.icon:hover {
+    color: #fff;
+    background: #035961; }
+.acd_vm.border {
+  border-color: #035961; }
+.acd_vm.fill {
+  fill: #035961; }
+
+/*
+Change various font colors
+*/
+
+.acd_classes_cat .acd_classes_cat_list li.active span {
+    color: #035961;  }
+
+.fa-long-arrow-right {
+  color: #035961; }
+
+/* 
+Change footer social background
+*/
+
+.acd_footer_social li a {
+  background: #035961;
+}
+  .acd_footer_social li:hover a, .acd_footer_social li:active a {
+    color: #035961; }
+  .acd_footer_social.acd_footer_social_vm li a {
+    background: #b3965e; }
+  .acd_footer_social.acd_footer_social_vm li:hover a, .acd_footer_social.acd_footer_social_vm li:active a {
+    background: #fff;
+    color: #035961; }
+  .acd_footer_social.acd_footer_social_vbl li a {
+    background: rgba(255, 255, 255, 0.3); }
+  .acd_footer_social.acd_footer_social_vbl li:hover a, .acd_footer_social.acd_footer_social_vbl li:active a {
+    background: #fff;
+    color: rgba(0, 0, 0, 0.3); }
+  .acd_footer_social.acd_footer_social_veart li a {
+    background: #035961; }
+  .acd_footer_social.acd_footer_social_veart li:hover a, .acd_footer_social.acd_footer_social_veart li:active a {
+    background: #035961;
+    color: #fff; }
+
+/* 
+Change background add-to-cart button
+*/
+
+.acd_shop_img .acd_shop_addtocart a {
+background: #035961;  }
+
+/* 
+Change background loadmore button
+*/
+
+.acd_loadmore a, .acd_loadmore button {
+  background: #035961;
+}
+  .acd_loadmore a:focus, .acd_loadmore button:focus {
+    background: rgba(0, 0, 0, 0.1);
+    color: #035961;
+     }
+  .acd_loadmore:hover a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #035961; }
+
+/*
+Change background back-to-top button
+*/
+
+.back-to-top {
+  border: 1px solid #035961;
+}
+  .back-to-top:hover {
+    background-color: #035961; }
+  .back-to-top:before {
+    color: #035961; }

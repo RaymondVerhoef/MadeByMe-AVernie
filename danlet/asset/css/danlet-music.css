@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'EmilyLimePro';
+  src: url("../fonts/emilylimepro/EmilyLimePro.eot");
+  src: url("../fonts/emilylimepro/EmilyLimePro.eot?#iefix") format("embedded-opentype"), url("../fonts/emilylimepro/EmilyLimePro.woff") format("woff"), url("../fonts/emilylimepro/EmilyLimePro.ttf") format("truetype"), url("../fonts/emilylimepro/EmilyLimePro.svg") format("svg"); }
+@font-face {
+  font-family: 'Selima';
+  src: local("Selima"), url("../fonts/Selima.otf") format("truetype");
+  font-weight: normal; }
+@font-face {
+  font-family: 'Morracle';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Morracle"), url("../fonts/Morracle1.ttf") format("truetype"); }
+.bg_rosef5 {
+  background: #f5f5f5; }
+
+.acd_vm.bg {
+  background: #d9a992; }
+.acd_vm.text {
+  color: #d9a992; }
+.acd_vm.button {
+  color: #fff;
+  background: #d9a992; }
+  .acd_vm.button:hover {
+    color: #d9a992;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_vm.icon {
+  color: #d9a992;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_vm.icon:hover {
+    color: #fff;
+    background: #d9a992; }
+.acd_vm.border {
+  border-color: #d9a992; }
+.acd_vm.fill {
+  fill: #d9a992; }
+
+.acd_gray.bg {
+  background: #ecebe6; }
+.acd_gray.text {
+  color: #ecebe6; }
+.acd_gray.button {
+  color: #fff;
+  background: #ecebe6; }
+  .acd_gray.button:hover {
+    color: #ecebe6;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_gray.icon {
+  color: #ecebe6;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_gray.icon:hover {
+    color: #fff;
+    background: #ecebe6; }
+.acd_gray.border {
+  border-color: #ecebe6; }
+.acd_gray.fill {
+  fill: #ecebe6; }
+
+.acd_rosef5.bg {
+  background: #f5f5f5; }
+.acd_rosef5.text {
+  color: #f5f5f5; }
+.acd_rosef5.button {
+  color: #fff;
+  background: #f5f5f5; }
+  .acd_rosef5.button:hover {
+    color: #f5f5f5;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_rosef5.icon {
+  color: #f5f5f5;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_rosef5.icon:hover {
+    color: #fff;
+    background: #f5f5f5; }
+.acd_rosef5.border {
+  border-color: #f5f5f5; }
+.acd_rosef5.fill {
+  fill: #f5f5f5; }
+
+.acd_black.bg {
+  background: #000; }
+.acd_black.text {
+  color: #000; }
+.acd_black.button {
+  color: #fff;
+  background: #000; }
+  .acd_black.button:hover {
+    color: #000;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_black.icon {
+  color: #000;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_black.icon:hover {
+    color: #fff;
+    background: #000; }
+.acd_black.border {
+  border-color: #000; }
+.acd_black.fill {
+  fill: #000; }
+
+.acd_white.bg {
+  background: #fff; }
+.acd_white.text {
+  color: #fff; }
+.acd_white.button {
+  color: #fff;
+  background: #fff; }
+  .acd_white.button:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1); }
+.acd_white.icon {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_white.icon:hover {
+    color: #fff;
+    background: #fff; }
+.acd_white.border {
+  border-color: #fff; }
+.acd_white.fill {
+  fill: #fff; }
+
+.sh_classes:hover .sh_class_title a {
+  color: #e55e40; }
+
+header.f-nav {
+  background-color: #e55e40; }
+  header.f-nav .main-menu > li:hover > a {
+    opacity: .9; }
+
+.acd-menu ul li .sub-menu li:hover, .acd-menu ul li .children li:hover, .acd-menu ul li .current-menu-item {
+  background-color: #ecebe6; }
+  .acd-menu ul li .sub-menu li:hover a, .acd-menu ul li .children li:hover a, .acd-menu ul li .current-menu-item a {
+    color: #e55e40; }
+
+.acd-menu ul li .sub-menu, .acd-menu ul li .children {
+  box-shadow: 1px 9px 44px rgba(0, 0, 0, 0.8);
+  background: #cccccc;
+  font-weight: 500; }
+
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name a {
+  color: #e55e40; }
+
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name:before {
+  background: #e55e40; }
+
+a:hover {
+  color: #e55e40; }
+a:focus {
+  color: #e55e40; }
+a:active {
+  color: #e55e40; }
+
+.sh_class_img .sh_class_date.sh_font_el {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100; }
+
+.sh_teacher_hm_img .sh_teacher_hm_title.sh_teacher_hm_title_el {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 4.28571em; }
+
+.acd_footer_social li a {
+  background: #e55e40; }
+.acd_footer_social li:hover a {
+  background: #fff;
+  color: #e55e40; }
+
+.acd_footer_image .acd_footer_store a {
+  color: #e55e40; }
+
+.sh_blog_view_more.sh_blog_view_more_vm a.sh_blog_view_more_cvm, .sh_blog_view_more.sh_blog_view_more_center a.sh_blog_view_more_cvm, .sh_about_box .sh_about_viewmore.sh_viewmore_clvm a {
+  color: #e55e40; }
+
+.testimonial-pagination.bg_testimonial_op1 .swiper-pagination-bullet {
+  background: #999999; }
+  .testimonial-pagination.bg_testimonial_op1 .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #e55e40; }
+
+.sh_service_box .sh_service_title.sh_service_title_el {
+  font-family: "Montserrat", sans-serif; }
+
+.sh_video_vm.sh_video_vm_clw a {
+  opacity: .8;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out; }
+  .sh_video_vm.sh_video_vm_clw a:hover {
+    opacity: 1; }
+
+.sh_class_box .sh_class_book li span.bg_booknow.book_now {
+  background: #e55e40; }
+  .sh_class_box .sh_class_book li span.bg_booknow.book_now:hover a {
+    color: #e55e40; }
+.sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable a {
+  color: #e55e40; }
+.sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable:hover {
+  background: #e55e40; }
+
+.sh_teacher_hm_content .sh_teacher_hm_tb li span.sh_teacher_hm_tb_bgvm a {
+  color: #e55e40; }
+.sh_teacher_hm_content .sh_teacher_hm_tb li span.sh_teacher_hm_tb_bgvm:hover {
+  background: #e55e40; }
+.sh_teacher_hm_content .sh_teacher_hm_tb li.sh_teacher_hm_tb_cvm a {
+  color: #e55e40; }
+
+.sh_search_title.sh_search_title_el {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.sh_blog_normal.sh_blog_normal_scale:hover a {
+  color: #e55e40; }
+
+.acd_footer_title {
+  color: #e55e40;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.acd_footer_list_cat li a {
+  color: rgba(255, 255, 255, 0.3); }
+  .acd_footer_list_cat li a:hover {
+    color: #e55e40; }
+  .acd_footer_list_cat li a:before {
+    background: #e55e40; }
+
+.acd_address {
+  font-weight: bold; }
+  .acd_address td:first-child {
+    color: rgba(255, 255, 255, 0.8); }
+  .acd_address td:last-child {
+    color: rgba(255, 255, 255, 0.3); }
+
+.acd_footer_bottom_content {
+  color: rgba(255, 255, 255, 0.3); }
+
+.sh_testimonial_info {
+  color: #fff; }
+
+.sh_teacher_hm_content .sh_teacher_hm_name.sh_teacher_hm_name_cmb:hover:before {
+  background: #e55e40; }
+
+.swiper-video .sh_video_content .sh_video_name.sh_video_name_clw a {
+  color: white; }
+
+.sh_video_content .swiper-slide img {
+  opacity: .8; }
+
+.back-to-top {
+  border-color: #e55e40; }
+  .back-to-top:before {
+    color: #e55e40; }
+  .back-to-top:hover {
+    background-color: #e55e40; }
+    .back-to-top:hover:before {
+      color: #fff; }
+
+.swiper-video .sh_video_content .sh_video_view.sh_video_view_cw li {
+  color: #fff; }
+
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name:before {
+  background-color: #e55e40; }
+
+.sh_blog_big:hover .sh_blog_content h4.sh_log_name a {
+  color: #e55e40 !important; }
+
+.danlet-teacher .wpb_single_image h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6rem;
+  font-weight: 100; }
+
+h4:hover {
+  color: #e55e40; }
+
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name a {
+  color: #e55e40; }
+
+.danlet-teacher .wpb_column:nth-child(2) .vc_custom_heading:hover a {
+  color: #e55e40; }
+
+.danlet-teacher .wpb_column:nth-child(2) .vc_custom_heading:hover:before {
+  background-color: #e55e40; }
+
+.danlet-class .wpb_single_image h2, .danlet-class--reverse .wpb_single_image h2 {
+  font-family: "Montserrat",sans-serif; }
+
+.wpb_text_column h6 {
+  color: rgba(0, 0, 0, 0.4); }
+.wpb_text_column a:hover {
+  color: #e55e40; }
+
+.custom-button a {
+  border: none !important;
+  background-color: #e55e40 !important;
+  color: white !important; }
+  .custom-button a:hover {
+    background: #e6e6e6 !important;
+    color: #e55e40 !important; }
+
+.custom-button--icon a {
+  border: none !important;
+  background-color: #e6e6e6 !important;
+  color: #e55e40 !important; }
+  .custom-button--icon a:hover {
+    color: white !important;
+    background-color: #e55e40 !important; }
+
+.viewmore-btn .vc_btn3 {
+  background: transparent !important;
+  border: none !important;
+  color: #e55e40 !important;
+  transition: all .5s; }
+  .viewmore-btn .vc_btn3 i {
+    transition: all .2s;
+    color: #e55e40 !important; }
+  .viewmore-btn .vc_btn3:hover, .viewmore-btn .vc_btn3:active {
+    color: black !important;
+    background: transparent !important;
+    border: none !important; }
+    .viewmore-btn .vc_btn3:hover i, .viewmore-btn .vc_btn3:active i {
+      color: black !important;
+      right: 15px !important; }
+
+/*# sourceMappingURL=danlet-music.css.map */

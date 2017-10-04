@@ -1,0 +1,1376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"teac",
+				"teacher"
+			],
+			[
+				"acd_fo",
+				"acd_footer_store"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ou",
+				"output"
+			],
+			[
+				"op",
+				"output\t<output>"
+			],
+			[
+				"black",
+				"black_01"
+			],
+			[
+				"color_link_detail_",
+				"color_link_detail_op"
+			],
+			[
+				"bl",
+				"black_01"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"int",
+				"inherit"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"blac",
+				"black_01"
+			],
+			[
+				"time",
+				"timetable"
+			],
+			[
+				"str_re",
+				"str_replace〔function〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"sub",
+				"subcribe-message"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"esc_",
+				"esc_html__"
+			],
+			[
+				"record_g",
+				"record_get_field〔function〕"
+			],
+			[
+				"get_the",
+				"get_the_ID〔function〕"
+			],
+			[
+				"exten",
+				"external"
+			],
+			[
+				"Ga",
+				"gallery_style"
+			],
+			[
+				"is_",
+				"is_shop"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"is_s",
+				"is_singular"
+			],
+			[
+				"wit",
+				"width"
+			],
+			[
+				"esc",
+				"esc_html__"
+			],
+			[
+				"end",
+				"endif〔keyword〕"
+			],
+			[
+				"edit_fe",
+				"edit_field_class"
+			],
+			[
+				"w",
+				"with-icon"
+			],
+			[
+				"no",
+				"$noid〔variable〕"
+			],
+			[
+				"the",
+				"the_field〔function〕"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"foote",
+				"footer"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"texta",
+				"textarea_rows"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"wid",
+				"widget"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"wp_fo",
+				"wp_footer"
+			],
+			[
+				"tetx",
+				"text-decoration"
+			],
+			[
+				"da",
+				"data-color=〔attribute〕"
+			],
+			[
+				"12p",
+				"1200px"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"tb",
+				"tbody"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"title",
+				"title-box-checkout"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"i",
+				"input"
+			],
+			[
+				"whi",
+				"white_05"
+			],
+			[
+				"dat",
+				"data-filter"
+			],
+			[
+				"esc_htm",
+				"esc_html_e"
+			],
+			[
+				"record_al",
+				"record_album_content"
+			],
+			[
+				"sho",
+				"shop_single"
+			],
+			[
+				"year",
+				"$year〔variable〕"
+			],
+			[
+				"esc_html_",
+				"esc_html_e"
+			],
+			[
+				"blak",
+				"black_05"
+			],
+			[
+				"alb",
+				"$album_next〔variable〕"
+			],
+			[
+				"rec",
+				"record_producer_content"
+			],
+			[
+				"is",
+				"is_singular"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"oj",
+				"object"
+			],
+			[
+				"glo",
+				"global〔keyword〕"
+			],
+			[
+				"vr",
+				"var_dump"
+			],
+			[
+				"endfo",
+				"endforeach〔keyword〕"
+			],
+			[
+				"record",
+				"record_get_field"
+			],
+			[
+				"record_",
+				"record_producer_content"
+			],
+			[
+				"esc_html",
+				"esc_html_e"
+			],
+			[
+				"get_the_thu",
+				"get_the_post_thumbnail"
+			],
+			[
+				"cover",
+				"$cover_image〔variable〕"
+			],
+			[
+				"go",
+				"google_map_key"
+			],
+			[
+				"vc",
+				"vc_rs_pdt"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"alo",
+				"$alone〔variable〕"
+			],
+			[
+				"arra",
+				"array〔function〕"
+			],
+			[
+				"recor_be",
+				"record_beau_dump〔function〕"
+			],
+			[
+				"ke",
+				"key"
+			],
+			[
+				"or",
+				"orderby"
+			],
+			[
+				"o",
+				"orderby"
+			],
+			[
+				"orde",
+				"orderby"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"art",
+				"artist"
+			],
+			[
+				"arr",
+				"array〔function〕"
+			],
+			[
+				"forma",
+				"$format〔variable〕"
+			],
+			[
+				"pro",
+				"producer"
+			],
+			[
+				"sh_p",
+				"$sh_posttype〔variable〕"
+			],
+			[
+				"fu",
+				"function_exists"
+			],
+			[
+				"Bac",
+				"background_color"
+			],
+			[
+				"img",
+				"img-service"
+			],
+			[
+				"ga",
+				"gallery_style"
+			],
+			[
+				"ac",
+				"$active〔variable〕"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"sh_tit",
+				"$sh_title_element〔variable〕"
+			],
+			[
+				"sh",
+				"sh_number"
+			],
+			[
+				"atac",
+				"attach_image"
+			],
+			[
+				"param",
+				"param_group"
+			],
+			[
+				"es",
+				"esc_url"
+			],
+			[
+				"service_",
+				"service_url"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"le",
+				"$length〔variable〕"
+			],
+			[
+				"regis",
+				"register_post_type\tRegister Post Type All Options"
+			],
+			[
+				"ele",
+				"$element〔variable〕"
+			],
+			[
+				"sh_cec",
+				"sh_check_search"
+			],
+			[
+				"tax",
+				"$tax_query〔variable〕"
+			],
+			[
+				"json",
+				"json_decode〔function〕"
+			],
+			[
+				"html",
+				"html_array"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/functions/theme-customfield.php",
+			"settings":
+			{
+				"buffer_size": 14355,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/danlet-model.scss",
+			"settings":
+			{
+				"buffer_size": 1797,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 130 files for \"sh_teacher_img\"\n\n/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/shortcode/_shortcode_teacher_list.scss:\n   29  \theight : 270px;\n   30  \n   31: \t.sh_teacher_img {\n   32  \t\tposition : relative;\n   33  \t\twidth: 100%;\n   ..\n  135  \t\t\t@include transition('fast');\n  136  \t\t}\n  137: \t\t.sh_teacher_img {\n  138  \n  139  \t\t\t-webkit-transform: scale(1.05);\n\n2 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 408,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_classes_number.php",
+			"settings":
+			{
+				"buffer_size": 9313,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_teacher.php",
+			"settings":
+			{
+				"buffer_size": 19721,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"color",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"​"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/functions",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/partials",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/custom-function",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/classes",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/gallery",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/list",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/teacher",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/video"
+	],
+	"file_history":
+	[
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/functions.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_classes.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/shortcode/_shortcode_teacher_list.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_classes_number.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_classes.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/functions/vc_custom_array.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/danlet-hiphop.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/danlet-model.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/danlet-art.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/danlet-music.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_classes_tabs.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_classes_number.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/pages/_teacher.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/teacher/table.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_teacher.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/custom-function/danlet_custom_function.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/pages/_teacher_detail.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_subcrible.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/header.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_teacher.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_subscribe.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/teacher/single.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/theme-option.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/asset/css/css-customadmin.css",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/layouts/_footer.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/js_composer/include/params/default_params.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/list/classes.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/classes/single-big.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/classes/single-small.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/layouts/_header_menu.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/templates/header/header-content.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/functions/theme-customfield.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/pages/_gallery.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_gallery.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/ajax-controller.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/gallery/full.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/pages/_detail_classes.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/pages/_classes.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/shortcode/_shortcode_classes.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/style.css",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/base/_mobilemenu.scss",
+		"/Milky/DataSoucre/theme.dev/wp-content/themes/recording/vc_templates/option_base/service/single.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/shortcode/_sh_video.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/custom-function/danlet_custom_hook.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_timetable.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/danlet_teacher.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/option_base/teacher/list.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_classes_tabs.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_classes_list.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core/includes/functions.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/beautheme_init.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/danlet_level.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/libs/advanced-custom-fields/fields/taxonomy.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_list_video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_user.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/custom-function/danlet_wc_function.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/danlet_class.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/functions/theme-function.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/js/danlet.js",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/base/_header_popup.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/shortcode/_sh_blog.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/shortcode/_sh_single_video.scss",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/comments.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core/admin/header-admin.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core/includes/ajax-loadmore.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core/includes/core-template-funtion.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core/layout/comment-form.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/plugins/tgm/class-tgm-plugin-activation.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/index.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/loop-items/items-list_video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/loop-items/items-post.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/searchform-popup.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/single-level.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/single-teacher.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/single-video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/single.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/templates/template-archive.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_single_video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_about.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_about_level.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_blog.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_contact.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_counter.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_info_text_about.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_list_video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_map.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_membership.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_service.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_single_video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_testimonial.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_text_description.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_timetable.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_user.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/archive.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/apis/mailchimp-api.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/demo-data/Academy-Data/content.xml",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/demo-data/Academy-Data/widgets.json",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/academy_class.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/academy_gallery.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/academy_level.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/academy_membership.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/academy_teacher.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/academy_testimonial.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/postypes/academy_video.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_archive_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_contact_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_custom_menu.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_images_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_recent_comments_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_recent_posts_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_subscribe_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/widgets/beau_tags_widget.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/js/jwplayer/in.html",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/footer.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/header-shop.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/languages/danlet.pot",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/page.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/search.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/woocommerce/archive-product.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/woocommerce/content-product.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/academy_about.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/academy_about_level.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/academy_blog.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/academy_classes.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/academy_classes_number.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/academy_classes_tabs.php",
+		"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/academy_contact.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-academy/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/html.dev/html-record/asset",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/plugins/js_composer",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/woocommerce",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/templates",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/loop-items",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/core",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/danlet",
+			"/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-academy",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy/inc/vc_custom",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/fix.dev/wp-content/themes/academy",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/plugins/beautheme-recording",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/woocommerce",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/inc/vc_custom",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/inc/vc_custom",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss/base",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/vc_templates",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset/scss",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record/asset",
+			"/Milky/DataSoucre/vnmilky.dev/wp-content/themes/record",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/html.dev/html-record/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-record",
+			"/Milky/DataSoucre/milky.dev/wp-content/plugins/plg-bologna",
+			"/Milky/DataSoucre/milky.dev/wp-content/themes/bologna",
+			"/Milky/DataSoucre/myblog.dev/wp-content/themes/milblog",
+			"/Milky/DataSoucre/myblog.dev/wp-content/themes",
+			"/Milky/DataSoucre/myblog.dev/wp-content/themes/milblog",
+			"/Milky/DataSoucre/myblog.dev/wp-content/themes/milblog/core/theme-option.php",
+			"/Milky/DataSoucre/academy.dev/wp-content/plugins/woocommerce/templates",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy",
+			"/Milky/DataSoucre/academy.dev/wp-content/plugins",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/GitLab/VNMilky/academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/GitLab/VNMilky/academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/html.dev/html-academy",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset/scss",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset",
+			"/Milky/DataSoucre/academy.dev/wp-content/plugins",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes/academy/asset",
+			"/Milky/DataSoucre/academy.dev/wp-content/themes",
+			"/Milky/DataSoucre/wp.dev/wp-content/plugins/js_composer",
+			"/Milky/DataSoucre/wp.dev",
+			"/Milky/DataSoucre/wp.dev/wp-content/themes/citysoul",
+			"/Milky/DataSoucre/wp.dev/wp-content/themes/citysoul/asset",
+			"/Milky/DataSoucre/wp.dev/wp-content/themes/citysoul/asset/js",
+			"/SoucreDev/wp.dev/wp-content/themes/citysoul/asset",
+			"/SoucreDev/wp.dev/wp-content/themes/citysoul",
+			"/SoucreDev/html.dev/html-academy/asset/scss",
+			"/SoucreDev/html.dev/html-academy/asset",
+			"/SoucreDev/html.dev/html-academy/asset/scss",
+			"/SoucreDev/html.dev/html-academy/asset/scss/base",
+			"/SoucreDev/html.dev/html-academy",
+			"/SoucreDev/html.dev/html-academy/asset/scss",
+			"/SoucreDev/wp.dev/wp-content/themes/citysoul/vc_templates",
+			"/SoucreDev/wp.dev/wp-content/themes/citysoul/woocommerce",
+			"/SoucreDev/wp.dev/wp-content/themes",
+			"/SoucreDev/wp.dev/wp-content/themes/citysoul/asset/scss/section",
+			"/SoucreDev/wp.dev/wp-content/themes/citysoul/asset/scss",
+			"/SoucreDev/root.dev/citysoul-html",
+			"/SoucreDev/wp.dev"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sh_teacher_img",
+			"title_element",
+			"list_id",
+			"danlet_js_tabs_class_list",
+			".acd_teacher_list",
+			"acd_teacher_detail_img_big",
+			"~",
+			"~ ",
+			"~",
+			"checkbox",
+			"'dependency'    => array(\n                    'element'       => 'option_position',\n                    'value'      => array( 'right','left' ),\n                ),",
+			"              'group'         => esc_html__('Advanced Settings','danlet'),\n",
+			"fa-blind",
+			"sh_teacher_hm_tb_bgvm",
+			"header_desktop",
+			"gallery_load_more",
+			".acd_loadmore",
+			"academy_",
+			"rotate(-90deg);",
+			"sh_class_img_box",
+			"r",
+			"otate(-90deg);",
+			"transform: rotate(-90deg);",
+			"acd_class_level",
+			"acd_class_box",
+			"sh_class_group",
+			".acd_classes_list",
+			"text-indent: -9999px;",
+			"sh_class_img",
+			"text-idient",
+			"acd_classes_list",
+			"acd_teacher_img",
+			"danlet_thumbnail_image",
+			"sh_video_img",
+			"left",
+			");\n",
+			"sh_button",
+			"reload_level",
+			"course_ids",
+			"taxonomy ",
+			"danlet_get_list_taxonomy_by_name('c",
+			"WP_Query",
+			"academy_",
+			"/academy",
+			"academy_",
+			"academy.beautheme.com",
+			"academy_",
+			"$(this+'#email')",
+			"academy_",
+			"/academy_",
+			"[academy_",
+			"http://academy.",
+			"[/academy_",
+			"[academy_",
+			"academy_",
+			"/academy",
+			"[academy_",
+			"/academy",
+			"[academy_",
+			"academy",
+			"\"academy\"",
+			"academy",
+			"academy_",
+			"svg_academy",
+			"academy_",
+			"academy'",
+			"'academy'",
+			"'academy",
+			"'academy'",
+			"'academy')",
+			"'academy'",
+			",'academy'",
+			"// font-size:",
+			"font-size:",
+			"font-size",
+			"get_the_date",
+			"'icon'          => get_template_directory_uri() . \"/inc/vc_custom/vc_icon/beau.png\",",
+			"vc_beautheme",
+			"'icon'          => get_template_directory_uri() . \"/inc/vc_custom/vc_icon/beau.png\",",
+			"_init",
+			"'icon'      => get_template_directory_uri() . \"/inc/vc_custom/vc_icon/beau.png\",",
+			"'group' => esc_html__('General', 'academy'),",
+			"                  'group' => esc_html__('General', 'academy'),\n",
+			"sh_bg_testimonial_op1",
+			"'group' => esc_html__('General','academy'),",
+			"                'group' => esc_html__('General','academy'),\n",
+			"recording_get_template",
+			"about",
+			"featured_preview",
+			"__('Images",
+			"__('",
+			"wp",
+			"mailchimp-api",
+			"beau_option",
+			"citysoul",
+			"title-subcriber",
+			"record_sidebar",
+			"get_the_date",
+			".disk",
+			".detail-artist-al",
+			"sidebar-local",
+			"record_main",
+			"acd",
+			"set-release-page",
+			"excerpt",
+			"Styling option",
+			"Album",
+			"Albums",
+			"Gallerys",
+			"Record",
+			"Demo Importer",
+			"WP_Query",
+			"wp_qery",
+			"feature-archive-image",
+			"detail",
+			".record-video-page",
+			",true",
+			"WP_Query",
+			".hearder-release",
+			"content-release",
+			"milblog_check_option_theme",
+			"mil",
+			"img-slide",
+			"date_format",
+			"get_option",
+			"citysoul",
+			"record-our-team",
+			"record-our-team "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"[danlet_",
+			"danlet",
+			"\"danlet\"",
+			"danlet_",
+			"svg_danlet",
+			"'danlet'",
+			"'danlet')",
+			",'danlet'",
+			"'icon'      => 'vc_beautheme',",
+			"record",
+			"milblog",
+			"academy",
+			"acd_left_bot_svg",
+			"acd_left_top_svg",
+			"$white",
+			"$rosef5",
+			"rgba(255, 255, 255, 0.05)",
+			"dev.dev"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet/includes/functions/theme-customfield.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11376,
+								11389
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/asset/scss/danlet-model.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1789,
+								1789
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 738.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										185,
+										199
+									],
+									[
+										320,
+										334
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Milky/DataSoucre/fix.dev/wp-content/plugins/beautheme-danlet",
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/vc_templates/danlet_classes_number.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							],
+							[
+								546,
+								546
+							],
+							[
+								3789,
+								3789
+							],
+							[
+								3956,
+								3956
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 367.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Milky/DataSoucre/fix.dev/wp-content/themes/danlet/inc/vc_custom/vc_danlet_teacher.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11704,
+								11704
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 289.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "Fix-Danlet.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"core/in",
+				"record/core/includes/functions.php"
+			],
+			[
+				"_footer",
+				"asset/scss/layouts/_footer.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

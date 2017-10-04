@@ -1,0 +1,688 @@
+.sh_classes{
+	padding-top:115px;
+	position:relative;
+	@include RP(BD){
+		padding-top:30px;
+	}
+	&.sh_classes_bg{
+		background: #f5f5f5;
+		.bg_filter_svg{
+			fill:#fff;
+		}
+	}
+	.sh_class_title {
+		transition: all .5s;
+		a {
+			transition: all .3s;
+		}
+	}
+	.sh_class_teacher {
+		a {
+			transition: all .5s;
+		}
+	}
+	.sh_class_two_img_ab {
+		transition : all 0.5s;
+	}
+	&:hover {
+		.sh_class_title {
+			a {
+				color: $vm;
+			}
+		}
+	}
+}
+.sh_class_main_title{
+	text-align:center;
+	h2{
+		// font-size: 50px;
+        @include font-size(50px);
+		line-height: 50px;
+		@include RP(AM){
+			font-size: 40px;
+			line-height: 40px;
+		}
+		&.sh_classes_title_b{
+			font-family: $MORT;
+		font-weight: 700;
+		}
+		&.sh_classes_title_fr{
+			font-family: $FR;
+			font-weight: 400;
+			font-style: italic;
+		}
+	}
+}
+ul.sh_class_container{
+	padding:0;
+	margin:0;
+	position:relative;
+	z-index:1;
+	&.sh_class_padding{
+		>li{
+			margin-bottom: 105px;
+			@include RP(BD){
+				margin-bottom: 50px;
+			}
+			&:last-child{
+				margin-bottom:0;
+			}
+		}
+	}
+	&.sh_class_padding2{
+		>li{
+			margin-bottom:30px;
+
+			@include MQ(L){
+				margin-bottom: 205px;
+			}
+		}
+	}
+    li{
+        width:100%;
+        display:table;
+        list-style: none;
+        &.right {
+            .sh_class_img_box{
+               
+                @include MQ(XL){
+                    float: right;
+
+                }
+            }
+            .acd_class_level{
+                left: auto;
+                @include MQ(XL){
+                    right:-30px;
+                }
+            }
+            .sh_class_img{
+                .sh_class_date{
+
+                    @include MQ(XL){
+                    	top:30px;
+	                    right: 0;
+	                    left: auto;
+                        right:-70px;
+                    }
+                }
+            }
+            .sh_class_content{
+                @include MQ(XL){
+                    text-align: right;
+					margin-top: 0;
+                }
+                .sh_class_box {
+					.sh_class_description  {
+						
+	                    padding-right : 0;
+	                    padding-left:0;
+	                    @include MQ(XL){
+	                        padding-right:0;
+	                        padding-left:120px;
+	                    }
+					}
+
+                }
+            }
+            .sh_classes_two_img_box{
+                .sh_class_two_img{
+                    left: 0;
+                    right: auto;
+					@include MQ(M) {
+						left: 25px;
+					};
+                }
+                .sh_class_two_img_ab{
+					transition: all .5s;
+                    right: 0;
+                    left: auto;
+                }
+            }
+        }
+        .sh_class_img_box{
+            @include MQ(DM){
+                float: left;
+
+            }
+            .sh_class_img {
+                height: 555px;
+                .sh_single {
+                    height: 100%;
+                    overflow: hidden;
+                    position : relative;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        position:absolute;
+                        @include center(xy);
+                    }
+                }
+            }
+
+        }
+        .sh_class_content{
+			text-align: center;
+			margin-top: 1rem;
+            @include MQ(DM){
+                text-align: left;
+				margin-top: 0;
+            }
+            .sh_class_box{
+				.sh_class_description {
+					padding-right:0;
+	                @include MQ(BD){
+	                    padding-right:120px;
+	                }
+				}
+
+            }
+        }
+        .sh_class_img{
+            .sh_class_date{
+                top:30px;
+                left: 0;
+				@include MQ(DMB){
+					left:-35px;
+				}
+				@include MQ(BD){
+					left:-70px;
+				}
+            }
+        }
+        .sh_classes_two_img_box{
+            position:relative;
+			z-index: 1;
+                .sh_class_two_img{
+                    left: 0;
+                }
+                .sh_class_two_img_ab{
+                    right: 0;
+                }
+
+            .sh_class_two_img{
+				width:100%;
+                height: 350px;
+                position:relative;
+                overflow: hidden;
+                right: 0;
+                left: auto;
+				transition: all .5s;
+				@include MQ(M){
+					right: 25px;
+					width:397px;
+	                height: 566px;
+				};
+                @include MQ(L) {
+                	position: absolute;
+                }
+				@media only screen and (max-width: 992px) {
+					margin : 0 auto;
+				}
+                span {
+                    position : absolute;
+                    width:100%;
+                    height:100%;
+                    text-indent: -9999px;
+                    @include center(xy);
+                }
+            }
+            .sh_class_two_img_ab{
+                position:absolute;
+                width: 370px;
+                height: 533px;
+                z-index:-1;
+                overflow: hidden;
+                left: 0;
+                right: auto;
+                top: 140px;
+                display: none;
+                @include MQ(L) {
+                	display: block;
+                }
+                span {
+                    position : absolute;
+                    width:100%;
+                    height:100%;
+                    text-indent: -9999px;
+                    @include center(xy);
+
+                }
+            }
+        }
+    }
+}
+.sh_class_img{
+	width:100%;
+	display:block;
+	position:relative;
+	-webkit-box-shadow: 0px 0px 109px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 109px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 109px -10px rgba(0, 0, 0, 0.3);
+    @include transition(slow);
+    height: 360px;
+    @include RP(SM) {
+        height: auto;
+        max-height: 300px;
+    }
+	a {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position:absolute;
+		left: 50%;
+		top: 50%;
+        transform : translate(-50% , -50%) scale(1);
+		transition: opacity .5s, transform 0.75s;
+    }
+
+	.sh_class_date{
+		position:absolute;
+		font-size: 200px;
+		color:$black_02;
+		z-index: 1;
+		line-height: 200px;
+		@include RP(BD){
+			font-size: 150px;
+			line-height: 150px;
+		}
+		@include RP(DMB){
+			font-size:90px;
+			line-height: 90px;
+		}
+		@include RP(SM){
+			font-size: 60px;
+			line-height: 60px;
+		}
+		&.sh_font_el{
+			font-family: $EL;
+		}
+		&.sh_font_mt{
+			font-family: $MORT;
+			font-weight: 100;
+		}
+	}
+}
+.sh_class_box{
+	padding-top:100px;
+	@include RP(DMB){
+		padding-top: 0;
+	}
+	@include RP(AM){
+		text-align: center;
+		padding-top:30px;
+	}
+	h4.sh_class_title{
+		font-size:40px;
+		line-height: 40px;
+		margin:0;
+
+		// margin: 0px 15px;
+		@include RP(DMB){
+			font-size:30px;
+
+		}
+		&.sh_class_title_r{
+			font-family: $MORT;
+			font-weight: 400;
+		}
+		&.sh_class_title_frb{
+			font-family: $FR;
+			font-weight: 700;
+		}
+	}
+	.sh_class_description{
+		font-size:16px;
+		line-height: 25px;
+		font-family: $MORT;
+		font-weight: 300;
+		color:$black_05;
+		margin-bottom:30px;
+		@include RP(DMB){
+			margin-bottom:10px;
+		}
+		@include RP(AM){
+			font-size: 14px;
+		}
+	}
+	.sh_class_teacher_job{
+		font-size:12px;
+		margin:10px 0;
+		color:$black_03;
+		@include RP(DMB){
+			margin-bottom:0;
+		}
+		&.sh_class_teacher_job_b{
+			font-family: $MORT;
+		font-weight: 700;
+		}
+		&.sh_class_teacher_job_fr{
+			font-family: $FR;
+			font-style: italic;
+		}
+	}
+	.sh_class_teacher{
+		padding:0;
+		margin:0;
+		li{
+			font-size:16px;
+			margin-bottom:5px;
+			list-style: none;
+			font-weight: 500;
+			@include RP(DMB){
+				margin-bottom:0;
+			}
+			&.sh_class_teacher_r{
+				font-family: $MORT;
+				font-weight: 400;
+			}
+			&.sh_class_teacher_frb{
+				font-family: $FR;
+				font-weight: 700;
+			}
+		}
+	}
+	.sh_class_book{
+		padding:0;
+		margin:30px 0 0 0;
+		li{
+			display:inline-block;
+			width:auto;
+			margin-right:5px;
+			span{
+				height:35px;
+				font-size: 12px;
+				font-family: $MORT;
+				font-weight: 400;
+				display:table;
+				line-height: 35px;
+				&.book_now{
+					@include transition(fast);
+					border-radius:20px;
+					&.bg_booknow{
+						background:$vm;
+                        a {
+                            color: $white;
+							padding : 0 2rem;
+                        }
+                        &:hover {
+                            background : $black_01;
+                            a {
+                                color: $vm;
+                            }
+                        }
+					}
+					&.bg_booknow_bl{
+						background:#aaaaaa;
+					}
+					&.bg_booknow_black{
+						background: $black
+					}
+					&.bg_booknow_pp{
+						background: #c7477a;
+					}
+					a{
+						color:$white;
+					}
+				}
+				&.sh_class_timetable{
+					@include transition(fast);
+					width:35px;
+					text-align:center;
+					border-radius: 50%;
+					background:$black_01;
+					.fa{
+						font-size:12px;
+					}
+					&.sh_bg_timetable{
+                        background : $black_01;
+                        a {
+                            color: $vm;
+                        }
+                        &:hover {
+                            background : $vm;
+                            a {
+                                color: $white;
+                            }
+                        }
+					}
+					&.sh_bg_timetable_bl{
+
+						color:#aaaaaa;
+					}
+					&.sh_bg_timetable_black{
+						color:$black;
+					}
+					&.sh_bg_timetable_pp{
+						color:#c7477a;
+					}
+				}
+				a {
+					display: block;
+				}
+				&:hover {
+				}
+			}
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+}
+.sh_class_img_pd{
+	padding-left:200px;
+	@include RP(DMB){
+		padding-left: 15px;
+	}
+
+}
+/***********CLASSES TIMETABLE **********/
+.sh_classes_soon{
+	padding:100px 0;
+}
+.sh_classes_soon_title{
+	font-size: 40px;
+	font-family:$MORT;
+		font-weight: 700;
+	text-align: center;
+	 margin-bottom:0;
+	line-height: 40px;
+	@include RP(AM){
+		font-size: 30px;
+		line-height: 30px;
+	}
+}
+.sh_classes_soon_list{
+	padding:50px 0;
+	margin:0;
+	li{
+		list-style:none;
+		@include RP(DM){
+			margin-bottom:30px;
+		}
+		@include RP(SM){
+			width:100%;
+		}
+		.sh_classes_soon_content{
+			width:100%;
+			padding:20px 15px 40px;
+			@include transition(fast);
+			position:relative;
+			overflow: hidden;
+			.sh_classes_soon_bg{
+				position:absolute;
+				@include center(xy);
+				width:100%;
+				height:100%;
+				z-index:-1;
+				img{
+					width:100%;
+					height:auto;
+					@include RP(BD){
+						height:100%;
+						width:auto;
+					}
+					@include RP(DM){
+						width:100%;
+						height:auto;
+					}
+				}
+			}
+			.sh_classes_soon_name{
+				font-size:20px;
+				font-family: $MORT;
+		font-weight: 700;
+				text-align: center;
+			}
+			.sh_classes_soon_info{
+				font-family: $MORT;
+		font-weight: 300;
+				font-size: 12px;
+				width:100%;
+				tr{
+					margin:5px 0;
+					display:table;
+					width:100%;
+					td{
+						&:first-child{
+							width:40%;
+							text-align:right;
+							float:left;
+							color:$black_05;
+						}
+						&:last-child{
+							width:60%;
+							float:right;
+							padding-left:10px;
+							color:$black_07;
+						}
+						a{
+							color:$black_07;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+			.sh_classes_soon_book{
+				text-align: center;
+				margin-top:50px;
+				font-size:12px;
+				font-family: $MORT;
+				font-weight: 400;
+				a{
+					padding:10px 20px;
+					border-radius: 20px;
+					color:$white;
+					@include transition(slow);
+					&.sh_classes_soon_book_vm{
+						background: $vm;
+					}
+					&.sh_classes_soon_book_bbl{
+						background: #30b9d9;
+					}
+				}
+			}
+		}
+		&:hover{
+			.sh_classes_soon_content{
+				box-shadow: -5px 10px 35px 0px $black_01;
+			}
+			.sh_classes_soon_book{
+				a{
+					&.sh_classes_soon_book_vm{
+						background: $black_06;
+					}
+					&.sh_classes_soon_book_bbl{
+						background:$vm;
+					}
+				}
+			}
+		}
+	}
+}
+.sh_class_group{
+	@include RP(DMB){
+		margin-bottom:50px;
+	}
+	&:hover{
+		.sh_class_img{
+			-webkit-box-shadow:0px 0px 24px -6px rgba(0, 0, 0, 0.5);
+   			-moz-box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.5);
+    		box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.5);
+			&:before {
+				max-width: 100%;
+			}
+			img {
+				transform: translate(-50%, -50%) scale(1.1);
+			}
+		}
+	}
+}
+
+.sh_classes_pd {
+	padding: 50px 0;
+	@include MQ(L) {
+		padding: 115px 0;
+	}
+}
+.sh_classes_two_img_box {
+	.sh_class_two_img {
+		&:hover {
+			-webkit-box-shadow: 0px 0px 150px -26px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 0px 150px -26px rgba(0,0,0,0.75);
+			box-shadow: 0px 0px 150px -26px rgba(0,0,0,0.75);
+			z-index: 1;
+			& + .sh_class_two_img_ab {
+				opacity: .8;
+				z-index: -1;
+			}
+		}
+	}
+	.sh_class_two_img_ab {
+		&:hover {
+			-webkit-box-shadow: 0px 0px 150px -26px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 0px 150px -26px rgba(0,0,0,0.75);
+			box-shadow: 0px 0px 150px -26px rgba(0,0,0,0.75);
+			z-index: 1 !important;
+			& + .sh_class_two_img {
+				opacity: .8;
+				z-index: -1;
+			}
+		}
+	}
+}
+.sh_classes_order  {
+	&.order-1 {
+		.sh_class_group {
+			@media (min-width: 992px) {
+				.sh_class_img_box {
+			     	width: 50%;
+			 	}
+			 	.sh_class_content {
+			 		width: 50%;
+			 	}
+			}
+		}
+	}
+	&.order-3 {
+		.sh_class_group {
+			@media (min-width: 992px) {
+				.sh_class_img_box {
+					margin-left: 16.66666667%;
+				    width: 41.66666667%;
+				}
+				.sh_class_content {
+    				width: 41.66666667%;
+				}
+			}
+		}
+	}
+}

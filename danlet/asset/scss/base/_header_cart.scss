@@ -1,0 +1,233 @@
+.acd-cart{
+	position:relative!important;
+    &:hover {
+        .acd_header_cart{
+            top:100%;
+            display: block;
+            opacity: 1;
+            z-index: 1;
+            @include transition('slow');
+        }
+    }
+	.acd_number_on_cart{
+		position:absolute;
+		height:18px;
+		min-width: 18px;
+        // background:$white;
+		background: rgba(226, 224, 223, 0.83);
+		@include font-size(10px);
+		font-family: $MORT;
+		font-weight: 700;
+		text-align: center;
+		line-height: 18px;
+		border-radius: 50px;
+		color:$black;
+		right:-10px;
+		top:-5px;
+	}
+	.acd_header_cart{
+		position: absolute;
+		width:300px;
+		background: $white;
+		@include center (x);
+		@include transition('slow');
+		top:150%;
+		opacity: 0;
+        display: none;
+        z-index: -1;
+        -webkit-box-shadow: 0 0 100px 0 $black_03;
+ 		-moz-box-shadow: 0 0 100px 0 $black_03;
+		box-shadow: 0 0 100px 0 $black_03;
+		&:before{
+			content: "";
+			height:0;
+			width:0;
+			border-right:5px solid transparent;
+			border-left:5px solid transparent;
+			border-bottom:5px solid $white;
+			position:absolute;
+			top:-5px;
+			@include center(x);
+		}
+		.title_show_cart{
+			text-align:center;
+			font-family: $MORT;
+			font-weight: 700;
+			color:$black;
+		}
+		ul{
+			padding:10px 0;
+			margin:0;
+			&.acd_show_cart{
+				border-top:1px solid $black_01;
+				border-bottom:1px solid $black_01;
+				max-height: 200px;
+            	overflow-y: scroll;
+				overflow-x: hidden;
+				> li {
+					padding-right: 0;
+					a {
+						padding:0 15px;
+					}
+					.price_on_cart {
+						ins {
+							padding-left: 5px;
+						}
+						@include MQ(L){
+							margin-left: 15px;
+						}
+					}
+				}
+			}
+			>li{
+				width:100%;
+				display:inline-flex;
+				padding:0 70px 0 20px;
+				position:relative;
+				.show_product_on_cart{
+					float:left;
+				}
+				.on_cart_img{
+					width:80px;
+					height:80px;
+					margin-right:10px;
+                    position: relative;
+                    overflow: hidden;
+                    img {
+                        position : absolute;
+                        width: 100%;
+                        height: auto;
+                        @include center(xy);
+
+                    }
+				}
+				.on_cart_content{
+					width:auto;
+					font-family: $MORT;
+					font-weight: 400;
+					@include font-size(12px);
+					line-height: 18px;
+					.title_on_cart{
+						margin:5px 0;
+						a{
+							@include font-size(12px);
+							color:$black;
+						}
+					}
+					span{
+						&.price_on_cart{
+							color:$black_07;
+						}
+						&.quantity_on_cart{
+							color:$black_03;
+						}
+					}
+				}
+				.delete_number_on_cart{
+					position:absolute;
+					@include center(y);
+					right:35px;
+					height:18px;
+					width:18px;
+					line-height: 14px;
+					@include font-size(11px);
+					border-radius: 50%;
+					border:1px solid $black_02;
+					text-align:center;
+					color:$black_02;
+					cursor: pointer;
+					display: block;
+					&:hover {
+						color: $vm;
+						border-color: $vm;
+					}
+				}
+			}
+		}
+		.total_on_cart{
+			margin:0;
+			padding:0;
+			border-bottom:1px solid $black_01;
+			display:table;
+			width:100%;
+			li{
+				width:50%;
+				float:left;
+				color:$black;
+				font-family: $MORT;
+				font-weight: 700;
+				margin: 0;
+				padding:20px 0;
+				text-align: center;
+				display:block;
+				&:first-child{
+					border-right:1px solid $black_01;
+				}
+			}
+		}
+		.acd_vc{
+			width:100%;
+			li{
+				width:100%;
+				padding:0;
+				text-align: center;
+				display:block;
+				a{
+					@include font-size(12px);
+					color:$black;
+				}
+				&.vc_on_cart{
+					margin: 0 auto;
+					a{
+						display: inline-block;
+						border:2px solid $black_02;
+						padding:5px 10px 5px 15px;
+						transition: all 0.5s;
+						&:hover {
+							color: $white;
+							background: $vm;
+							border-color: $vm;
+						}
+						@include MQ(M){
+							width: 40%;
+						}
+					}
+				}
+				&.checkout_on_cart{
+					padding-top:10px;
+					margin: 0;
+					a{
+						width:auto;
+						background:$black_02;
+						padding:10px 35px;
+						display:inline-block;
+						border-radius:20px;
+						transition: all .5s;
+						&:hover{
+							background:$vm;
+							color: $white;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// Hot fix cart header
+@media only screen and (max-width : 1600px) {
+	.acd-cart {
+		.acd_header_cart {
+			@include transform(none);
+			left: auto;
+    		right: -5rem;
+			&:before {
+				@include transform(none);
+				left: auto;
+	    		right: 5rem;
+			}
+		}
+	}
+}
+.danlet-banner-page{
+    min-height: 80px;
+}

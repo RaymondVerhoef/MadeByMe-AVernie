@@ -1,0 +1,104 @@
+.svg_danlet {
+	visibility:hidden;
+	@include MQ(DMB){
+		visibility: visible;
+	}
+    position:absolute;
+    left:0;
+    width:100%;
+    &.set_svg_top {
+        top:0;
+        &.auto {
+            top:auto;
+        }
+    }
+    &.set_svg_bottom {
+        bottom: -1px;
+        &.auto {
+            bottom:auto;
+        }
+    }
+
+}
+.fill_white {
+	fill: $white;
+}
+.fill_rosef5 {
+	fill: $rosef5;
+}
+.fill_black {
+	fill: $black;
+}
+.fill_rosec7 {
+	fill: $rosec7;
+}
+.acd_left_top_svg {
+	visibility:hidden;
+	@include MQ(DMB){
+		visibility: visible;
+	}
+	position:absolute;
+	bottom:-1px;
+	left:0;
+	width:100%;
+	//height:175px;
+	&.no-bot {
+		bottom:auto;
+	}
+}
+.acd_left_bot_svg {
+	visibility:hidden;
+	@include MQ(DMB){
+		visibility: visible;
+	}
+	position:absolute;
+	left:0;
+	width:100%;
+	//height:175px;
+	top:0;
+	&.no-top {
+		top:auto;
+	}
+}
+.slider-image{
+	position:relative;
+}
+.slider_svg{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	//height:175px;
+	@include RP(BD){
+		height: 100px;
+	}
+	.abc{
+		fill:$white;
+	}
+	.slider_svg_shop_detail{
+		fill:$rosef5;
+	}
+}
+// svg teacher page about
+.sh_teacher_about_bg{
+	padding:30px 0;
+	background: $rosef5;
+	position:relative;
+	.sh_teacher_about_svg{
+		top:0;
+		left:0;
+		.sh_teacher_about_svg_bg{
+			fill:$white;
+		}
+	}
+}
+//Testimonial
+.sh_bg_testimonial_op1{
+	.sh_testi_svg_top{
+		top:0;
+	}
+	.bg_filter_svg{
+		fill:$white;
+	}
+}
+

@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'EmilyLimePro';
+  src: url("../fonts/emilylimepro/EmilyLimePro.eot");
+  src: url("../fonts/emilylimepro/EmilyLimePro.eot?#iefix") format("embedded-opentype"), url("../fonts/emilylimepro/EmilyLimePro.woff") format("woff"), url("../fonts/emilylimepro/EmilyLimePro.ttf") format("truetype"), url("../fonts/emilylimepro/EmilyLimePro.svg") format("svg"); }
+
+@font-face {
+  font-family: 'Selima';
+  src: local("Selima"), url("../fonts/Selima.otf") format("truetype");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Morracle';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Morracle"), url("../fonts/Morracle1.ttf") format("truetype"); }
+
+.bg_rosef5 {
+  background: #f5f5f5; }
+
+.acd_vm.bg {
+  background: #d9a992; }
+
+.acd_vm.text {
+  color: #d9a992; }
+
+.acd_vm.button {
+  color: #fff;
+  background: #d9a992; }
+  .acd_vm.button:hover {
+    color: #d9a992;
+    background: rgba(0, 0, 0, 0.1); }
+
+.acd_vm.icon {
+  color: #d9a992;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_vm.icon:hover {
+    color: #fff;
+    background: #d9a992; }
+
+.acd_vm.border {
+  border-color: #d9a992; }
+
+.acd_vm.fill {
+  fill: #d9a992; }
+
+.acd_gray.bg {
+  background: #ecebe6; }
+
+.acd_gray.text {
+  color: #ecebe6; }
+
+.acd_gray.button {
+  color: #fff;
+  background: #ecebe6; }
+  .acd_gray.button:hover {
+    color: #ecebe6;
+    background: rgba(0, 0, 0, 0.1); }
+
+.acd_gray.icon {
+  color: #ecebe6;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_gray.icon:hover {
+    color: #fff;
+    background: #ecebe6; }
+
+.acd_gray.border {
+  border-color: #ecebe6; }
+
+.acd_gray.fill {
+  fill: #ecebe6; }
+
+.acd_rosef5.bg {
+  background: #f5f5f5; }
+
+.acd_rosef5.text {
+  color: #f5f5f5; }
+
+.acd_rosef5.button {
+  color: #fff;
+  background: #f5f5f5; }
+  .acd_rosef5.button:hover {
+    color: #f5f5f5;
+    background: rgba(0, 0, 0, 0.1); }
+
+.acd_rosef5.icon {
+  color: #f5f5f5;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_rosef5.icon:hover {
+    color: #fff;
+    background: #f5f5f5; }
+
+.acd_rosef5.border {
+  border-color: #f5f5f5; }
+
+.acd_rosef5.fill {
+  fill: #f5f5f5; }
+
+.acd_black.bg {
+  background: #000; }
+
+.acd_black.text {
+  color: #000; }
+
+.acd_black.button {
+  color: #fff;
+  background: #000; }
+  .acd_black.button:hover {
+    color: #000;
+    background: rgba(0, 0, 0, 0.1); }
+
+.acd_black.icon {
+  color: #000;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_black.icon:hover {
+    color: #fff;
+    background: #000; }
+
+.acd_black.border {
+  border-color: #000; }
+
+.acd_black.fill {
+  fill: #000; }
+
+.acd_white.bg {
+  background: #fff; }
+
+.acd_white.text {
+  color: #fff; }
+
+.acd_white.button {
+  color: #fff;
+  background: #fff; }
+  .acd_white.button:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1); }
+
+.acd_white.icon {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1); }
+  .acd_white.icon:hover {
+    color: #fff;
+    background: #fff; }
+
+.acd_white.border {
+  border-color: #fff; }
+
+.acd_white.fill {
+  fill: #fff; }
+
+.acd-menu ul li .current-menu-item {
+  background: #000; }
+  .acd-menu ul li .current-menu-item > a {
+    color: #d9a992; }
+
+header .acd-menu nav ul li a {
+  font-weight: 500;
+  color: #000; }
+  header .acd-menu nav ul li a:hover {
+    color: #d9a992; }
+
+header .acd-menu nav ul li .children a:hover, header .acd-menu nav ul li .sub-menu a:hover {
+  color: #000; }
+
+header .acd-menu nav ul li .children li:hover, header .acd-menu nav ul li .sub-menu li:hover {
+  background: #000; }
+  header .acd-menu nav ul li .children li:hover > a, header .acd-menu nav ul li .sub-menu li:hover > a {
+    color: #d9a992; }
+
+header .acd-cls > ul.acd_ucs > li > a, header .acd-cls > ul.acd_ucs > li i {
+  color: #000; }
+
+header .acd-cls > ul.acd_ucs.acd_ucs_white > li > a, header .acd-cls > ul.acd_ucs.acd_ucs_white > li i {
+  color: #000; }
+
+header .acd-cls > ul.acd_ucs.acd_ucs_white > li:hover a, header .acd-cls > ul.acd_ucs.acd_ucs_white > li:hover i {
+  color: #d9a992; }
+
+.acd-cart .acd_number_on_cart {
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75); }

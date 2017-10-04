@@ -1,0 +1,46 @@
+//pagination
+.acd_pagination{
+	width:100%;
+	padding:40px 0 120px;
+	@include RP(DMB){
+		padding:30px 0;
+	}
+	.acd_pagination_list{
+		margin:0;
+		padding:0;
+		width:100%;
+		text-align: center;
+		display:inline-block;
+		li{
+			list-style: none;
+			display:inline-block;
+			font-family: $MORT;
+			font-weight: 400;
+			padding:0 10px;
+			color:$vm;
+			&.pagination_active{
+				color:$black;
+			}
+			.page-numbers {
+				padding: 5px 12px;
+				border-radius: 50%;
+				transition: all .5s;
+				&.current , &:hover {
+					background: $vm;
+					color : $white;
+				}
+				&.prev , &.next {
+					border-radius: 0;
+				}
+			}
+			span {
+				@include font-size(16px);
+				color:$black;
+			}
+			a {
+				color:$vm;
+				@include font-size(18px);
+			}
+		}
+	}
+}

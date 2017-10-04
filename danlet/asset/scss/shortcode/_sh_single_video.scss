@@ -1,0 +1,114 @@
+.play-video{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 900px;
+    // background: $Black;
+}
+.danlet-playvideo{
+    float: left;
+    width: 100%;
+    height: 900px;
+    position: relative;
+
+    .video-play{
+        float: left;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        iframe{
+            width: 100%;
+            min-height: 900px;
+            background: transparent;
+        }
+    }
+    .img-video{
+        float: left;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        overflow: hidden;
+        @include transition;
+        img{
+            min-width: 100%;
+            min-height: 900px;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 0;
+            @include center(x);
+        }
+    }
+    .text-button{
+        float: left;
+        position: relative;
+        @include center(y);
+        width: 100%;
+        z-index: 3;
+        @include transition;
+        .video-title{
+            float: left;
+            width: 100%;
+            @include transition;
+            letter-spacing: 12px;
+            font-weight: 400;
+        }
+        .btn-control{
+            float: left;
+            position: relative;
+            @include center(x);
+            width: 85px;
+            height: 85px;
+            margin-bottom: 30px;
+            @include transition;
+            .play-icon{
+                float: left;
+                cursor: pointer;
+                width: 85px;
+                height: 85px;
+                &:hover {
+                    background: $white;
+                }
+            }
+            &.btn-play{
+                .play-icon{
+                    background: url(../images/icon/play.png) no-repeat center center;
+                }
+            }
+            &.btn-pause{
+                .play-icon{
+                    background: url(../images/icon/pause.png) no-repeat center center;
+                }
+            }
+
+        }
+        .all-video-link{
+            position: relative;
+            line-height: 1em;
+            padding-top:15px;
+            float: left;
+            margin-top: 30px;
+            @include center(x);
+            @include transition;
+            &:before{
+                content:"";
+                width: 20px;
+                height: 2px;
+                position: absolute;
+                @include center(x);
+                top: 0px;
+            }
+        }
+    }
+    &.active-video{
+        .img-video,.video-title,.all-video-link{
+            opacity: 0;
+        }
+    }
+}

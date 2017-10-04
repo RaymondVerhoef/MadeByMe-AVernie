@@ -1,0 +1,7 @@
+<wpml-config>
+    <admin-texts>
+        <key name="danlet_option">
+            <key name="text-copyright"/>
+        </key>
+    </admin-texts>
+</wpml-config>

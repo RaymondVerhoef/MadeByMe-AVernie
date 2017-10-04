@@ -1,0 +1,370 @@
+.vc_row {
+	margin-left : 0px !important;
+	margin-right : 0px!important;
+}
+.vc_column_container {
+	>.vc_column-inner {
+		@include MQ(AD) {
+			padding-left: 0px!important;
+			padding-right : 0px!important;
+		}
+	}
+}
+.no-margin {
+    &.vc_column_container {
+        .vc_column-inner {
+            @include RP(AD) {
+                margin: 0px !important;
+            }
+        }
+    }
+}
+.danlet-shop {
+    .slider-image {
+        display: block;
+        polygon {
+            fill: $rosef5;
+        }
+    }
+}
+
+.search-results{
+    .acd_blog_date{
+        position: static;
+    }
+}
+// Move from post_unit_body
+// .blog, .single {
+.title-sidebar-widget {
+    text-transform: uppercase;
+    font-family: $MORT;
+font-weight: 700;
+    font-size: 1.4285714286em;
+    line-height: 55px;
+}
+.sidebar-widget {
+    .searchform {
+        padding-bottom: 10px;
+    }
+}
+// }
+.acd_blog_detail_date,.acd_blog_date {
+    display: none !important;
+}
+.date-init.text-more {
+    display: inline-block !important;;
+}
+.post_unit_body {
+    .content-blog,.entry-content {
+        table{
+            tr {
+                border-bottom:1px solid #eee;
+                th {
+                    text-align: left;
+                }
+            }
+        }
+
+    }
+
+    &.home {
+        .acd_blog_list {
+            .feature-archive-image.acd_blog_detail_img {
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .content-blog {
+        #commentform {
+            #submit {
+               padding: 5px 10px;
+                @include MQ(M) {
+                    padding: 10px 25px;
+                }
+            }
+        }
+        .acd_blog_detail {
+            .feature-single-image.acd_blog_detail_img {
+                text-align: center;
+                // position: relative;
+                img {
+                    // position: absolute;
+                    display: inline-block;
+                    width: auto;
+                    height: auto;
+                }
+            }
+        }
+        .comment-list.comments-area {
+            padding-top:40px;
+            @include MQ(M) {
+                padding-top:100px;
+            }
+            .main-comment.danlet-comment-list {
+                margin-top:0px;
+            }
+        }
+    }
+    .content-page {
+        .entry-content,.record-comment-form {
+            margin: 0 auto;
+            max-width: 1200px;
+            float: none;
+        }
+    }
+    &.page, &.home,&.search {
+        .slider-image {
+            max-height: 150px;
+        }
+    }
+    &.page {
+        .danlet-comment-form,.acd-comment-list {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .comment-form {
+            padding-right:0px;
+        }
+    }
+    &.danlet-shop {
+        .acd_shop_detail_info {
+            padding-top: 180px;
+        }
+    }
+    .acd-main-menu{
+        // max-width: 85%;
+    }
+    .sidebar-widget ul.menu li {
+        padding:0;
+    }
+    .entry-header {
+        .entry-title {
+            text-align:center;
+        }
+    }
+        svg {
+        display: none;
+    }
+}
+.acd_blog_detail_date,.acd_blog_date {
+        display: block;
+    }
+.date-init.text-more {
+    display: none;
+}
+body {
+    &.search {
+        .slider-image {
+            max-height: 150px;
+            svg,.danlet-banner-image {
+                display: none;
+            }
+        }
+    }
+}
+.slider-image {
+    &.fix-height {
+        height: 250px;
+    }
+}
+#s {
+    padding : 0px;
+}
+#searchsubmit {
+    padding: 3px 20px;
+}
+.sidebar-widget {
+    @include MQ(M) {
+        // padding-left: 14px;
+    }
+}
+// .acd_blog.rm-cont,.danlet_main.rm-cont {
+//     .container {
+//         width:100%;
+//     }
+// }
+.acd_blog.rm-cont {
+    .acd_blog_box.acd_blog_box_layout1 {
+        padding:0;
+    }
+}
+.danlet_main.rm-cont {
+    padding: 0;
+    margin-bottom: 30px;
+    .acd_blog_pad_siderbar {
+        padding-top:0;
+        @include MQ(M) {
+            margin-top: 110px;
+        }
+    }
+}
+.acd_footer_top{
+    padding-top: 50px;
+}
+.acd_blog_box_layout1 {
+    &.full-w {
+        .acd_blog_list_img,.acd_blog_list_content {
+            width: 100% !important;
+            text-align:left!important;
+        }
+        .acd_blog_name {
+            &:before {
+                content: none;
+            }
+        }
+        .sticky-post {
+            margin-left :0px;
+        }
+        .feature-archive-image{
+            height: auto;
+            -webkit-box-shadow: none;
+            -moz-box-shadow:none;
+            box-shadow: none;
+            img {
+                width: auto !important;
+                height: auto !important;
+                position: static;
+                @include MQ(L){
+                    max-width: 675px;
+                }
+            }
+        }
+        .acd_blog_list_content {
+            padding:0 !important;
+        }
+    }
+}
+.sub-comment {
+    .acd_comment_customer {
+        margin:auto!important;
+        padding:unset!important;
+        .comment {
+            margin:auto!important;
+            padding:unset!important;
+        }
+    }
+}
+.archive ,.post_no_img, .woocommerce{
+    .main_menu_header {
+        position :static;
+        &.header-ab{
+            position: absolute;
+        }
+        &.f-nav {
+            position:fixed;
+        }
+    }
+    .slider-image {
+        display: none;
+    }
+}
+.post_no_img {
+    .main_menu_header {
+        margin-bottom :10px;
+    }
+    .danlet-blog-page {
+        margin-top: 0px;
+    }
+    .sticky-post {
+        margin:0px;
+    }
+}
+.searchform{
+    input[type="text"]{
+        padding: 0 8px!important;
+    }
+}
+.shop-displ {
+    &.archive .main_menu_header {
+        // position: absolute
+    }
+    .slider-image {
+        display: block;
+    }
+}
+.single-level {
+    .slider-image {
+        display:block;
+        .acd_white.fill {
+            fill : #f6f6f6;
+        }
+    }
+    .acd_detail_classes_content .acd_white.fill2 {
+        fill : #fff;
+    }
+}
+.admin-bar header.f-nav {
+    top:0;
+    @media screen and (min-width: 600px) {
+        top: 46px;
+    }
+}
+.admin-bar #danlet-mobile-menu button {
+    top: 51px;
+    & ~ .f-nav{
+        top:0;
+    }
+}
+@media screen and (min-width: 783px) {
+  .admin-bar header.f-nav,.admin-bar #danlet-mobile-menu button {
+    top: 32px;
+  }
+}
+.d-btn{
+    @include transition();
+    background-color: $vm;
+    color: $white;
+    border: none;
+    padding: 8px 35px;
+    border-radius: 30px;
+    font-family:$MORT;
+    text-align: center;
+    @include font-size(12px);
+    &:hover{
+        background-color: $black_01;
+        color: $vm;
+    }
+}
+.woocommerce-review-link {
+    visibility: hidden;
+}
+.col-default-design {
+    width: 100%;
+    @include MQ(M){
+        width: 50%;
+    }
+     &:nth-of-type(2){
+        width: 100%;
+    }
+    @include MQ(DMB) {
+        width: 25%;
+        &:nth-of-type(2){
+            width: 50%;
+        }
+    }
+}
+.acd_footer_box_right {
+    display: flex;
+    flex-wrap: wrap;
+   .col-default-design {
+        &:nth-of-type(1){
+            order:2;
+            @include MQ(DMB) {
+                order:1;
+            }
+        }
+        &:nth-of-type(2){
+            order:1;
+            border-bottom:1px solid $black_01;
+            @include MQ(DMB) {
+                order:2;
+                border-bottom: none;
+            }
+        }
+        &:nth-of-type(3){
+            order: 3;
+        }
+   }
+}

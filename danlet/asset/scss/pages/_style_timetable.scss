@@ -1,0 +1,225 @@
+// Style Title  +  button
+.fc-left h2{
+	font-family: $EL;
+    // font-size: 34px;
+    @include font-size(34px);
+    color: #d9a992;
+    font-weight: 400;
+}
+.fc-button {
+	display : inline-block !important;
+}
+.fc-button-group {
+	display : inline-block !important;
+	button {
+		border : none;
+		background : none;
+		box-shadow : none;
+		&.fc-prev-button, &.fc-next-button{
+			display:inline-block;
+			width:30px;
+			height:30px;
+			border-radius: 50%;
+			background: $black_01;
+			text-align: center;
+			line-height: 30px;
+			color:$vm;
+			@include transition(fast);
+			&:focus {
+				outline: none;
+			}
+			&:hover{
+				color:$white;
+				background: $vm;
+			}
+		}
+		&.fc-today-button {
+			margin: 0 15px;
+			font-family: $MORT;
+			font-weight: 400;
+			text-transform : capitalize;
+		}
+	}
+}
+.fc th.fc-day-header {
+	text-align: center !important;
+    background-color: #000;
+    border : none !important;
+    font-size: 12px;
+    // @include font-size(12px);
+    color: #fff;
+    padding: 17px 0 !important;
+}
+td.fc-day {
+		list-style: none;
+		display:inline-table;
+		width:14.2857%;
+		border-right:1px solid $black_01;
+		border-bottom:1px solid $black_01;
+}
+
+
+.fc-content-skeleton td.fc-day-top {
+	position : relative;
+
+	span.fc-day-number {
+		float : left !important;
+		position: relative;
+	    font-family: $MORT;
+		font-weight: 700;
+	    top: 10px;
+	    color: rgba(0, 0, 0, 0.6);
+	    left: 10px;
+	    min-width: 30px;
+	    height: 30px;
+	    text-align: center;
+	    border-radius: 50%;
+	    line-height: 30px;
+	    background: white;
+    	z-index: 99;
+	}
+}
+
+.fc thead {
+	border-left : transparent;
+	border-right : transparent;
+	background : transparent;
+	td.fc-day-top  {
+		border-left : transparent;
+		border-right : transparent;
+	}
+}
+
+// style event
+.fc-content-skeleton{
+	td {
+		border-color : inherit !important;
+	}
+	tbody {
+		tr{
+			&:only-child {
+				.fc-event {
+					border : none !important;
+				}
+			}
+			&:first-child {
+				td {
+					min-height : 140px;
+					.fc-event {
+						margin-top : 0 !important;
+						.fc-content {
+							padding-top : 0px;
+						}
+					}
+				}
+			}
+			&:last-child {
+				.fc-event {
+					border-bottom : 0;
+				}
+				td {
+					padding-bottom : 0!important;
+				}
+			}
+		}
+		.fc-event-container {
+
+			.fc-event {
+				margin-top : 0;
+				margin-left : 0 !important;
+				margin-right : 0 !important;
+				padding : 0 !important;
+				border-radius : 0;
+				background-color : transparent;
+				border : none;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+				&:hover {
+					cursor : pointer;
+					-webkit-box-shadow: 0 0 20px 0 $black_03;
+    			-moz-box-shadow: 0 0 20px 0 $black_03;
+    			box-shadow: 0 0 20px 0 $black_03;
+				}
+				&.beau-event {
+					.fc-title:before {
+ 						content: '';
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: 0;
+                        top: 8px;
+					}
+				}
+				.fc-content {
+					min-height: 70px;
+				    position: relative;
+				    padding: 20px;
+					span {
+						display : block;
+						text-align : left;
+						color : black;
+						&.fc-title {
+							font-family: $MORT;
+							font-weight: 700;
+						    position: relative;
+						    line-height: 25px;
+						    padding-left: 15px;
+						    text-transform : uppercase;
+						}
+						&.fc-time {
+						    line-height: 20px;
+		    				font-size: 12px;
+                            // @include font-size(12px);
+						}
+					}
+
+				}
+
+			}
+		}
+	}
+
+}
+
+
+//test
+.fc-content-skeleton table{
+	position : relative;
+	thead {
+		position : absolute;
+		background :  transparent;
+		td {
+			position : relative;
+			width : 210px;
+		}
+	}
+	tbody {
+		tr{
+			&:first-child {
+				td {
+					.fc-content {
+						padding-top : 50px !important;
+					}
+				}
+			}
+			&:only-child {
+				td {
+					&:first-child {
+						display: block;
+					    margin: 0;
+					    min-height: 140px;
+					    width: 160px;
+					    border : none;
+					}
+
+				}
+			}
+		}
+	}
+}
+.fc-head-container {
+	table{
+		margin:0;
+	}
+}

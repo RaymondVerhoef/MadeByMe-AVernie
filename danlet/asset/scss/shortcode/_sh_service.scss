@@ -1,0 +1,136 @@
+.sh_service{
+	padding:100px 0;
+	display:block;
+	&.sh_service_about{
+		background: #f5f5f5;
+	}
+	&.sh_service_bg{
+		background: #f5f5f5;
+	}
+}
+.sh_service_box{
+	position:relative;
+	width:100%;
+	padding: 20px 0px;
+	&.service_icon_title{
+		.sh_service_title{
+			position: inherit;
+			// bottom: 650px;
+		}
+	}
+	.sh_service_title{
+		color:$black_02;
+		position:static;
+		text-align: center;
+		color:$black;
+		font-family: $MORT;
+		font-weight: 700;
+		font-size: 40px;
+		@include MQ(M){
+			text-align: left;
+			position:absolute;
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+			font-size: 50px;
+			vertical-align:middle;
+		}
+		@include MQ(XL){
+			margin-top:0;
+			font-size: 80px;
+		}
+		&.sh_service_title_el{
+			font-family: $EL;
+			font-weight: 100;
+            text-transform: capitalize;
+			@include MQ(LG){
+				right: 80px;
+			}
+		}
+		&.sh_service_title_mot{
+			font-family: $MORT;
+			font-weight: 100;
+			font-size: 60px;
+		}
+	}
+}
+.sh_service_list{
+	margin:0;
+	padding:0;
+	width:100%;
+	text-align: center;
+	li{
+		margin:0 35px;
+		list-style:none;
+		display: inline-block;
+		@include RP(DMB){
+			margin:0 5px;
+		}
+		@include MQ(M){
+			max-width: 200px;
+		}
+		@include RP(AM){
+			width:100%;
+			margin-bottom:50px;
+			padding:0 15px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.sh_service_content{
+	padding: 20px 0px;
+	.sh_service_name{
+		font-size: 20px;
+		margin:20px 0 20px 0;
+		line-height: initial;
+		&.sh_service_name_mob{
+			font-family: $MORT;
+			font-weight: 600
+
+		}
+		&.sh_service_name_fr{
+			font-family: $FR;
+			font-weight: 700;
+		}
+	}
+	.sh_service_desc{
+		font-size: 12px;
+		line-height: 18px;
+		margin:5px 0 0 0;
+		&.sh_service_desc_mol{
+			font-family: $MORT;
+			font-weight: 300;
+			padding: 0 5rem;
+		}
+	}
+}
+.sh_service__order {
+	display: flex;
+	flex-wrap: wrap;
+	.o1 {
+		order:2;
+		@include MQ(M){
+			order: 1;
+		}
+	}
+	.o2 {
+		order: 3;
+		@include MQ(M){
+			order: 2;
+		}
+	}
+	.o3 {
+		order: 4;
+		@include MQ(M){
+			order: 3;
+		}
+	}
+	.o4 {
+		order: 1;
+		@include MQ(M){
+			order: 4;
+		}
+	}
+}

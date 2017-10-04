@@ -1,0 +1,265 @@
+
+%default-class {
+    figure , .vc_single_image-wrapper , img {
+        width: 100%;
+    }
+    figure {
+        box-shadow: 0 0 100px -30px black;
+        transition: all .5s;
+        overflow: hidden;
+        img {
+            transition: all .5s;
+        }
+        &:hover {
+            box-shadow: 0 0 100px -20px black;
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+    .row {
+        display: flex;
+        align-items: center;
+    }
+    .wpb_single_image {
+        h2{
+            position: absolute;
+            font-size: 20rem;
+            color: rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            line-height: 200px;
+            font-family: "EmilyLimePro";
+            top: 10%;
+            margin: 0;
+            font-weight: 100;
+            @include RP(AM) {
+                font-size: 10rem;
+                line-height: 0;
+            };
+        }
+    }
+}
+.danlet-class {
+    @extend %default-class;
+    .row {
+        @include RP(M) {
+            flex-direction: column;
+        }
+    }
+    /* Col Image */
+
+    .wpb_single_image {
+        h2{
+            left: -15%;
+            @include RP(XL) {
+                left: 0;
+            }
+            @include RP(M) {
+                left: 10%;
+                right: auto;
+            };
+        }
+    }
+    /* Col info */
+    .wpb_column {
+        z-index: 1;
+        &:nth-child(2) {
+            @include MQ(M) {
+                padding-right : 3% !important;
+                padding-left : 5% !important;
+                text-align : left;
+            };
+        }
+        .vc_custom_heading {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &--reverse {
+        @extend %default-class;
+        /* Col Image */
+        .wpb_single_image {
+            h2{
+                right: -15%;
+                left: auto;
+                @include RP(XL) {
+                    right: 0;
+                }
+                @include RP(M) {
+                    left: 10%;
+                    right: auto;
+                };
+            }
+        }
+        /* Col info */
+        .wpb_column {
+            z-index: 1;
+            &:nth-child(1) {
+                text-align : left;
+                @include MQ(M) {
+                    padding-left : 3% !important;
+                    padding-right : 5% !important;
+                    text-align : right;
+                };
+            }
+            .vc_custom_heading {
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+            }
+        }
+        .row {
+            @include RP(M) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+}
+
+
+/* Class with double image */
+%danlet-class-double-skeleton {
+    .row {
+        display: flex;
+        @include RP(L) {
+            align-items: center;
+        };
+    }
+    img {
+        position: relative;
+    }
+    .wpb_single_image:nth-child(2) img{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+    }
+    .wpb_single_image {
+        img {
+            transition: all .5s;
+            &:hover {
+                z-index: 2;
+                box-shadow: 0 0 100px -20px black;
+            }
+        }
+    }
+}
+.danlet-class-double {
+    @extend %danlet-class-double-skeleton;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    .row {
+        @include RP(M) {
+            flex-direction: column;
+        }
+    }
+
+    .wpb_column:nth-child(2){
+        position: relative;
+        &.vc_column_container {
+            padding-left: 12%;
+            padding-right: 10%;
+            @include RP(L) {
+                padding-left: 0;
+                padding-right: 0;
+                .vc_custom_heading {
+                    margin-top: 0;
+                }
+            };
+        }
+    }
+
+    .wpb_single_image {
+        &:nth-child(2) {
+            img {
+                left: 50%;
+            }
+            @include RP(L) {
+                display: none;
+            };
+        }
+        @include RP(L) {
+            text-align: center !important;
+        };
+    }
+
+    @include RP(AM) {
+        .wpb_column:nth-child(2) {
+            padding : 0 25% !important;
+        }
+    }
+    @include RP(SM) {
+        .wpb_column:nth-child(2) {
+            padding : 0 5% !important;
+        }
+    }
+    @include RP(L) {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    };
+
+    &--reverse {
+        @extend %danlet-class-double-skeleton;
+        padding-left: 12%;
+        padding-right: 10%;
+
+        .wpb_column:first-child{
+            position: relative;
+            text-align: right !important;
+            &.vc_column_container {
+                padding-left: 10%;
+                padding-right: 12%;
+                @include RP(L) {
+                    padding-left: 0;
+                    padding-right: 0;
+                    .vc_custom_heading {
+                        margin-top: 0;
+                    }
+                };
+            }
+            p, h4, a , h6{
+                text-align: right !important;
+                @include RP(M) {
+                    text-align: left !important;
+                };
+            }
+            @include RP(M) {
+                text-align: left !important;
+            };
+        }
+        .wpb_single_image {
+            &:nth-child(2) {
+                img {
+                    right: 50%;
+                }
+                @include RP(L) {
+                    display: none;
+                };
+            }
+            @include RP(L) {
+                text-align: center !important;
+            };
+        }
+        @include RP(M) {
+            .row {
+                flex-direction: column-reverse;
+            }
+            .wpb_single_image {
+                text-align: center !important;
+            }
+
+        }
+
+        @include RP(AM) {
+            padding-left: 0;
+            padding-right: 0;
+            .wpb_column:first-child {
+                padding : 0 25% !important;
+            }
+        };
+        @include RP(SM) {
+            .wpb_column:first-child {
+                padding : 0 5% !important;
+            }
+        }
+    }
+}

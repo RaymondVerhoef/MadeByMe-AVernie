@@ -1,0 +1,293 @@
+.acd_page_timetable_filter{
+	text-align: center;
+	border-bottom:1px solid $black_01;
+	margin:30px 0;
+	// font-size: 16px;
+    @include font-size(16px);
+	font-family: $MORT;
+		font-weight: 700;
+	position:relative;
+	cursor: pointer;;
+}
+.acd_page_timetable_cl_box{
+	margin:30px 0;
+	padding:0;
+	width: 100%;
+	display:table;
+	li{
+		list-style:none;
+		display:inline-block;
+	}
+}
+.acd_page_timetable_cl_date{
+	font-family: $EL;
+	// font-size: 34px;
+    @include font-size(34px);
+	color:$vm;
+}
+.acd_page_timetable_cl_np{
+	text-align: right;
+	font-family: $MORT;
+	font-weight: 400;
+	.acd_timetable_date_active{
+		margin:0 15px;
+	}
+	.acd_tbcl{
+		display:inline-block;
+		width:30px;
+		height:30px;
+		border-radius: 50%;
+		background: $black_01;
+		text-align: center;
+		line-height: 30px;
+		color:$vm;
+		@include transition(fast);
+		&:hover{
+			color:$white;
+			background: $vm;
+		}
+	}
+}
+.fc-content-skeleton{
+    table{
+        margin-bottom: 0px;
+    }
+}
+// time table
+.acd_page_timetable_calendar{
+	margin-bottom:100px;
+}
+.acd_page_timetable_calendar_list{
+	margin:0;
+	padding:0;
+	width:100%;
+	display:table;
+	border-left:1px solid $black_01;
+	li{
+		list-style: none;
+		display:inline-table;
+		width:14.2857%;
+		border-right:1px solid $black_01;
+		border-bottom:1px solid $black_01;
+		&.acd_tb_top_date{
+			text-align: center;
+			background-color: $black;
+			// font-size: 12px;
+            @include font-size(12px);
+			color:$white;
+			padding:17px 0;
+		}
+		&.acd_tb_classes{
+			position:relative;
+			.acd_tbl_timeline{
+				min-height:110px;
+				position:relative;
+				padding:20px;
+				border-bottom:1px solid $black_01;
+				&:hover{
+					-webkit-box-shadow: 0 0 30px 0 $black_03;
+					-moz-box-shadow: 0 0 30px 0 $black_03;
+					box-shadow: 0 0 30px 0 $black_03;
+				}
+				&.acd_tbl_timeline_first{
+					min-height: 140px;
+					padding-top:50px;
+				}
+			}
+		}
+	}
+}
+.acd_tb_classes{
+	.acd_tbl_timeline_bg_active{
+		border-bottom:1px solid $white_05 !important;
+		color:$white;
+		.acd_tbl_classes{
+			padding-left:0;
+
+			&:before{
+				width:0;
+				height:0;
+			}
+		}
+		.acd_tbl_day{
+			background: $white;
+		}
+		&.acd_tbl_timeline_bgcon{
+			background: #22509f;
+		}
+		&.acd_tbl_timeline_bgsad{
+			background: #9c8355;
+		}
+	}
+	.acd_tbl_day{
+		position:absolute;
+		font-family: $MORT;
+		font-weight: 700;
+		top:10px;
+		color:$black_06;
+		left:10px;
+		min-width:30px;
+		height:30px;
+		text-align: center;
+		border-radius: 50%;
+		line-height: 30px;
+	}
+	.acd_tbl_open_time{
+		line-height: 18px;
+		font-size: 12px;
+	}
+}
+.acd_tbl_classes{
+	font-family:$MORT;
+		font-weight: 700;
+	position:relative;
+	padding-left:15px;
+	&:before{
+		content:'';
+		width:10px;
+		height:10px;
+		border-radius: 50%;
+		position:absolute;
+		left:0;
+		top:8px;
+		background:#22509f;
+
+	}
+	&.acd_tbl_classes_chilbe{
+		&:before{
+			background: #f00;
+		}
+	}
+	&.acd_tbl_classes_clasad{
+		&:before{
+			background: #9c8355;
+		}
+	}
+
+}
+//Filter Classes
+.acd_page_timetable_box_filter{
+	background: $black;
+	padding:50px 0;
+	@include transition(fast);
+	position:absolute;
+	opacity: 0;
+	width:100%;
+
+	&.acd_page_tbl_active_cat{
+		opacity: 1;
+		width:100%;
+		z-index:2;
+	}
+}
+.acd_page_timetable_filter_list{
+	margin:0;
+	padding:0 100px;
+	>li{
+		list-style: none;
+	}
+}
+.acd_page_timetable_filter_cat{
+	width:100%;
+	color:$white;
+	text-align: left;
+	.acd_page_timetable_filter_title{
+		// font-size:16px;
+        @include font-size(16px);
+		line-height:40px;
+		font-family: $MORT;
+		font-weight: 400;
+		padding:0 5px;
+	}
+}
+.acd_page_timetable_filter_radio{
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0 5px;
+	max-height:230px;
+	overflow-y: auto;
+	input[type = "text"] {
+		list-style: none;
+	    width: 100%;
+	    border-radius : 5px;
+	    border : none;
+	    color : black;
+	    font-size : 1.2em;
+	    padding : 5px 10px;
+	}
+	li{
+		width:100%;
+		font-family: $MORT;
+		font-weight: 300;
+		color:$white_03;
+		font-size:12px;
+		display:flex;
+		margin-bottom:10px;
+		input[type="radio"]{
+			-webkit-appearance: none;
+			outline: none;
+			&:after{
+				width: 15px;
+			    height: 15px;
+			    border-radius: 15px;
+			    top: -2px;
+			    left: -1px;
+			    position: relative;
+			    background-color:$white_03;
+			    content: '';
+			    display: inline-block;
+			    visibility: visible;
+
+			}
+			&:checked + label{
+				color:$white;
+			}
+			&.radio-1{
+				&:after{
+					background-color: #22509f;
+				}
+		    }
+		    &.radio-2{
+				&:after{
+					background-color: #977a17;
+				}
+		    }
+		     &.radio-3{
+				&:after{
+					background-color: #ad3434;
+				}
+		    }
+		}
+
+
+		label{
+			padding-left:10px;
+			position:relative;
+			top:-5px;
+		}
+	}
+}
+.acd_page_timetable_search{
+	margin-top: 20px;
+	input[type="submit"]{
+		font-family:12px;
+		border:none;
+		padding:5px 25px;
+		border-radius: 20px;
+		background: $vm;
+		color:$white;
+		font-family: $MORT;
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+}
+
+
+
+
+
+
+
+
+

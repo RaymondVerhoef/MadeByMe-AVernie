@@ -1,0 +1,212 @@
+h3.acd_teacher_detail_title{
+	text-align: center;
+	font-size: 40px;
+	font-family: $MORT;
+		font-weight: 700;
+	margin-bottom: 60px;
+}
+.acd_teacher_detail{
+	text-align: center;
+	font-family: $MORT;
+	font-weight: 400;
+	margin-bottom:70px;
+	a{
+		color:$vm;
+		.fa{
+			margin-left:5px;
+		}
+	}
+}
+.acd_teacher_detail_box_info{
+	padding:0;
+	margin:-100px 0 0 0;
+	@include MQ(L){
+		margin:-170px 0 0 0;
+	}
+	@include RP(AM){
+		margin:0;
+	}
+	>li{
+		list-style: none;
+		display:table;
+		margin-bottom:100px;
+		@include RP(AM){
+			margin-bottom: 50px;
+		}
+		&:nth-child(odd){
+			.acd_teacher_detail_img{
+				width:100%;
+				@include MQ(L){
+					padding-left: 100px;
+				}
+				img{
+					width:100%;
+				}
+			}
+			.acd_teacher_detail_text_info{
+				padding-top: 30px;
+				@include MQ(M) {
+					padding-top: 100px;
+				}
+				@include MQ(LG){
+					padding-top: 170px;
+				}
+			}
+		}
+		&:nth-child(even){
+			.acd_teacher_detail_img_box{
+				float:right;
+
+			}
+			.acd_teacher_detail_text_info{
+				padding-top: 30px;
+				@include MQ(L){
+					padding-left: 100px;
+					padding-top: 30px;
+					text-align:right;
+
+				}
+			}
+		}
+	}
+}
+.acd_teacher_detail_img{
+	position:relative;
+	ul.acd_teacher_detail_social{
+		margin:0;
+		padding:0;
+		position:absolute;
+		@include center(y);
+		left:40px;
+		li{
+			list-style: none;
+			margin:5px 0;
+			display:table;
+			@include transition(fast);
+			a{
+				display:inline-block;
+				width:30px;
+				height:30px;
+				line-height: 30px;
+				text-align: center;
+				border-radius: 50%;
+				background: $vm;
+				color:$white;
+			}
+			&:hover{
+				a{
+					background: $black_07;
+				}
+			}
+		}
+	}
+	.acd_teacher_detail_img_big{
+		width:100%;
+		position : relative;
+		-webkit-box-shadow: 0 0 70px 0 $black_04;
+		-moz-box-shadow: 0 0 70px 0 $black_04;
+		box-shadow: 0 0 70px 0 $black_04;
+		@include transition(slow);
+		height: 647px;
+		@include MQ(M){
+			height: 500px;
+		}
+		@include MQ(LG){
+			height: 647px;
+		}
+		img{
+			width:100%;
+			height:100%;
+            position : absolute;
+            object-fit: cover;
+            @include center(xy);
+		}
+	}
+	.acd_teacher_detail_img_small{
+		-webkit-box-shadow: 0 0 50px 0 $black_04;
+		-moz-box-shadow: 0 0 50px 0 $black_04;
+		box-shadow: 0 0 50px 0 $black_04;
+
+		position:absolute;
+		right:-30px;
+		bottom:-30px;
+		width:150px;
+		@include MQ(M){
+			width:200px;
+		}
+		@include MQ(DM){
+			right:-30px;
+			bottom:-30px;
+		}
+		@include MQ(XL){
+			right:-100px;
+			bottom:-50px;
+		}
+		@include MQ(LG){
+			width:270px;
+			height:374px;
+		}
+		span {
+			position : absolute;
+			width:100%;
+			height:100%;
+			text-indent: -9999px;
+			@include center(xy);
+
+		}
+		img{
+			width:100%;
+            height:100%;
+            position : absolute;
+            object-fit: cover;
+            @include center(xy);
+		}
+	}
+	&.bot {
+		.acd_teacher_detail_img_big {
+			height:570px;
+		}
+		.acd_teacher_detail_img_small {
+			height: 270px;
+		}
+	}
+}
+.acd_teacher_detail_text_info{
+	h2.acd_teacher_detail_text_name{
+
+		color:$vm;
+
+		font-family: $MORT;
+		font-weight: 700;
+		margin: 0 0 10px 0;
+		font-size: 40px;
+		line-height: 40px;
+		@include MQ(DMB){
+			font-size: 60px;
+			line-height: 60px;
+		}
+	}
+	.acd_teacher_detail_cat{
+		font-family:$MORT;
+		font-weight: 700;
+		.acd_teacher_detail_cat_name{
+			color:$black_05;
+		}
+		a{
+			font-family: $MORT;
+			font-weight: 400;
+		}
+	}
+	.acd_teacher_detail_text_view{
+		margin-top:20px;
+	}
+	.acd_teacher_detail_text_desc{
+		font-size: 16px;
+		font-family: $MORT;
+		font-weight: 700;	
+	}
+}
+.acd_classes_detail_gallery_box{
+	position:relative !important;
+	z-index:2;
+}

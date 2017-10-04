@@ -1,0 +1,70 @@
+.none {
+	display :none;
+}
+.acd_btn_next,.acd_btn_prev, .acd_btn_white_next , .acd_btn_white_prev {
+	width:35px;
+	height:25px;
+	position:absolute;
+	z-index:1;
+	@include center(y);
+}
+.acd_btn_next {
+	background: url('../images/icon/g_next_white.png') no-repeat center;
+	right:-50px;
+	@include RP(BD){
+		right:15px;
+	}
+
+}
+.btn-next-back{
+    cursor:pointer;
+}
+.acd_btn_prev {
+	background: url('../images/icon/g_prev_white.png') no-repeat center;
+	left:-50px;
+	@include RP(BD){
+		left:15px;
+	}
+}
+.acd_btn_close {
+	background: url('../images/icon/close.png') no-repeat center;
+
+}
+.acd_btn_white_next , .acd_btn_white_prev {
+	opacity : 0.2;
+	top:30%;
+	bottom:auto;
+	&:hover, &:active{
+			opacity: 1;
+		}
+}
+.acd_btn_white_next {
+	background : url('../images/icon/sh_video_next.png') no-repeat center;
+	right:-60px;
+	@include RP(BD){
+		right:-40px;
+	}
+}
+.acd_btn_white_prev {
+	background : url('../images/icon/sh_video_prev.png') no-repeat center;
+	left:-60px;
+	@include RP(BD){
+		left:-40px;
+	}
+}
+.acd_btn_awe {
+	position: relative;
+	transition: all .5s;
+	transition-delay: 0s;
+	i {
+		position: relative;
+		left : 0.5rem;
+		transition: left .5s, color .5s;
+		transition-delay: 0s;
+	}
+	&:hover {
+		i {
+			left: 1.5rem;
+		}
+	}
+}

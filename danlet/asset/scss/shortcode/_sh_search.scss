@@ -1,0 +1,96 @@
+.sh_search{
+	padding:50px 0;
+}
+.sh_search_title{
+	width:100%;
+	// font-size:40px;
+    @include font-size(40px);
+	line-height: 112px;
+	margin:0;
+	text-align: center;
+	&.sh_search_title_el{
+		font-family: $EL;
+		color:$vm;
+		font-weight: 100;
+		// font-size:70px;
+        padding-bottom: 20px;
+        font-size : 40px;
+        line-height: 40px;
+        @include MQ(M){
+            font-size : 50px;
+            line-height: 50px;
+        }
+        @include MQ(XL){
+            // padding-bottom:0;
+            font-size : 70px;
+            line-height: 70px;
+        }
+	}
+	&.sh_search_title_mob{
+		font-family: $MORT;
+		font-weight: 700;
+	}
+    &.sh_search_ft_title_fr{
+        font-family: $FR;
+        color: $white;
+        font-style: italic;
+        font-weight: 100;
+        // font-size: 50px;
+        @include font-size(50px);
+        margin-top:-10px;
+        line-height: 100px;
+    }
+}
+.sh_search_box{
+	width: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    height:60px;
+    &.sh_search_box_bg_vm{
+    	background: #edab55;
+    	color:$white;
+    	input::-webkit-input-placeholder{
+    		color:$white;
+    	}
+    	input:-moz-input-placeholder{
+    		color:$white;
+    	}
+    }
+    input[type="text"]{
+    	width:100%;
+    	height:60px;
+    	padding:0 50px;
+		position: relative;
+		overflow: hidden;
+    	border:0;
+    	outline: 0;
+		border-radius: 30px;
+		background: #f3f3f3;
+		transition: all .4s;
+		&:focus{
+			box-shadow: 0 0 40px -10px rgba(0,0,0,.3);
+
+		}
+    }
+    button{
+    	position:relative;
+    	width:100px;
+    	margin-left:-100px;
+    	border:none;
+    	background: transparent;
+    	cursor: pointer;
+        outline: 0;
+		.fa {
+			transition: all .5s;
+		}
+		&:hover {
+			.fa {
+				opacity: .9;
+				transform : rotate(30deg) scale(1.5)
+			}
+		}
+    }
+}
+.subcribe-message-title{
+    text-align:center;
+}

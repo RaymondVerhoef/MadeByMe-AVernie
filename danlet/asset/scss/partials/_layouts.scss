@@ -1,0 +1,92 @@
+// breakpoints
+
+$S:     320px;
+$SM:    500px;
+$SMB:   600px;
+$MB:    640px;
+$AM:    767px;
+$M:     768px;
+$DM:    991px;
+$DMB:   992px;
+$AD:	1024px;
+$BD: 	1040px;
+$L:     1170px;
+$XL:    1300px;
+$LM:    1499px;
+$LG:    1500px;
+
+// media queries
+
+@mixin MQ($canvas) {
+    @if $canvas == S {
+    @media only screen and (min-width: $S) { @content; }
+    }
+    @else if $canvas == SM {
+        @media only screen and (min-width: $SM) { @content; }
+    }
+    @else if $canvas == M {
+        @media only screen and (min-width: $M) { @content; }
+    }
+     @else if $canvas == DM {
+        @media only screen and (min-width: $DM) { @content; }
+    }
+    @else if $canvas == DMB {
+        @media only screen and (min-width: $DMB) { @content; }
+    }
+    @else if $canvas == BD {
+        @media only screen and (min-width: $BD) { @content; }
+    }
+    @else if $canvas == AD {
+        @media only screen and (min-width: $AD) { @content; }
+    }
+    @else if $canvas == XL {
+        @media only screen and (min-width: $XL) { @content; }
+    }
+    @else if $canvas == L {
+        @media only screen and (min-width: $L) { @content; }
+    }
+    @else if $canvas == LG {
+        @media only screen and (min-width: $LG) { @content; }
+    }
+
+}
+@mixin RP($canvas) {
+    @if $canvas == S {
+        @media only screen and (max-width: $S) { @content; }
+    }
+    @else if $canvas == SM {
+        @media only screen and (max-width: $SM) { @content; }
+    }
+    @else if $canvas == AM {
+        @media only screen and (max-width: $AM) { @content; }
+    }
+    @else if $canvas == M {
+        @media only screen and (max-width: $M) { @content; }
+    }
+    @else if $canvas == DM {
+        @media only screen and (max-width: $DM) { @content; }
+    }
+    @else if $canvas == AD {
+        @media only screen and (max-width: $AD) { @content; }
+    }
+    @else if $canvas == L {
+        @media only screen and (max-width: $L) { @content; }
+    }
+    @else if $canvas == XL{
+        @media only screen and (max-width: $XL) { @content; }
+    }
+    @else if $canvas == DMB{
+        @media only screen and (max-width: $DMB) { @content; }
+    }
+    @else if $canvas == BD{
+        @media only screen and (max-width: $BD) { @content; }
+    }
+}
+@mixin OP($canvas){
+    @if $canvas == OPME {
+         @media only screen and (max-width: $AD) and (min-width: $DMB){ @content;}
+    }
+    @else if $canvas == OPMEM {
+         @media only screen and (max-width: $DM) and (min-width: $M){ @content;}
+    }
+}

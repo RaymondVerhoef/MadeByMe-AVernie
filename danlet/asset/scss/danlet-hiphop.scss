@@ -1,0 +1,409 @@
+@import './bourbon/bourbon';
+@import './partials/fonts'; //Import more font in here
+//@import './partials/be_icon'; // Import icon beautheme
+@import './partials/mixins'; // custom MIxins
+@import './partials/variables'; // Fonts, color ...
+@import './partials/colors'; // BGcolor ...
+$hiphop : #fdea7c;
+%font-fr{
+    font-family: $FR;
+    font-weight: 700;
+}
+.main-menu {
+    > ul {
+        > li {
+            > a {
+                color: $black;
+                font-weight: 500;
+            }
+        }
+    }
+}
+header {
+    .acd-cls {
+        & > ul {
+            &.acd_ucs {
+                & > li {
+                    & > a,i {
+                        color: $black;
+                    }
+
+                }
+                &.acd_ucs_white {
+                    & > li {
+                        & > a , i{
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+header.f-nav {
+    background-color: $black;
+    .acd-menu {
+        nav {
+            ul li {
+                a {
+                    color: $white;
+                    &:hover{
+                        color: $white_05;
+                    }
+                }
+                .children, .sub-menu{
+                    a {
+                        &:hover{
+                            color: #000;
+                        }
+                    }
+                }
+                .sub-menu {
+                    a {
+                        &:hover {
+                            color: $white_05;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .acd-cls {
+        & > ul {
+            &.acd_ucs {
+                & > li {
+                    & > a,i {
+                        color: $white;
+                    }
+
+                }
+                &.acd_ucs_white {
+                    & > li {
+                        & > a , i{
+                            color: $white;
+                        }
+                        &:hover {
+                            & > a , & > a i , & > i {
+                                color : $white_05;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.acd-menu nav ul li .sub-menu, .acd-menu  nav ul li .children {
+    background-color: $black_08;
+}
+.acd-menu ul li .current-menu-item, .acd-menu ul li .sub-menu li:hover, .acd-menu ul li .children li:hover {
+   background-color: $black_09 !important;
+   color: $white !important;
+}
+.acd-menu ul li .sub-menu li:hover, .acd-menu ul li .children li:hover , .acd-menu ul li .current-menu-item {
+    background: $hiphop !important;
+}
+.acd-menu ul li .sub-menu li:hover > a, .acd-menu ul li .children li:hover > a , .acd-menu ul li .current-menu-item > a{
+    color: $black !important;
+}
+.acd-menu ul li .current-menu-item {}
+.acd_footer {
+    &.acd_footer_home1 {
+        background: $black !important;
+    }
+    .acd_footer_content,.subcribe-message {
+        color: $white;
+    }
+    .acd_footer_title {
+    }
+    .sh_search_title.sh_search_title_el {
+        color: $white;
+    }
+    .acd_address {
+
+        td  {
+            &:first-child {
+                color: $white_05;
+            }
+            &:last-child {
+                color: $white_03;
+            }
+        }
+    }
+    .acd_footer_list_cat li a {
+        color: $white_03;
+    }
+    .acd_footer_box {
+        &.acd_footer_box_right > li {
+            border-right-color: $white_01;
+        }
+    }
+    .acd_footer_bottom_content.acd_footer_bottom_content_home2 {
+        border-top-color: $white_01;
+    }
+    .acd_footer_social li {
+        a {
+            background : $white_03;
+        }
+        &:hover {
+            a {
+                background:$white;
+                color: $black_03;
+            }
+        }
+    }
+    .back-to-top {
+        border-color: $white_03;
+        &:before {
+            color: $white_03;
+        }
+        &:hover {
+            background: $white_03;
+        }
+    }
+    .acd_footer_bottom_content {
+        color: $white_03;
+        a {
+            color: $white_05;
+        }
+    }
+}
+.sh_about_box .sh_about_viewmore.sh_viewmore_clvm a, .sh_blog_view_more.sh_blog_view_more_vm a.sh_blog_view_more_cvm {
+	color : $black_05;
+    font-weight: 500;
+}
+.sh_blog_view_more.sh_blog_view_more_vm a.sh_blog_view_more_cvm:hover {
+    color: $black_09;
+}
+.sh_teacher_hm_content .sh_teacher_hm_tb li span.sh_teacher_hm_tb_bgvm a, .sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable a {
+    color: $black;
+}
+.sh_class_img {
+    .sh_class_date.sh_font_el {
+        font-family: $MORT;
+		font-weight: 100;
+    }
+}
+
+.sh_class_box .sh_class_book li span.book_now.bg_booknow {
+	background-color: #aaaaaa;
+	&:hover {
+		background-color: $black;
+		a {
+			color: $white;
+		}
+	}
+	a {
+		color: #e6e6e6;
+	}
+}
+.sh_teacher_hm_name {
+    &:hover {
+        &:before {
+            background: $hiphop !important;
+        }
+        a {
+            color: $hiphop;
+        }
+    }
+}
+.sh_teacher_hm_content .sh_teacher_hm_tb li span.sh_teacher_hm_tb_bgvm, .sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable {
+	background-color: #e6e6e6;
+	&:hover {
+		background-color: $black;
+		a {
+			color: $white;
+		}
+
+	}
+	a {
+		color: #aaaaaa;
+	}
+}
+.sh_teacher_hm_img .sh_teacher_hm_title.sh_teacher_hm_title_el {
+	font-family: $MORT;
+	font-weight: 100;
+  	@include font-size(60px);
+}
+.sh_teacher_hm_content .sh_teacher_hm_tb li.sh_teacher_hm_tb_cvm a {
+	color : $black_05;
+}
+.sh_teacher_hm_content .sh_teacher_hm_tb li.sh_teacher_hm_tb_cvm a:hover {
+	color : $black_09;
+}
+.sh_teacher_hm_teach{
+    &:hover,&:focus,&:active {
+        a {
+    		color : $black_05;
+    	}
+        &:before {
+            background: $black_05;
+        }
+    }
+}
+.sh_service_box .sh_service_title.sh_service_title_el {
+ 	font-family: $MORT;
+	font-weight: 100;
+	@include font-size(60px);
+}
+.sh_blog_date.sh_blog_date_el {
+	font-family: $MORT;
+	font-weight: 300;
+}
+.acd_footer_image .acd_footer_store a {
+	color : $white_05;
+}
+.sh_classes:hover .sh_class_title a {
+    color: $black_05;
+}
+.sh_class_teacher {
+    li {
+        a {
+            &:hover {
+                color: $black_05;
+            }
+        }
+    }
+}
+.sh_search_title {
+    &.sh_search_title_el {
+        font-family: $MORT;
+        color : $black;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width : 768px){
+    .sh_search_title.sh_search_title_el {
+        font-size : 2.5rem;
+    }
+}
+.sh_teacher_hm_teach {
+    a {
+        &:hover {
+            color: $black_05;
+        }
+    }
+}
+.swiper-video .sh_video_content .sh_video_name.sh_video_name_clw a {
+    color: $white_05;
+}
+
+.footer-widget {
+    .acd_footer_list_cat {
+        > li {
+            > a {
+                &:hover {
+                    color: $white;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+.acd_footer_list_cat li a:before {
+    background: $white;
+}
+.sh_blog_name {
+    &:hover {
+        a {
+            color: $black_08;
+        }
+    }
+}
+.sh_testimonial_info {
+    color: $white;
+}
+.testimonial-pagination {
+    &.bg_testimonial_op1 {
+        .swiper-pagination-bullet {
+            background: #999999;
+            &.swiper-pagination-bullet-active {
+                background: $white;
+            }
+        }
+    }
+}
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name:before {
+    background-color : $hiphop;
+}
+.sh_blog_big:hover .sh_blog_content h4.sh_log_name a {
+    color : $hiphop !important;
+}
+.danlet-teacher .wpb_single_image h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 6rem;
+    font-weight: 100;
+}
+h4:hover {
+    color: $hiphop;
+}
+.sh_blog_big:hover .sh_blog_content h4.sh_blog_name a {
+    color: $hiphop;
+}
+.danlet-teacher .wpb_column:nth-child(2) .vc_custom_heading:hover a  {
+    color: $hiphop;
+}
+.danlet-teacher .wpb_column:nth-child(2) .vc_custom_heading:hover:before {
+    background-color: $hiphop;
+}
+.danlet-class .wpb_single_image h2 , .danlet-class--reverse .wpb_single_image h2{
+    font-family: "Montserrat",sans-serif;
+}
+
+.wpb_text_column {
+    h6 {
+        color: rgba(0,0,0,.4);
+
+    }
+    a {
+        &:hover {
+            color: $hiphop;
+        }
+    }
+}
+
+.custom-button {
+    a {
+        border: none !important;
+        background-color: #e6e6e6 !important;
+        color: white !important;
+        &:hover {
+            background: black !important;
+            color: white !important;
+        }
+    }
+}
+.custom-button--icon {
+    a {
+        border : none !important;
+        background-color: #e6e6e6 !important;
+        color: black !important;
+        &:hover {
+            color: white !important;
+            background-color: black !important;
+        }
+    }
+}
+.viewmore-btn {
+    .vc_btn3 {
+        background: transparent !important;
+        border: none !important;
+        color: rgba(0,0,0,.4) !important;
+        transition: all .5s;
+        i {
+            transition: all .2s;
+            color: rgba(0,0,0,.4) !important;
+        }
+        &:hover, &:active {
+            color : black !important;
+            background: transparent !important ;
+            border: none !important;
+            i {
+                color : black !important;
+                right: 15px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,151 @@
+
+.error_box{
+	width:100vw;
+	height:100vh;
+	position:relative;
+	.error_content{
+		position:absolute;
+		@include MQ(DMB){
+			@include center(xy);
+		}
+		@include RP(DM){
+			position:static;
+			text-align: center;
+		}
+		@include RP(AM){
+			padding-bottom:50px;
+		}
+	}
+
+}
+.acd_error_img{
+	width:100%;
+	padding-left:100px;
+	position:relative;
+	@include RP(DMB){
+		padding-left: 0;
+	}
+	@include RP(DM){
+		.acd_error_img_v{
+			width:50%;
+			float:left;
+			position:relative;
+			height:0;
+			padding-bottom:30.25%;
+			overflow: hidden;
+		}
+	}
+	@include RP(SM){
+		.acd_error_img_v{
+			width:100%;
+			margin-bottom:15px;
+			padding-bottom:56.25%;
+		}
+	}
+	.acd_error_img_big{
+		img{
+			width:100%;
+			height:auto;
+		}
+	}
+	.acd_error_img_small{
+
+		position:absolute;
+		left:0px;
+		bottom:100px;
+		@include MQ(DMB){
+			width:370px;
+		}
+		@include RP(DM){
+			position: static;
+
+		}
+		img{
+			width:100%;
+			height:auto;
+		}
+	}
+	.acd_error_img_logo{
+		@include MQ(DMB){
+			position:absolute;
+			width:130px;
+			height:40px;
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+			top:70px;
+			left:0;
+		}
+		@include RP(DM){
+			width:100%;
+			margin: 30px 0;
+		}
+	}
+}
+.acd_error_info{
+	width:100%;
+	padding-top:70px;
+	@include RP(DMB){
+		padding-top: 30px;
+	}
+	@include RP(DM){
+		padding:0 20%;
+	}
+	@include RP(SM){
+		padding: 0;
+	}
+	.acd_error_title{
+		font-family: $MORT;
+		font-weight: 400;
+		position: relative;
+		margin:20px 0 0 0 ;
+		@include font-size(25px);
+		line-height: 40px;
+		@include MQ(L){
+			@include font-size(39px);
+			line-height: 50px;
+		}
+		&:before{
+			@include MQ(DMB){
+				content:'';
+				height: 5px;
+				width:130px;
+				background:$black;
+				position:absolute;
+				left:-130px;
+			}
+		}
+	}
+	.acd_error_desc{
+		color:$black_05;
+	}
+	.acd_error_linkpage{
+		@include font-size(12px);
+		font-family: $MORT;
+		font-weight: 400;
+		a{
+			display:inline-block;
+			padding:10px 30px;
+			border-radius:25px;
+			color:$white;
+			background:$vm;
+		}
+	}
+}
+//svg
+.error_svg{
+	position:absolute;
+	width:100%;
+	bottom:0;
+	z-index:-1;
+    // height:375px;
+	height:40%;
+
+	@include RP(XL){
+		height:300px;
+	}
+
+	@include RP(DM){
+		display:none;
+	}
+}

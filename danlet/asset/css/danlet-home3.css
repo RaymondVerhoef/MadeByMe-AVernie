@@ -18,30 +18,30 @@
   background: #f5f5f5; }
 
 .acd_vm.bg {
-  background: #d9a992; }
+  background: #035961; }
 
 .acd_vm.text {
-  color: #d9a992; }
+  color: #035961; }
 
 .acd_vm.button {
   color: #fff;
-  background: #d9a992; }
+  background: #035961; }
   .acd_vm.button:hover {
-    color: #d9a992;
+    color: #035961;
     background: rgba(0, 0, 0, 0.1); }
 
 .acd_vm.icon {
-  color: #d9a992;
+  color: #035961;
   background: rgba(0, 0, 0, 0.1); }
   .acd_vm.icon:hover {
     color: #fff;
-    background: #d9a992; }
+    background: #035961; }
 
 .acd_vm.border {
-  border-color: #d9a992; }
+  border-color: #035961; }
 
 .acd_vm.fill {
-  fill: #d9a992; }
+  fill: #035961; }
 
 .acd_gray.bg {
   background: #ecebe6; }
@@ -150,13 +150,13 @@
 .acd-menu ul li .current-menu-item {
   background: #000; }
   .acd-menu ul li .current-menu-item > a {
-    color: #d9a992; }
+    color: #035961; }
 
 header .acd-menu nav ul li a {
   font-weight: 500;
   color: #000; }
   header .acd-menu nav ul li a:hover {
-    color: #d9a992; }
+    color: #035961; }
 
 header .acd-menu nav ul li .children a:hover, header .acd-menu nav ul li .sub-menu a:hover {
   color: #000; }
@@ -164,7 +164,7 @@ header .acd-menu nav ul li .children a:hover, header .acd-menu nav ul li .sub-me
 header .acd-menu nav ul li .children li:hover, header .acd-menu nav ul li .sub-menu li:hover {
   background: #000; }
   header .acd-menu nav ul li .children li:hover > a, header .acd-menu nav ul li .sub-menu li:hover > a {
-    color: #d9a992; }
+    color: #035961; }
 
 header .acd-cls > ul.acd_ucs > li > a, header .acd-cls > ul.acd_ucs > li i {
   color: #000; }
@@ -173,7 +173,7 @@ header .acd-cls > ul.acd_ucs.acd_ucs_white > li > a, header .acd-cls > ul.acd_uc
   color: #000; }
 
 header .acd-cls > ul.acd_ucs.acd_ucs_white > li:hover a, header .acd-cls > ul.acd_ucs.acd_ucs_white > li:hover i {
-  color: #d9a992; }
+  color: #035961; }
 
 .acd-cart .acd_number_on_cart {
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);

@@ -2,120 +2,148 @@
   font-family: 'EmilyLimePro';
   src: url("../fonts/emilylimepro/EmilyLimePro.eot");
   src: url("../fonts/emilylimepro/EmilyLimePro.eot?#iefix") format("embedded-opentype"), url("../fonts/emilylimepro/EmilyLimePro.woff") format("woff"), url("../fonts/emilylimepro/EmilyLimePro.ttf") format("truetype"), url("../fonts/emilylimepro/EmilyLimePro.svg") format("svg"); }
+
 @font-face {
   font-family: 'Selima';
   src: local("Selima"), url("../fonts/Selima.otf") format("truetype");
   font-weight: normal; }
+
 @font-face {
   font-family: 'Morracle';
   font-style: normal;
   font-weight: normal;
   src: local("Morracle"), url("../fonts/Morracle1.ttf") format("truetype"); }
+
 .bg_rosef5 {
   background: #f5f5f5; }
 
 .acd_vm.bg {
-  background: #d9a992; }
+  background: #035961; }
+
 .acd_vm.text {
-  color: #d9a992; }
+  color: #035961; }
+
 .acd_vm.button {
   color: #fff;
-  background: #d9a992; }
+  background: #035961; }
   .acd_vm.button:hover {
-    color: #d9a992;
+    color: #035961;
     background: rgba(0, 0, 0, 0.1); }
+
 .acd_vm.icon {
-  color: #d9a992;
+  color: #035961;
   background: rgba(0, 0, 0, 0.1); }
   .acd_vm.icon:hover {
     color: #fff;
-    background: #d9a992; }
+    background: #035961; }
+
 .acd_vm.border {
-  border-color: #d9a992; }
+  border-color: #035961; }
+
 .acd_vm.fill {
-  fill: #d9a992; }
+  fill: #035961; }
 
 .acd_gray.bg {
   background: #ecebe6; }
+
 .acd_gray.text {
   color: #ecebe6; }
+
 .acd_gray.button {
   color: #fff;
   background: #ecebe6; }
   .acd_gray.button:hover {
     color: #ecebe6;
     background: rgba(0, 0, 0, 0.1); }
+
 .acd_gray.icon {
   color: #ecebe6;
   background: rgba(0, 0, 0, 0.1); }
   .acd_gray.icon:hover {
     color: #fff;
     background: #ecebe6; }
+
 .acd_gray.border {
   border-color: #ecebe6; }
+
 .acd_gray.fill {
   fill: #ecebe6; }
 
 .acd_rosef5.bg {
   background: #f5f5f5; }
+
 .acd_rosef5.text {
   color: #f5f5f5; }
+
 .acd_rosef5.button {
   color: #fff;
   background: #f5f5f5; }
   .acd_rosef5.button:hover {
     color: #f5f5f5;
     background: rgba(0, 0, 0, 0.1); }
+
 .acd_rosef5.icon {
   color: #f5f5f5;
   background: rgba(0, 0, 0, 0.1); }
   .acd_rosef5.icon:hover {
     color: #fff;
     background: #f5f5f5; }
+
 .acd_rosef5.border {
   border-color: #f5f5f5; }
+
 .acd_rosef5.fill {
   fill: #f5f5f5; }
 
 .acd_black.bg {
   background: #000; }
+
 .acd_black.text {
   color: #000; }
+
 .acd_black.button {
   color: #fff;
   background: #000; }
   .acd_black.button:hover {
     color: #000;
     background: rgba(0, 0, 0, 0.1); }
+
 .acd_black.icon {
   color: #000;
   background: rgba(0, 0, 0, 0.1); }
   .acd_black.icon:hover {
     color: #fff;
     background: #000; }
+
 .acd_black.border {
   border-color: #000; }
+
 .acd_black.fill {
   fill: #000; }
 
 .acd_white.bg {
   background: #fff; }
+
 .acd_white.text {
   color: #fff; }
+
 .acd_white.button {
   color: #fff;
   background: #fff; }
   .acd_white.button:hover {
     color: #fff;
     background: rgba(0, 0, 0, 0.1); }
+
 .acd_white.icon {
   color: #fff;
   background: rgba(0, 0, 0, 0.1); }
   .acd_white.icon:hover {
     color: #fff;
     background: #fff; }
+
 .acd_white.border {
   border-color: #fff; }
+
 .acd_white.fill {
   fill: #fff; }
 
@@ -179,6 +207,7 @@ header.f-nav {
 .sh_about_box h3.sh_about_title.sh_about_title_b {
   font-weight: 400;
   font-size: 5em; }
+
 .sh_about_box .sh_about_viewmore {
   font-family: "Montserrat", sans-serif;
   font-weight: 300; }
@@ -241,10 +270,10 @@ h3.sh_blog_title {
   .acd_footer .acd_footer_bottom_content.acd_footer_bottom_content_home2 {
     border-top-color: rgba(255, 255, 255, 0.1); }
   .acd_footer .acd_footer_social li a {
-    background: rgba(255, 255, 255, 0.3); }
+    background: #035961; }
   .acd_footer .acd_footer_social li:hover a {
-    background: #fff;
-    color: rgba(0, 0, 0, 0.3); }
+    background: #035961;
+    color: rgba(255, 255, 255, 0.3); }
   .acd_footer .back-to-top {
     border-color: rgba(255, 255, 255, 0.3); }
     .acd_footer .back-to-top:before {
@@ -264,8 +293,10 @@ h3.sh_blog_title {
 
 .sh_teacher_hm_content .sh_teacher_hm_tb li span.sh_teacher_hm_tb_bgvm a {
   color: #000; }
+
 .sh_teacher_hm_content .sh_teacher_hm_tb li span.sh_teacher_hm_tb_bgvm:hover {
   background: #000; }
+
 .sh_teacher_hm_content .sh_teacher_hm_tb li.sh_teacher_hm_tb_cvm a {
   color: #000; }
 
@@ -282,8 +313,10 @@ h3.sh_blog_title {
   background: #000; }
   .sh_class_box .sh_class_book li span.bg_booknow.book_now:hover a {
     color: #000; }
+
 .sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable a {
   color: #000; }
+
 .sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable:hover {
   background: #000; }
 
@@ -309,6 +342,7 @@ h3.sh_blog_title {
 
 .acd_footer_list_cat li a:hover {
   color: #fff; }
+
 .acd_footer_list_cat li a:before {
   background: #fff; }
 
@@ -336,6 +370,7 @@ h4:hover {
   font-family: "Playfair Display",serif;
   font-style: italic;
   color: rgba(0, 0, 0, 0.4); }
+
 .wpb_text_column a {
   font-weight: 600; }
   .wpb_text_column a:hover {
@@ -361,8 +396,12 @@ h4:hover {
   background: transparent !important;
   border: none !important;
   color: rgba(0, 0, 0, 0.4) !important;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s; }
   .viewmore-btn .vc_btn3 i {
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
     transition: all .2s;
     color: rgba(0, 0, 0, 0.4) !important; }
   .viewmore-btn .vc_btn3:hover, .viewmore-btn .vc_btn3:active {
@@ -372,5 +411,3 @@ h4:hover {
     .viewmore-btn .vc_btn3:hover i, .viewmore-btn .vc_btn3:active i {
       color: black !important;
       right: 15px !important; }
-
-/*# sourceMappingURL=danlet-model.css.map */

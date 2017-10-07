@@ -1866,7 +1866,7 @@ h6 {
       width: 30px;
       height: 30px;
       border-radius: 50%;
-      background: #035961;
+      background: #d9a992;
       display: table;
       text-align: center;
       line-height: 30px;
@@ -1874,21 +1874,21 @@ h6 {
       color: #fff; }
     .acd_footer_social li:hover a, .acd_footer_social li:active a {
       background: #fff;
-      color: #035961; }
+      color: #d9a992; }
   .acd_footer_social.acd_footer_social_vm li a {
-    background: #035961; }
+    background: #d9a992; }
   .acd_footer_social.acd_footer_social_vm li:hover a, .acd_footer_social.acd_footer_social_vm li:active a {
     background: #fff;
-    color: #035961; }
+    color: #d9a992; }
   .acd_footer_social.acd_footer_social_vbl li a {
-    background: #035961; }
+    background: #d9a992; }
   .acd_footer_social.acd_footer_social_vbl li:hover a, .acd_footer_social.acd_footer_social_vbl li:active a {
     background: #fff;
-    color: #035961; }
+    color: #d9a992; }
   .acd_footer_social.acd_footer_social_veart li a {
-    background: #035961; }
+    background: #d9a992; }
   .acd_footer_social.acd_footer_social_veart li:hover a, .acd_footer_social.acd_footer_social_veart li:active a {
-    background: #035961;
+    background: #d9a992;
     color: #fff; }
 
 .acd_footer_list_cat {
@@ -9126,8 +9126,3 @@ h6 {
     .viewmore-btn .vc_btn3:hover i, .viewmore-btn .vc_btn3:active i {
       color: rgba(0, 0, 0, 0.2) !important;
       right: 15px !important; }
-
-/* additional customizations*/
-
-.fa-long-arrow-right {
-  color: #035961; }

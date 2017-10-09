@@ -2738,10 +2738,10 @@ h6 {
         line-height: 40px; } }
     .sh_class_main_title h2.sh_classes_title_b {
       font-family: "Montserrat", sans-serif;
-      font-weight: 700; }
+      font-weight: 600; }
     .sh_class_main_title h2.sh_classes_title_fr {
       font-family: "Playfair Display", serif;
-      font-weight: 400;
+      font-weight: 300;
       font-style: italic; }
 
 ul.sh_class_container {
@@ -4979,7 +4979,7 @@ h2.acd_blog_title {
   font-size: 2.14286em;
   line-height: 30px;
   font-family: "Cinzel Decorative", sans-serif;
-  font-weight: 700; }
+  font-weight: 600; }
   @media only screen and (min-width: 768px) {
     h2.acd_blog_title {
       font-size: 4.28571em;
@@ -5463,7 +5463,7 @@ h2.acd_blog_title {
 
 .acd_blog_detail_content h2.acd_blog_detail_name {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 2.14286em;
   line-height: 40px; }
 
@@ -5791,7 +5791,7 @@ li.acd_class_box {
     font-size: 3.57143em;
     line-height: 60px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 0; }
   .acd_detail_classes_content ul.acd_detail_classes_social {
     width: 100%;
@@ -7352,7 +7352,7 @@ ul.products {
 
 .acd_shop_detail_content h2.acd_shop_detail_name {
   font-size: 4.28571em;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 70px;
   margin-bottom: 0px;
   position: relative; }

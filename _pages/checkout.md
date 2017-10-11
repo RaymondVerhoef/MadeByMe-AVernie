@@ -4,7 +4,7 @@ post_title: Checkout
 author: Helpdesk
 post_excerpt: ""
 layout: page
-permalink: http://madebyme-avernie.nl/checkout-2/
+permalink: http://madebyme-avernie.nl/checkout/
 published: true
 post_date: 2016-12-08 04:02:27
 ---

@@ -1,6 +1,6 @@
 ---
 ID: 652
-post_title: Gallery
+post_title: Workhops
 author: Helpdesk
 post_excerpt: ""
 layout: page

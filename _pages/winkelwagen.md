@@ -1,10 +1,10 @@
 ---
 ID: 14
-post_title: Cart
+post_title: Winkelwagen
 author: Helpdesk
 post_excerpt: ""
 layout: page
-permalink: http://madebyme-avernie.nl/cart-2/
+permalink: http://madebyme-avernie.nl/winkelwagen/
 published: true
 post_date: 2016-12-08 04:02:27
 ---

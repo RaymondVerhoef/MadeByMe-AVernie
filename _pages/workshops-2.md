@@ -1,10 +1,10 @@
 ---
 ID: 652
-post_title: Workhops
+post_title: Workshops
 author: Helpdesk
 post_excerpt: ""
 layout: page
-permalink: http://madebyme-avernie.nl/gallerys/
+permalink: http://madebyme-avernie.nl/workshops-2/
 published: true
 post_date: 2016-12-08 12:31:10
 ---

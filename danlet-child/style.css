@@ -755,7 +755,7 @@ header {
   left: 0;
   display: block;
   z-index: 9;
-  background: black; }
+  background: #56c8a5; }
   @media only screen and (min-width: 768px) {
     .overlay {
       display: none; } }

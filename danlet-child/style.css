@@ -679,7 +679,7 @@ header {
   #danlet-mobile-menu button.show-menu-mobile {
     position: fixed; }
     #danlet-mobile-menu button.show-menu-mobile i {
-      background: #56c8a5; }
+      background: #035961; }
   #danlet-mobile-menu button i {
     float: left;
     width: 100%;
@@ -708,7 +708,7 @@ header {
   height: 100vh;
   width: 100%; }
   .mobile-menu .menu.show-menu-mobile {
-    background: #000; }
+    background: #035961; }
   .mobile-menu .menu li {
     list-style: none;
     border-bottom: 1px solid #80642e;
@@ -755,7 +755,7 @@ header {
   left: 0;
   display: block;
   z-index: 9;
-  background: #56c8a5; }
+  background: #035961; }
   @media only screen and (min-width: 768px) {
     .overlay {
       display: none; } }

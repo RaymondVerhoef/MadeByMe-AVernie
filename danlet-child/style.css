@@ -2305,6 +2305,10 @@ h6 {
 .fill_rosec7 {
   fill: #c7477a; }
 
+.fill_green1 {
+  fill: #035961;
+}
+
 .acd_left_top_svg {
   visibility: hidden;
   position: absolute;
@@ -3076,7 +3080,7 @@ ul.sh_class_container {
           .sh_class_box .sh_class_book li span.book_now.bg_booknow_black {
             background: #000; }
           .sh_class_box .sh_class_book li span.book_now.bg_booknow_pp {
-            background: #c7477a; }
+            background: #86dfd6; }
           .sh_class_box .sh_class_book li span.book_now a {
             color: #fff; }
         .sh_class_box .sh_class_book li span.sh_class_timetable {
@@ -3102,7 +3106,7 @@ ul.sh_class_container {
           .sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable_black {
             color: #000; }
           .sh_class_box .sh_class_book li span.sh_class_timetable.sh_bg_timetable_pp {
-            color: #c7477a; }
+            color: #86dfd6; }
         .sh_class_box .sh_class_book li span a {
           display: block; }
       .sh_class_box .sh_class_book li:last-child {
@@ -3821,7 +3825,7 @@ ul.sh_class_container {
 .testimonial-pagination.bg_testimonial_op2 .swiper-pagination-bullet {
   background: rgba(0, 0, 0, 0.2); }
   .testimonial-pagination.bg_testimonial_op2 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #c7477a; }
+    background: #86dfd6; }
 
 .testimonial-pagination.bg_testimonial_hh .swiper-pagination-bullet {
   background: rgba(255, 255, 255, 0.4); }

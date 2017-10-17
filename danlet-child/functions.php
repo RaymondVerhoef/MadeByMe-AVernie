@@ -29,7 +29,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_style', 100 );
 
 // BEGIN HIDE SUBCATEGORIES FORM SHOP PAGE - AVERNIE CUSTOMIZED
 
-add_filter( 'woocommerce_product_categories_widget_args', 'organicweb_exclude_widget_category' );
+add_filter( 'woocommerce_product_categories', 'organicweb_exclude_widget_category' );
 
 function organicweb_exclude_widget_category( $args ) {
 

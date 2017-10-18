@@ -29,9 +29,9 @@ add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_style', 100 );
 
 // BEGIN HIDE SUBCATEGORIES FORM SHOP PAGE - AVERNIE CUSTOMIZED
 
-add_filter( 'woocommerce_product_categories', 'organicweb_exclude_widget_category' );
+add_filter( 'woocommerce_product_categories_widget_arg', 'exclude_widget_category' );
 
-function organicweb_exclude_widget_category( $args ) {
+function exclude_widget_category( $args ) {
 
     // Create an array that will hold the ids that need to be excluded
     $exclude_terms = array();
@@ -55,3 +55,22 @@ function organicweb_exclude_widget_category( $args ) {
 }
 
 // END HIDE SUBCATEGORIES FORM SHOP PAGE - AVERNIE CUSTOMIZED
+
+
+/*
+add_filter( 'woocommerce_product_categories_widget_arg', 'woo_product_cat_widget_args' );
+
+function woo_product_cat_widget_args( $cat_args ) {
+	
+	$cat_args['exclude'] = array('79');
+	
+	return $cat_args;
+}
+*/
+/*
+add_action( 'woocommerce_product_categories_widget_arg', 'return_policy', 20 );
+ 
+function return_policy() {
+    echo '<p id="rtrn">TESTTESTTEST</p>';
+}
+/*

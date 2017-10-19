@@ -582,6 +582,7 @@ if(!function_exists('danlet_woocommerce_category')) {
 		$category = get_terms( array(
 	    	'taxonomy' => 'product_cat',
 	    	'hide_empty' => false,
+	    	'parent'        => 0
 		));
 		?>
 		<div class="acd_classes_cat acd_shop_mg">

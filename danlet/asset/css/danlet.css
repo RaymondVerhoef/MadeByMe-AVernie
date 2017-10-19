@@ -645,7 +645,7 @@ header {
       outline: none; }
     #danlet-mobile-menu button i:before {
       content: '';
-      background: url(../images/icon-theme.png) no-repeat -28px -84px;
+      background: url(../images/icon-theme.png) no-repeat -28px -84px !important;
       height: 18px;
       width: 24px;
       position: absolute;

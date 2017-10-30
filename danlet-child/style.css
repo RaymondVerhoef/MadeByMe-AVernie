@@ -1520,7 +1520,7 @@ body.search .slider-image {
       padding-top: 10px; }
   .acd_header_form input[type="submit"] {
     padding: 8px 30px;
-    background: #e6e6e6;
+    background: #035961;
     border: none;
     border-radius: 30px;
     margin-top: 20px;
@@ -9151,7 +9151,28 @@ h6 {
 .fa-long-arrow-right {
   color: #035961; }
 
-.wpcf7-submit{
-  background: #035961; }
+input[type="button"], input[type="reset"], input[type="submit"]{
+    background: #035961;
+    border: none;
+    color: #fff;
+}
+input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus{
+    outline: none;
+}
+.page-links a {
+    padding: 0 5px;
+}
+.page-links span {
+    padding: 0 5px;
+}
+
+a:hover, a:focus {
+    color: #035961;
+    outline: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 

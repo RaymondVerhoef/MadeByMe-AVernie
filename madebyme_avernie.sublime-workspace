@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "danlet-child/style.css",
+			"settings":
+			{
+				"buffer_size": 293474,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/base/_mobilemenu.scss",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/partials/_mixins.scss",
+		"/Users/raymondverhoef/Documents/Diversen/VPN autoscript",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/languages/danlet.pot",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/partials/_variables.scss",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/pages/_shop.scss",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/style_20171007_1.css",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/shortcode/_sh_footer.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/original/danlet/asset/scss/shortcode/_sh_footer.scss",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/css/danlet.css",
+		"/Users/raymondverhoef/Documents/Avernie/Development/.htaccess",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/functions.php",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/danlet.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/_footer.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/danlet/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/danlet.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/danlet/asset/scss/layouts/_pagination.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/danlet/asset/scss/layouts/_footer.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/danlet-child/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/danlet-child/asset/scss/partials/_variables.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/backup/themes/danlet/asset/scss/pages/_shop.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/backup/themes/danlet/asset/scss/layouts/_footer.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/backup/themes/danlet/asset/scss/danlet.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/backup/themes/danlet/asset/scss/danlet.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/backup/themes/danlet-child/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/danlet/asset/danlet.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_customizations/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/danlet.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/danlet.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/partials/_variables.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/layouts/_footer.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/partials/_colors.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/partials/_buttons.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/partials/_layouts.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/partials/_mixins.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_backup/scss/custom/_build-page.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_customizations/_footer.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_customizations/danlet.css",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/danlet-child/sftp-config.json",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_customizations/_layouts.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_customizations/_variables.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_customizations/_buttons.scss",
+		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/css_customizations/danlet.scss",
+		"/Users/raymondverhoef/Documents/style.css",
+		"/Users/raymondverhoef/Documents/Diversen/Sinterklaas/Sinterklaas 2016/Arjan_2016",
+		"/Users/raymondverhoef/dev/python_course/circus.py",
+		"/Users/raymondverhoef/.ssh/raymond_rsa.pub",
+		"/Users/raymondverhoef/.ssh/known_hosts",
+		"/Users/raymondverhoef/.ssh/id_rsa.pub",
+		"/Users/raymondverhoef/.ssh/id_rsa"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/backup/themes/danlet"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mobile",
+			"h2",
+			"cover",
+			"Montserrat",
+			"social",
+			".fa-long-arrow-right",
+			"Style custom admin",
+			"53. Style custom admin",
+			"teacher",
+			"social",
+			"teacher",
+			"load",
+			"pagination",
+			"acd_pagination",
+			"##",
+			"035961",
+			"##035961",
+			"social",
+			".acd_shop_img .acd_shop_addtocart a",
+			"acd_shop",
+			"button.alt",
+			"cart",
+			"back-",
+			"back-to-top",
+			"social",
+			"home1",
+			"social",
+			"socil",
+			"social",
+			"button",
+			"loadmore",
+			"loding btn-loadmore"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "danlet-child/style.css",
+					"settings":
+					{
+						"buffer_size": 293474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true
+}

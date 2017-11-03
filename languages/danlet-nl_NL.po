@@ -343,7 +343,7 @@ msgstr "Aanmelden"
 #: inc/custom-function/danlet_custom_function.php:456
 #: inc/custom-function/danlet_custom_function.php:813
 msgid "All Classes This Month"
-msgstr ""
+msgstr "Alle evenementen van deze maand"
 
 #: inc/custom-function/danlet_custom_function.php:458
 msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. "

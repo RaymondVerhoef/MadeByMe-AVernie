@@ -3397,8 +3397,8 @@ msgid ""
 "Note: Shipping and taxes are estimated%s and will be updated during checkout "
 "based on your billing and shipping information."
 msgstr ""
-"Verzendkosten en BTW zijn %s en zullen tijdens het bestelproces worden "
-"toegevoegd."
+"Verzendkosten en BTW zijn geschat%s en zullen tijdens het bestelproces "
+"worden toegevoegd."
 
 #: woocommerce/cart/cart.php:31
 msgid "Product name"

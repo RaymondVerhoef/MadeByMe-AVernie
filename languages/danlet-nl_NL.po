@@ -3303,7 +3303,7 @@ msgstr "Vul uw mailadres in.."
 
 #: vc_templates/danlet_timetable.php:34
 msgid "Filter Classes"
-msgstr ""
+msgstr "Filter workshops"
 
 #: vc_templates/danlet_timetable.php:42
 msgid "BY CATEGORY"

@@ -7278,14 +7278,14 @@ ul.products {
 
 .acd_shop_detail_info {
   position: relative;
-  padding-bottom: 90px; }
+  padding-bottom: 90px;
+  top: 100px;  }
   .acd_shop_detail_info .shop_detail_svg {
     width: 100%;
     position: absolute;
     right: 0;
     bottom: 0;
-    height: 175px;
-    top: 100px; }
+    height: 175px;  }
     @media only screen and (max-width: 992px) {
       .acd_shop_detail_info .shop_detail_svg {
         height: 100px; } }

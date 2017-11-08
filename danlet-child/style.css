@@ -7284,7 +7284,8 @@ ul.products {
     position: absolute;
     right: 0;
     bottom: 0;
-    height: 175px; }
+    height: 175px;
+    top: 100px; }
     @media only screen and (max-width: 992px) {
       .acd_shop_detail_info .shop_detail_svg {
         height: 100px; } }

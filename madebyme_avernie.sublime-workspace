@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "danlet-child/style.css",
-			"settings":
-			{
-				"buffer_size": 293474,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -65,6 +57,11 @@
 	"file_history":
 	[
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/Development/languages/woocommerce-nl_NL.po",
+		"/Users/raymondverhoef/Documents/Avernie/Development/languages/danlet-nl_NL.po",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/css/danlet.css",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/danlet.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/base/_mobilemenu.scss",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/partials/_mixins.scss",
 		"/Users/raymondverhoef/Documents/Diversen/VPN autoscript",
@@ -74,7 +71,6 @@
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/style_20171007_1.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/shortcode/_sh_footer.scss",
 		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/original/danlet/asset/scss/shortcode/_sh_footer.scss",
-		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/css/danlet.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/.htaccess",
 		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/functions.php",
 		"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/customizations/themes/style.css",
@@ -125,9 +121,11 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/raymondverhoef/Documents/Avernie/Development/danlet/woocommerce",
+			"/Users/raymondverhoef/Documents/Avernie/Development/danlet",
 			"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/backup/themes/danlet"
 		]
 	},
@@ -136,6 +134,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"acd_shop_detail_name",
+			"shop_detail_info",
+			"Shipping and taxes",
+			"input[type=\"submit\"",
+			"input[type=\"button\"], input[type=\"reset\"], input[type=\"submit\"",
+			"wpcf7-submit",
+			"wpcf7-form-control wpcf7-submit",
 			"mobile",
 			"h2",
 			"cover",
@@ -185,40 +190,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "danlet-child/style.css",
-					"settings":
-					{
-						"buffer_size": 293474,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -255,7 +228,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.951737451737,
 			1.0
 		],
 		"rows":

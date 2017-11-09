@@ -7137,9 +7137,9 @@ h3.acd_shop_product_title {
   .acd_shop_product_box .swiper-slide:hover a {
     color: #d9a992; }
   .acd_shop_product_box .acd_btn_next {
-    background-image: url(../images/icon/g_next.png); }
+    background-image: url(../images/icon/g_next.png)!important; }
   .acd_shop_product_box .acd_btn_prev {
-    background-image: url(../images/icon/g_prev.png); }
+    background-image: url(../images/icon/g_prev.png)!important; }
 
 .acd_shop_product_content {
   padding: 30px 0;

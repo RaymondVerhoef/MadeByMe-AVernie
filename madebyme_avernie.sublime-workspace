@@ -57,10 +57,10 @@
 	"file_history":
 	[
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/css/danlet.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/languages/woocommerce-nl_NL.po",
 		"/Users/raymondverhoef/Documents/Avernie/Development/languages/danlet-nl_NL.po",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/style.css",
-		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/css/danlet.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/danlet.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/base/_mobilemenu.scss",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/partials/_mixins.scss",
@@ -121,7 +121,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/raymondverhoef/Documents/Avernie/Development/danlet/woocommerce",

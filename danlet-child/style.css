@@ -7026,9 +7026,11 @@ ul.products {
   .shop_table .product-info-name {
     float: left;
     width: 50%; }
-    @media only screen and (max-width: 768px) {
+    
+/*    @media only screen and (max-width: 768px) {
       .shop_table .product-info-name {
         width: 100%; } }
+*/
     .shop_table .product-info-name .title-product {
       line-height: 30px;
       letter-spacing: 2px; }

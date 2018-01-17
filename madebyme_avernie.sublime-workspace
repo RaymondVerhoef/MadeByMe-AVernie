@@ -56,10 +56,14 @@
 	},
 	"file_history":
 	[
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_contact.php",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/style.css",
-		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/css/danlet.css",
-		"/Users/raymondverhoef/Documents/Avernie/Development/languages/woocommerce-nl_NL.po",
 		"/Users/raymondverhoef/Documents/Avernie/Development/languages/danlet-nl_NL.po",
+		"/Users/raymondverhoef/Documents/Avernie/Development/languages/woocommerce-nl_NL.po",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/functions.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/templates/template-blank.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/functions.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/css/danlet.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/style.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/danlet.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/asset/scss/base/_mobilemenu.scss",
@@ -121,9 +125,13 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/raymondverhoef/Documents/Avernie/Development/danlet",
+			"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child",
+			"/Users/raymondverhoef/Documents/Avernie/Development/danlet",
+			"/Users/raymondverhoef/Documents/Avernie/Development/danlet/",
 			"/Users/raymondverhoef/Documents/Avernie/Development/danlet/woocommerce",
 			"/Users/raymondverhoef/Documents/Avernie/Development/danlet",
 			"/Users/raymondverhoef/Documents/Avernie/WordpressTheme/backup/themes/danlet"
@@ -131,9 +139,22 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"sidebar-footer-custom",
+			"row acd_footer_flex",
+			"acd_address",
+			"Add:",
+			"address",
+			"woocommerce",
+			"slider",
+			"Add:",
+			"Phone:",
+			"Shipping and taxes are estimated",
+			"remove",
+			"3.5",
+			"sh_about_img_big wow fadeInUp",
 			"acd_shop_detail_name",
 			"shop_detail_info",
 			"Shipping and taxes",

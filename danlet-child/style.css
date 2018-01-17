@@ -533,7 +533,7 @@ header {
     object-fit: cover; }
   .slider-image.full-top {
     padding-bottom: 100px;
-    height: 1000px; }
+    height: 768px; }
     @media only screen and (max-width: 1170px) {
       .slider-image.full-top {
         height: auto; } }
@@ -7321,6 +7321,8 @@ ul.products {
       fill: #fff; }
   .acd_shop_detail_info.no-feature-image {
     background: #e4cbcb; }
+  .acd_shop_detail_info .term-description{
+    text-align: center; }
 
 .no-feature-image .acd_shop_detail_content {
   text-align: center;

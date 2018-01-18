@@ -56,8 +56,9 @@
 	},
 	"file_history":
 	[
-		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_contact.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/plugins/beautheme-danlet/includes/widgets/beau_contact_widget.php",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/style.css",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_contact.php",
 		"/Users/raymondverhoef/Documents/Avernie/Development/languages/danlet-nl_NL.po",
 		"/Users/raymondverhoef/Documents/Avernie/Development/languages/woocommerce-nl_NL.po",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/functions.php",
@@ -125,9 +126,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
+			"/Users/raymondverhoef/Documents/Avernie/Development",
 			"/Users/raymondverhoef/Documents/Avernie/Development/danlet",
 			"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child",
 			"/Users/raymondverhoef/Documents/Avernie/Development/danlet",
@@ -142,6 +144,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"most popular",
+			"sidebar",
+			".acd_sidebar_widget",
+			"acd_side",
+			"RECENT COMMENTS",
+			"sidebar-footer-custom",
+			"acd_address",
+			"acd_footer_content",
+			"acd_footer_content acd_ft_pd",
+			"beau_contact_widget.php",
 			"sidebar-footer-custom",
 			"row acd_footer_flex",
 			"acd_address",
@@ -292,6 +304,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 409.0,
 	"status_bar_visible": true
 }

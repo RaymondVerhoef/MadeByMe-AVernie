@@ -786,7 +786,7 @@ if(!function_exists('danlet_single_course_detail')) {
 </section>
 <!-- end section detail content -->
 
-<!-- section classes in month -->
+<!-- section classes in month
 <section id="timetable" class="acd_classes_in_month">
     <div class="container">
         <div class="acd_classes_in_month_box">
@@ -886,7 +886,7 @@ if(!function_exists('danlet_single_course_detail')) {
         </div>
     </div>
 </section>
-<!-- end section classes in month -->
+<!-- end section classes in month
 <?php
     }
 }

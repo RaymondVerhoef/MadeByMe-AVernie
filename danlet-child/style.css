@@ -7569,7 +7569,8 @@ ul.products {
 
 .acd_shop_detail_more_product {
   padding-bottom: 90px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  display: none; }
 
 .swiper-shop-vm {
   overflow: hidden;

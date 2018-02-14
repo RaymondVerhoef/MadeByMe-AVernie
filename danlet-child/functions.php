@@ -30,5 +30,6 @@ add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_style', 100 );
 // START Disable related products function
 
 //remove_action( 'woocommerce_output_related_products_args', 'danlet_related_products_args', 20 );
-remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+//remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+//remove_action('woocommerce_after_single_product','danlet_woocommerce_template_single_related_after', 25);
 // END Disable related products function

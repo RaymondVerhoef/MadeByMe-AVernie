@@ -56,6 +56,20 @@
 	},
 	"file_history":
 	[
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/option_base/classes/single-big.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/inc/vc_custom/vc_danlet_classes.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/option_base/classes/single-small.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/inc/custom_function/danlet_custom_function.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/inc/custom-function/danlet_custom_function.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/single-level.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/vc_templates/danlet_classes.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/option_base/list/classes.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_classes_number.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_timetable.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_text_description.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_classes_list.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/option_base/list/classes.php",
+		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_classes.php",
 		"/Users/raymondverhoef/Documents/Avernie/Development/plugins/beautheme-danlet/includes/widgets/beau_contact_widget.php",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child/style.css",
 		"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates/danlet_contact.php",
@@ -129,6 +143,8 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/raymondverhoef/Documents/Avernie/Development/danlet",
+			"/Users/raymondverhoef/Documents/Avernie/Development/danlet/vc_templates",
 			"/Users/raymondverhoef/Documents/Avernie/Development",
 			"/Users/raymondverhoef/Documents/Avernie/Development/danlet",
 			"/Users/raymondverhoef/Documents/Avernie/Development/danlet-child",
@@ -144,6 +160,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"classes in month",
+			"acd_detail_classes_content",
+			".acd_classes_in_month",
+			".acd_detail_classes_content",
+			"acd.classes_in_month",
+			"timetable",
+			"month",
+			"sh_icon",
 			"most popular",
 			"sidebar",
 			".acd_sidebar_widget",
